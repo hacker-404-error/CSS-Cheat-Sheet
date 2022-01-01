@@ -3,6 +3,12 @@
     padding: 0;
     margin: 0;
 }
+
+.svgbottom
+{
+    position: absolute;
+    top: 29.7vw;
+}
 .heading {
     height: 45vw;
     width: 100vw;
@@ -10,16 +16,42 @@
     /* overflow: hidden; */
     /* background: #C33764; */
     /* background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); */
-    background: linear-gradient(rgba(64, 64, 70, 0.534), rgba(135, 137, 156, 0.384)), url("./images/bg6.jpg"); 
+    /* background: linear-gradient(rgba(19, 167, 212, 0.534), rgba(114, 126, 231, 0.384)), url("./images/Mask\ Group\ 1.png");  */
+    background-color: rgb(156, 48, 48);
+    background-image: url("./images/Mask\ Group\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
-.csscs
+.csscs 
 {
     font-size: 4vw;
     position: absolute;
     display: block;
-    top: 17vw;
-    margin-left: 34vw;
-    font-family: 'Roboto', sans-serif;
+    top: 18vw;
+    margin-left: 27vw;
+    font-family: 'Big John';
+    color: white;
+}
+
+.nav-items
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color:white;
+}
+.items
+{
+    font-size: 1.5vw;
+    /* margin-top: 1vw; */
+    /* padding-right: 6vw; */
+    margin: auto;
+    margin-top: 2vw;
+    font-family: 'Big John';
+}
+.items a
+{
+    color: seashell;
 }
