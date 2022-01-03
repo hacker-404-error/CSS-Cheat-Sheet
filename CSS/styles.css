@@ -4,3 +4,37 @@
     margin: 0;
 }
 
+.header 
+{
+    /* border: 2px solid black; */
+    width: 69.1vw;
+    margin-left: 24vw;
+    margin-top: 1.2vw;
+    border-radius: 0.5vw;
+    background-image: linear-gradient(to right, #0800FF9C , #0C05D999, #1600E97A, #4300FF73);
+}
+.header-ul
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.items
+ {
+    font-size: 2vw;
+    padding: 1.6vw;
+    list-style: none;
+    text-decoration: none;
+}
+
+.items a
+{
+    text-decoration: none;
+    color: black;
+}
+.home
+{
+    background-image: url("/images/Home.png");
+}
