@@ -2,14 +2,24 @@
 {
     padding: 0;
     margin: 0;
+    font-family: 'Source Code Pro', monospace;
 }
-
+body
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-color: rgb(0, 0, 0); */
+}
+.NAVBAR
+{
+    box-shadow: 7px 2px 20px black;
+    height: 5.6vw
+}
 .header 
 {
     /* border: 2px solid black; */
     width: 69.1vw;
     margin-left: 24vw;
-    margin-top: 1.2vw;
     border-radius: 0.5vw;
     background-image: linear-gradient(to right, #0800FF9C , #0C05D999, #1600E97A, #4300FF73);
 }
@@ -23,7 +33,7 @@
 
 .items
  {
-    font-size: 2vw;
+    font-size: 1.5vw;
     padding: 1.6vw;
     list-style: none;
     text-decoration: none;
@@ -36,5 +46,111 @@
 }
 .home
 {
-    background-image: url("/images/Home.png");
+    position: absolute;
+    top: 1.3vw;
+    left: 12vw;
+}
+.home img
+{
+    width:3.2vw;
+}
+.CSS
+{
+    position: absolute;
+    top: 1.3vw;
+    left: 18.4vw;
+}
+.CSS img
+{
+    width:2.2vw;
+}
+.dark_mode
+{
+    position: absolute;
+    top: 1.3vw;
+    right: 2.2vw;
+}
+.dark_mode img
+{
+    width:3.3vw;
+    cursor: pointer;
+}
+.Menu
+{
+    position: absolute;
+    top: 1.3vw;
+    left: 2vw;
+}
+.Menu img
+{
+    width:3.3vw;
+}
+.wave
+{
+    position: absolute;
+    bottom: 1vw;
+    width: 100vw;
+    left: 0vw;
+    top: 0vw;
+    opacity: 50%;
+    z-index: -1;
+    filter: blur(20px);
+}
+.bg img
+{
+    width: 97vw;
+    position: absolute;
+    top: 10vw;
+    left: 1vw;
+    opacity: 50%;
+}
+.Topic
+{
+    position: absolute;
+    top: 15vw;
+    font-size: 3.6vw;
+    left: 4vw;
+    font-family: 'Source Code Pro', monospace;
+}
+.Topic-Info
+{
+    position: absolute;
+    top: 24vw;
+    left: 5vw;
+    line-height: 5vw;
+    font-size: 1.3vw;
+}
+.csssymbol img
+{
+    position: absolute;
+    width: 11vw;
+    top: 22vw;
+    left: 68vw;
+    z-index: 5;
+    filter: drop-shadow(7px 1px 0px black);
+}
+.bg2 img
+{
+    position: absolute;
+    width: 67vw;
+    left: 40vw;
+    top: 4vw;
+    filter: drop-shadow(1px 0px 0px black);
+}
+.wave2
+{
+    position: absolute;
+    top: 31vw;
+    opacity: 50%;
+    z-index: -1;
+    filter: blur(54px);
+}
+.wave3
+{
+    position: absolute;
+    top: -17vw;
+    opacity: 50%;
+    z-index: -1;
+    filter: blur(54px);
+    width: 261vw;
 }
