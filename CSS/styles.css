@@ -4,11 +4,10 @@
     margin: 0;
     font-family: 'Source Code Pro', monospace;
 }
-body
+.body
 {
     overflow-x: hidden;
     overflow-y: hidden;
-    /* background-color: rgb(0, 0, 0); */
 }
 .NAVBAR
 {
@@ -154,3 +153,31 @@ body
     filter: blur(54px);
     width: 261vw;
 }
+.basic-list
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 27vw;
+    height: 37vw;
+    position: absolute;
+    top: 61px;
+    left: 20vw;
+    background-color: #0c135a;
+    color: white;
+    z-index: 1;
+    /* display:none; */
+}
+.Basics-topic
+{
+    list-style-type: none;
+}
+.Basics-topic a
+{
+    text-decoration: none;
+    color: aquamarine;
+}
+#basics:hover .basic-list
+{
+    display:grid;
+}
+
