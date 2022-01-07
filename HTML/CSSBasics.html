@@ -273,10 +273,10 @@
         < CSS BASICS >
     </div>
 
+    <div class="background-heading">
+        Background:
+    </div>
     <div class="background-box1">
-        <div class="background-heading">
-            Background:
-        </div>
         <div class="background">
             <div class="background-properties">
                 <form action="php">
@@ -284,299 +284,130 @@
                     <label onclick="bgcolor()" for="bg-color">background-color:red;</label> <br>
 
                     <input onclick="bgimage()" name="background" type="radio" id="bg-image">
-                    <label onclick="bgimage()" for="bg-image">background-image</label> <br>
+                    <label onclick="bgimage()" for="bg-image">background-image:url("linkedinSymbol.png")</label> <br>
 
                     <input onclick="bgrepeat()" name="background" type="radio" id="bg-repeat">
-                    <label onclick="bgrepeat()" for="bg-repeat">background-repeat</label> <br>
+                    <label onclick="bgrepeat()" for="bg-repeat">background-repeat:repeat;</label> <br>
 
-                    <input onclick="bgposition()" name="background" type="radio" id="bg-position">
-                    <label onclick="bgposition()" for="bg-position">background-position</label> <br>
+                    <input onclick="bgnorepeat()" name="background" type="radio" id="bg-norepeat">
+                    <label onclick="bgnorepeat()" for="bg-norepeat">background-repeat:no-repeat;</label> <br>
 
-                    <input onclick="bgsize()" name="background" type="radio" id="bg-size">
-                    <label onclick="bgsize()" for="bg-size">background-size</label> <br>
+                    <input onclick="bgrepeatx()" name="background" type="radio" id="bg-repeatx">
+                    <label onclick="bgrepeatx()" for="bg-repeatx">background-repeat:repeat-x;</label> <br>
 
-                    <input onclick="bgattachment()" name="background" type="radio" id="bg-attachment">
-                    <label onclick="bgattachment()" for="bg-attachment">background-attachment</label> <br>
+                    <input onclick="bgrepeaty()" name="background" type="radio" id="bg-repeaty">
+                    <label onclick="bgrepeaty()" for="bg-repeaty">background-repeat:repeat-y;</label> <br>
 
-                    <input onclick="bg()" name="background" type="radio" id="bg">
-                    <label onclick="bg()" for="bg">background</label> <br>
+                    <input onclick="bgrepeatspace()" name="background" type="radio" id="bg-repeatspace">
+                    <label onclick="bgrepeatspace()" for="bg-repeatspace">background-repeat:space;</label> <br>
+
+                    <input onclick="bgrepeataround()" name="background" type="radio" id="bg-repeatround">
+                    <label onclick="bgrepeataround()" for="bg-repeatround">background-repeat:round;</label> <br>
                 </form>
             </div>
             <div class="output-background">
                 <div id="bg_color" style="display:none">
-                    <span> HELLO WORLD </span>
+                    <h3> background-color:color_name;</h3>
                 </div>
 
                 <div id="bg_image" style="display:none">
-                    <span> HELLO WORLD </span>
+                    <h3></h3>
                 </div>
 
                 <div id="bg_repeat" style="display:none">
-                    <span> HELLO WORLD </span>
+                    <h3 style="background-color: whitesmoke;">image will repeat from x as well as from y </h3>
                 </div>
 
-                <div id="bg_position" style="display:none">
-                    <span> HELLO WORLD </span>
+                <div id="bg_norepeat" style="display:none">
+                    <h3>image will not repeat from x nor from y </h3>
                 </div>
 
-                <div id="bg_size" style="display:none">
-                    <span> HELLO WORLD </span>
+                <div id="bg_repeatx" style="display:none">
+                    <h3>image will only repeat from x not from y </h3>
                 </div>
 
-                <div id="bg_attachment" style="display:none">
-                    <span> HELLO WORLD </span>
+                <div id="bg_repeaty" style="display:none">
+                    <h3>image will only repeat from y not from x </h3>
                 </div>
 
-                <div id="bg_" style="display:none">
-                    <span> HELLO WORLD </span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="background-box1">
-        <div class="background-heading">
-            Background:
-        </div>
-        <div class="background">
-            <div class="background-properties">
-                <form action="php">
-                    <input name="background" type="radio" id="bg-color">
-                    <label for="bg-color">background-color</label> <br>
-
-                    <input name="background" type="radio" id="bg-image">
-                    <label for="bg-image">background-image</label> <br>
-
-                    <input name="background" type="radio" id="bg-repeat">
-                    <label for="bg-repeat">background-repeat</label> <br>
-
-                    <input name="background" type="radio" id="bg-position">
-                    <label for="bg-position">background-position</label> <br>
-
-                    <input name="background" type="radio" id="bg-size">
-                    <label for="bg-size">background-size</label> <br>
-
-                    <input name="background" type="radio" id="bg-attachment">
-                    <label for="bg-attachment">background-attachment</label> <br>
-
-                    <input name="background" type="radio" id="bg">
-                    <label for="bg">background</label> <br>
-                </form>
-            </div>
-            <div class="output-background">
-                <div class="op-bg">
-                    HELLO WORLD
+                <div id="bg_repeatspace" style="display:none">
+                    <h3 style="background-color: whitesmoke;">The background-image is repeated as much as possible without clipping.</h3>
                 </div>
 
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
+                <div id="bg_repeataround" style="display:none">
+                    <h3 style="background-color: whitesmoke;">The background-image is repeated and squished or stretched to fill the space (no gaps)</h3>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="background-box1">
-        <div class="background-heading">
-            Background:
-        </div>
         <div class="background">
             <div class="background-properties">
                 <form action="php">
-                    <input name="background" type="radio" id="bg-color">
-                    <label for="bg-color">background-color</label> <br>
+                    <input onclick="bgpositionll()" name="background1" type="radio" id="bg-positionll">
+                    <label onclick="bgpositionll()" for="bg-positionll">background-position:left left;</label> <br>
 
-                    <input name="background" type="radio" id="bg-image">
-                    <label for="bg-image">background-image</label> <br>
+                    <input onclick="bgpositionlb()" name="background1" type="radio" id="bg-positionlb">
+                    <label onclick="bgpositionlb()" for="bg-positionlb">background-position: left bottom;</label> <br>
 
-                    <input name="background" type="radio" id="bg-repeat">
-                    <label for="bg-repeat">background-repeat</label> <br>
+                    <input onclick="bgpositionlt()" name="background1" type="radio" id="bg-positionlt">
+                    <label onclick="bgpositionlt()" for="bg-positionlt">background-position: left top;</label> <br>
 
-                    <input name="background" type="radio" id="bg-position">
-                    <label for="bg-position">background-position</label> <br>
+                    <input onclick="bgpositionrt()" name="background1" type="radio" id="bg-positionrt">
+                    <label onclick="bgpositionrt()" for="bg-positionrt">background-position: right top;</label> <br>
 
-                    <input name="background" type="radio" id="bg-size">
-                    <label for="bg-size">background-size</label> <br>
+                    <input onclick="bgpositionrc()" name="background1" type="radio" id="bg-positionrc">
+                    <label onclick="bgpositionrc()" for="bg-positionrc">background-position: right centre;</label> <br>
 
-                    <input name="background" type="radio" id="bg-attachment">
-                    <label for="bg-attachment">background-attachment</label> <br>
+                    <input onclick="bgpositionct()" name="background1" type="radio" id="bg-positionct">
+                    <label onclick="bgpositionct()" for="bg-positionct">background-position: centre top;</label> <br>
 
-                    <input name="background" type="radio" id="bg">
-                    <label for="bg">background</label> <br>
+                    <input onclick="bgpositionpercentage()" name="background1" type="radio" id="bg-positionpercentage">
+                    <label onclick="bgpositionpercentage()" for="bg-positionpercentage">background-position: 50% 50%;</label> <br>
+
+                    <input onclick="bgpositionpixel()" name="background1" type="radio" id="bg-positionpixel">
+                    <label onclick="bgpositionpixel()" for="bg-positionpixel">background-position: 50px 50px;</label> <br>
                 </form>
             </div>
             <div class="output-background">
-                <div class="op-bg">
-                    HELLO WORLD
+                <div class="b2" id="bg_positionll" style="display:none">
+                    <h3></h3>
                 </div>
 
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
+                <div class="b2" id="bg_positionlb" style="display:none">
+                    <h3></h3>
                 </div>
 
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
+                <div class="b2" id="bg_positionlt" style="display:none">
+                    <h3></h3>
                 </div>
 
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
+                <div class="b2" id="bg_positionrt" style="display:none">
+                    <h3></h3>
                 </div>
 
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
+                <div class="b2" id="bg_positionrc" style="display:none">
+                    <h3></h3>
                 </div>
 
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
+                <div class="b2" id="bg_positionct" style="display:none">
+                    <h3></h3>
                 </div>
 
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
+                <div class="b2" id="bg_positionpercentage" style="display:none">
+                    <h3></h3>
                 </div>
+
+                <div class="b2" id="bg_positionpixel" style="display:none">
+                    <h3></h3>
+                </div>
+
             </div>
         </div>
     </div>
 
-    <div class="background-box1">
-        <div class="background-heading">
-            Background:
-        </div>
-        <div class="background">
-            <div class="background-properties">
-                <form action="php">
-                    <input name="background" type="radio" id="bg-color">
-                    <label for="bg-color">background-color</label> <br>
-
-                    <input name="background" type="radio" id="bg-image">
-                    <label for="bg-image">background-image</label> <br>
-
-                    <input name="background" type="radio" id="bg-repeat">
-                    <label for="bg-repeat">background-repeat</label> <br>
-
-                    <input name="background" type="radio" id="bg-position">
-                    <label for="bg-position">background-position</label> <br>
-
-                    <input name="background" type="radio" id="bg-size">
-                    <label for="bg-size">background-size</label> <br>
-
-                    <input name="background" type="radio" id="bg-attachment">
-                    <label for="bg-attachment">background-attachment</label> <br>
-
-                    <input name="background" type="radio" id="bg">
-                    <label for="bg">background</label> <br>
-                </form>
-            </div>
-            <div class="output-background">
-                <div class="op-bg">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-            </div>
-        </div>
-    </div>
     
-    <div class="background-box1">
-        <div class="background-heading">
-            Background:
-        </div>
-        <div class="background">
-            <div class="background-properties">
-                <form action="php">
-                    <input name="background" type="radio" id="bg-color">
-                    <label for="bg-color">background-color</label> <br>
-
-                    <input name="background" type="radio" id="bg-image">
-                    <label for="bg-image">background-image</label> <br>
-
-                    <input name="background" type="radio" id="bg-repeat">
-                    <label for="bg-repeat">background-repeat</label> <br>
-
-                    <input name="background" type="radio" id="bg-position">
-                    <label for="bg-position">background-position</label> <br>
-
-                    <input name="background" type="radio" id="bg-size">
-                    <label for="bg-size">background-size</label> <br>
-
-                    <input name="background" type="radio" id="bg-attachment">
-                    <label for="bg-attachment">background-attachment</label> <br>
-
-                    <input name="background" type="radio" id="bg">
-                    <label for="bg">background</label> <br>
-                </form>
-            </div>
-            <div class="output-background">
-                <div class="op-bg">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-
-                <div class="op-bg" style="display:none">
-                    HELLO WORLD
-                </div>
-            </div>
-        </div>
-    </div>
 
     <script src="/JavaScript/CSS-Basics.js"></script>
 </body>

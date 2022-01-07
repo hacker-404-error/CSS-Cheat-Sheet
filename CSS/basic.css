@@ -12,14 +12,16 @@ body
     overflow-y: scroll;
 }
 
-/****BACKGROUND****/
+/****BACKGROUND-BOX1****/
 .background-box1
 {
     /* border:2px solid black; */
-    width: 60vw;
-    margin:auto;
-    margin-top: 2vw;
-   background-color: #8582d726;
+    width: 82vw;
+    margin: auto;
+    margin-top: 0vw;
+    background-color: #8582d726;
+    height: 25vw;
+    margin-bottom: 2vw;
 }
 
 .background
@@ -32,7 +34,7 @@ body
 {
     /* border: 2px solid red; */
     font-size: 2vw;
-    margin-left: 1vw;
+    margin-left: 8.4vw;
     margin-bottom: 2vw;
 }
 .background-properties
@@ -41,6 +43,7 @@ body
     /* margin: 4vw; */
     width: 51vw;
     height: 22vw;
+    margin-top: 1vw;
 }
 .background-properties input 
 {
@@ -51,14 +54,17 @@ body
 .background-properties label
 {
     cursor:pointer;
+    font-size:1vw;
 }
 .output-background
 {
-    /* border:2px solid red; */
-    width: 36vw;
-    height: 21vw;
+    position: relative;
+    /* border: 2px solid red; */
+    width: 44vw;
+    height: 23vw;
     background-color: white;
     margin-right: 1vw;
+    margin-top: 1vw;
 }
 
 .op-bg
@@ -66,50 +72,140 @@ body
     /* border: 2px solid black; */
     height: 21.7vw;
 }
-.output-background span
+.output-background h3
 {
-    position: absolute;
-    top: 57%;
-    left: 63%;
+    /* border: 2px solid black; */
+    width: 22vw;
+    margin: auto;
+    position: relative;
+    top: 42%;
+    font-size: 1.3vw;
+    /* text-shadow: 2px 3px 2px gray; */
 }
 #bg_color
 {
-    border: 1px solid black;
-    height: 21vw; 
+    /* border: 1px solid black; */
+    height: 23vw; 
     background-color: rgb(231, 74, 74);
     
 }
 #bg_image
 {
-    border: 1px solid black;
-    height: 21vw;
-    background-image: url("/images/CSS_Icon.png");
-    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
 }
 #bg_repeat
 {
-    border: 1px solid black;
-    height: 21vw;
+    /* border: 1px solid black; */
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
 }
-#bg_position
+#bg_norepeat
 {
-    border: 1px solid black;
-    height: 21vw;
+    /* border: 1px solid black; */
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
 }
-#bg_size
+#bg_repeatx
 {
-    border: 1px solid black;
-    height: 21vw;
+    /* border: 1px solid black; */
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: repeat-x;
+
 }
-#bg_attachment
+#bg_repeaty
 {
-    border: 1px solid black;
-    height: 21vw;
+    /* border: 1px solid black; */
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: repeat-y;
+
 }
-#bg_
+#bg_repeatspace
 {
-    border: 1px solid black;
-    height: 21vw;
-} 
+    /* border: 1px solid black; */
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: space;
+
+}
+#bg_repeataround
+{
+    /* border: 1px solid black; */
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: round;
+
+}
+/****BACKGROUN- BOX2******/
+
+#bg_positionll
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: left left;
+}
+#bg_positionlb
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+#bg_positionlt
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+#bg_positionrt
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+#bg_positionrc
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+#bg_positionct
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#bg_positionpercentage
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#bg_positionpixel
+{
+    height: 23vw;
+    background-image: url("/images/linkedaccount.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+
+
+
+
+
+
 
 /*****************/
