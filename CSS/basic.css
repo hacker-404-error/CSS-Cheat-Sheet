@@ -7,6 +7,10 @@
     font-size: 3vw;
     font-family: 'Source Code Pro', monospace;
 }
+body
+{
+    overflow-y: scroll;
+}
 
 /****BACKGROUND****/
 .background-box1
