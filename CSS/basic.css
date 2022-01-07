@@ -46,6 +46,11 @@ body
 {
     margin-bottom:2vw;
     margin-left:2vw;
+    cursor:pointer;
+}
+.background-properties label
+{
+    cursor:pointer;
 }
 .output-background
 {
@@ -61,5 +66,50 @@ body
     /* border: 2px solid black; */
     height: 21.7vw;
 }
+.output-background span
+{
+    position: absolute;
+    top: 57%;
+    left: 63%;
+}
+#bg_color
+{
+    border: 1px solid black;
+    height: 21vw; 
+    background-color: rgb(231, 74, 74);
+    
+}
+#bg_image
+{
+    border: 1px solid black;
+    height: 21vw;
+    background-image: url("/images/CSS_Icon.png");
+    background-repeat: no-repeat;
+}
+#bg_repeat
+{
+    border: 1px solid black;
+    height: 21vw;
+}
+#bg_position
+{
+    border: 1px solid black;
+    height: 21vw;
+}
+#bg_size
+{
+    border: 1px solid black;
+    height: 21vw;
+}
+#bg_attachment
+{
+    border: 1px solid black;
+    height: 21vw;
+}
+#bg_
+{
+    border: 1px solid black;
+    height: 21vw;
+} 
 
 /*****************/
