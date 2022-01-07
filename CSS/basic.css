@@ -1,3 +1,4 @@
+
 .basic_heading
 {
     width: 27vw;
@@ -6,4 +7,55 @@
     font-size: 3vw;
     font-family: 'Source Code Pro', monospace;
 }
-selector-heading
+
+/****BACKGROUND****/
+.background-box1
+{
+    /* border:2px solid black; */
+    width: 60vw;
+    margin:auto;
+    margin-top: 2vw;
+   background-color: #8582d726;
+}
+
+.background
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.background-heading
+{
+    /* border: 2px solid red; */
+    font-size: 2vw;
+    margin-left: 1vw;
+    margin-bottom: 2vw;
+}
+.background-properties
+{
+    /* border:2px solid red; */
+    /* margin: 4vw; */
+    width: 51vw;
+    height: 22vw;
+}
+.background-properties input 
+{
+    margin-bottom:2vw;
+    margin-left:2vw;
+}
+.output-background
+{
+    /* border:2px solid red; */
+    width: 36vw;
+    height: 21vw;
+    background-color: white;
+    margin-right: 1vw;
+}
+
+.op-bg
+{
+    /* border: 2px solid black; */
+    height: 21.7vw;
+}
+
+/*****************/
