@@ -6,13 +6,14 @@
     margin-top: 2vw;
     font-size: 3vw;
     font-family: 'Source Code Pro', monospace;
+    scroll-behavior: smooth;
 }
 body
 {
     overflow-y: scroll;
 }
 
-/****BACKGROUND-BOX1****/
+/****BACKGROUND-BOX0****/
 .background-box1
 {
     /* border:2px solid black; */
@@ -140,7 +141,7 @@ body
     background-repeat: round;
 
 }
-/****BACKGROUN- BOX2******/
+/****BACKGROUN- BOX1******/
 
 #bg_positionll
 {
@@ -199,13 +200,59 @@ body
     background-position: 50% 50%;
 }
 
+/*******Background Box 2*********/
+.instruction
+{
+    border: 2px solid red;
+    /* position: absolute; */
+    margin: auto;
+    width: 25vw;
+    margin-top: 10vw;
+    font-size: 1.8vw;
+    text-align: center;
+}
+h4
+{
+    /* border:2px solid red; */
+    height: 22.8vw;
+}
+#bg_attachmentscroll
+{
+    background-image: url("/images/linkedaccount.png");
+    background-attachment: scroll;
+}
+#bg_attachmentfixed 
+{
+    background-image: url("/images/linkedaccount.png");
+    background-attachment: fixed;
+}
+#bg_attachmentlocal 
+{
+    background-image: url("/images/linkedaccount.png");
+    background-attachment: local;
+}
+#bg_sizelength
+{
+    background-image: url("/images/linkedaccount.png");
+    background-size: 10vw 10vw;
+    background-repeat: no-repeat;
+}
+#bg_sizepercentage
+{
+    background-image: url("/images/linkedaccount.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
+#bg_sizecontain
+{
+    background-image: url("/images/linkedaccount.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#bg_sizecover
+{
+    background-image: url("/images/linkedaccount.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
-
-
-
-
-
-
-
-
-/*****************/

@@ -37,12 +37,12 @@
                     <a href="/HTML/index.html"> <img src="/images/Home.png" alt="Home"></a>
                 </div>
                 <div class="CSS">
-                    <a href="#"><img src="/images/CSS_Icon.png" alt="CSS-icon"></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"><img src="/images/CSS_Icon.png" alt="CSS-icon"></a>
                 </div>
                 <ul class="header-ul">
                     <li class="items" id="basics"> <a href="/HTML/CSSBasics.html">CSS Basics</a>
                         <ul class="basic-list">
-                            <li class="Basics-topic"><a href="#">Lorem.</li></a>
+                            <li class="Basics-topic"><a href="#bg">Background</li></a>
                             <li class="Basics-topic"><a href="#">Lorem.</li></a>
                             <li class="Basics-topic"><a href="#">Lorem.</li></a>
                             <li class="Basics-topic"><a href="#">Lorem.</li></a>
@@ -273,9 +273,10 @@
         < CSS BASICS >
     </div>
 
-    <div class="background-heading">
+    <div id="bg" class="background-heading">
         Background:
     </div>
+    <!-- Background box 0 -->
     <div class="background-box1">
         <div class="background">
             <div class="background-properties">
@@ -341,6 +342,7 @@
         </div>
     </div>
 
+    <!-- Background box 1 -->
     <div class="background-box1">
         <div class="background">
             <div class="background-properties">
@@ -407,6 +409,67 @@
         </div>
     </div>
 
+    <!-- background box 2 -->
+    <div class="background-box1">
+        <div class="background">
+            <div class="background-properties">
+                <form action="php">
+                    <input onclick="bgattachmentscroll()" name="background2" type="radio" id="bg-attachmentscroll">
+                    <label onclick="bgattachmentscroll()" for="bg-attachmentscroll">background-attachment:scroll;</label> <br>
+
+                    <input onclick="bgattachmentfixed()" name="background2" type="radio" id="bg-attachmentfixed">
+                    <label onclick="bgattachmentfixed()" for="bg-attachmentfixed">background-attachment:fixed;</label> <br>
+
+                    <input onclick="bgattachmentlocal()" name="background2" type="radio" id="bg-attachmentlocal">
+                    <label onclick="bgattachmentlocal()" for="bg-attachmentlocal">background-attachment:local;</label> <br>
+
+                    <input onclick="bgsizelength()" name="background2" type="radio" id="bg-sizelength">
+                    <label onclick="bgsizelength()" for="bg-sizelength">background-size: 10vw 10vw;</label> <br>
+
+                    <input onclick="bgsizepercentage()" name="background2" type="radio" id="bg-sizepercentage">
+                    <label onclick="bgsizepercentage()" for="bg-sizepercentage">background-size: 10% 10%;</label> <br>
+
+                    <input onclick="bgsizecontain()" name="background2" type="radio" id="bg-sizecontain">
+                    <label onclick="bgsizecontain()" for="bg-sizecontain">background-size: contain;</label> <br>
+
+                    <input onclick="bgsizecover()" name="background2" type="radio" id="bg-sizecover">
+                    <label onclick="bgsizecover()" for="bg-sizecover">background-size: cover;</label> <br>
+                </form>
+            </div>
+            <div class="output-background">
+                <!-- <span class="instruction" style="display: block;">
+                    click on properties to see the result
+                </span> -->
+                <div class="b3" id="bg_attachmentscroll" style="display:none">
+                    <h4></h4>
+                </div>
+
+                <div class="b3" id="bg_attachmentfixed" style="display:none">
+                    <h4></h4>
+                </div>
+
+                <div class="b3" id="bg_attachmentlocal" style="display:none">
+                    <h4></h4>
+                </div>
+
+                <div class="b3" id="bg_sizelength" style="display:none">
+                    <h4></h4>
+                </div>
+
+                <div class="b3" id="bg_sizepercentage" style="display:none">
+                    <h4></h4>
+                </div>
+
+                <div class="b3" id="bg_sizecontain" style="display:none">
+                    <h4></h4>
+                </div>
+
+                <div class="b3" id="bg_sizecover" style="display:none">
+                    <h4></h4>
+                </div>
+            </div>
+        </div>
+    </div>
     
 
     <script src="/JavaScript/CSS-Basics.js"></script>

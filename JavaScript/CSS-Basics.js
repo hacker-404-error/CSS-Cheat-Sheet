@@ -1,4 +1,5 @@
 
+//Background box  0
 function bgcolor() {
     document.getElementById("bg_color").style.display = "block";
     document.getElementById("bg_image").style.display = "none";
@@ -81,7 +82,7 @@ function bgrepeataround() {
 }
 
 
- //Background box 2
+ //Background box 1
 
  let bg2;
  bg2=document.getElementsByClassName("b2")
@@ -207,6 +208,120 @@ function bgpositionll()
           
      }
  }
+
+
+
+//Background box 2
+
+let bg3;
+bg3=document.getElementsByClassName("b3")
+
+function bgattachmentscroll()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==0)
+        {
+           bg3[i].style.display = "block";
+        //    document.getElementsByClassName("instruction").style.display = "none";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
+function bgattachmentfixed()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==1)
+        {
+           bg3[i].style.display = "block";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
+function bgattachmentlocal()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==2)
+        {
+           bg3[i].style.display = "block";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
+function bgsizelength()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==3)
+        {
+           bg3[i].style.display = "block";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
+function bgsizepercentage()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==4)
+        {
+           bg3[i].style.display = "block";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
+function bgsizecontain()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==5)
+        {
+           bg3[i].style.display = "block";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
+function bgsizecover()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==6)
+        {
+           bg3[i].style.display = "block";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
 
 
 
