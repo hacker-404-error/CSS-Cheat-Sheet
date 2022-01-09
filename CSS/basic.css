@@ -43,7 +43,7 @@ body
     /* border:2px solid red; */
     /* margin: 4vw; */
     width: 51vw;
-    height: 22vw;
+    height: 24vw;
     margin-top: 1vw;
 }
 .background-properties input 
@@ -255,4 +255,13 @@ h4
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.b3 h3
+{
+    /* border: 2px solid black; */
+    width: 22vw;
+    margin: auto;
+    position: relative;
+    top: 42%;
+    font-size: 1.3vw;
+    /* text-shadow: 2px 3px 2px gray; */
+}
