@@ -141,6 +141,19 @@ body
     background-repeat: round;
 
 }
+.b1 h3
+{
+    /* border: 2px solid black; */
+    width: 26vw;
+    margin: auto;
+    position: relative;
+    top: 10vw;
+    font-size: 1.6vw;
+    /* text-shadow: 2px 3px 2px gray;
+    box-shadow: 0.5px 0.5px 0px black;
+    background-color: #62e5e52a; */
+    text-align: center;;
+}
 /****BACKGROUN- BOX1******/
 
 #bg_positionll
@@ -198,6 +211,19 @@ body
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
+}
+.b2 h3
+{
+    /* border: 2px solid black; */
+    width: 26vw;
+    margin: auto;
+    position: relative;
+    top: 10vw;
+    font-size: 1.6vw;
+    /* text-shadow: 2px 3px 2px gray;
+    box-shadow: 0.5px 0.5px 0px black;
+    background-color: #62e5e52a; */
+    text-align: center;;
 }
 
 /*******Background Box 2*********/
@@ -258,10 +284,13 @@ h4
 .b3 h3
 {
     /* border: 2px solid black; */
-    width: 22vw;
+    width: 26vw;
     margin: auto;
     position: relative;
-    top: 42%;
-    font-size: 1.3vw;
-    /* text-shadow: 2px 3px 2px gray; */
+    top: 10vw;
+    font-size: 1.6vw;
+    /* text-shadow: 2px 3px 2px gray;
+    box-shadow: 0.5px 0.5px 0px black;
+    background-color: #62e5e52a; */
+    text-align: center;;
 }
