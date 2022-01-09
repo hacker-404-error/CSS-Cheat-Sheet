@@ -223,7 +223,6 @@ function bgattachmentscroll()
         if(i==0)
         {
            bg3[i].style.display = "block";
-        //    document.getElementsByClassName("instruction").style.display = "none";
         }
         else
         {
