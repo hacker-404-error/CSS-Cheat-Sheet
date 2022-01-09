@@ -11,6 +11,8 @@
 body
 {
     overflow-y: scroll;
+    background-image: url("https://image.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg");
+    /* background-image: url("https://image.freepik.com/free-vector/honeycomb-white-background_51543-116.jpg"); */
 }
 
 /****BACKGROUND-BOX0****/
@@ -21,8 +23,9 @@ body
     margin: auto;
     margin-top: 0vw;
     background-color: #8582d726;
-    height: 25vw;
+    height: 30vw;
     margin-bottom: 2vw;
+    box-shadow: rgb(38, 57, 77) 0px 14px 30px -10px;
 }
 
 .background
@@ -44,7 +47,7 @@ body
     /* margin: 4vw; */
     width: 51vw;
     height: 24vw;
-    margin-top: 1vw;
+    margin-top: 3vw;
 }
 .background-properties input 
 {
@@ -62,10 +65,11 @@ body
     position: relative;
     /* border: 2px solid red; */
     width: 44vw;
-    height: 23vw;
-    background-color: white;
+    height: 28vw;
+    background-color: rgba(255, 255, 255, 0.493);
     margin-right: 1vw;
     margin-top: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .op-bg
@@ -86,33 +90,33 @@ body
 #bg_color
 {
     /* border: 1px solid black; */
-    height: 23vw; 
+    height: 28vw; 
     background-color: rgb(231, 74, 74);
     
 }
 #bg_image
 {
     /* border: 1px solid black; */
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
 }
 #bg_repeat
 {
     /* border: 1px solid black; */
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
 }
 #bg_norepeat
 {
     /* border: 1px solid black; */
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
 }
 #bg_repeatx
 {
     /* border: 1px solid black; */
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: repeat-x;
 
@@ -120,7 +124,7 @@ body
 #bg_repeaty
 {
     /* border: 1px solid black; */
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: repeat-y;
 
@@ -128,7 +132,7 @@ body
 #bg_repeatspace
 {
     /* border: 1px solid black; */
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: space;
 
@@ -136,7 +140,7 @@ body
 #bg_repeataround
 {
     /* border: 1px solid black; */
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: round;
 
@@ -158,56 +162,56 @@ body
 
 #bg_positionll
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: left left;
 }
 #bg_positionlb
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 #bg_positionlt
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: left top;
 }
 #bg_positionrt
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: right top;
 }
 #bg_positionrc
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: right center;
 }
 #bg_positionct
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: center top;
 }
 #bg_positionpercentage
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 #bg_positionpixel
 {
-    height: 23vw;
+    height: 28vw;
     background-image: url("/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -246,40 +250,47 @@ h4
 {
     background-image: url("/images/linkedaccount.png");
     background-attachment: scroll;
+    height: 28vw;
 }
 #bg_attachmentfixed 
 {
     background-image: url("/images/linkedaccount.png");
     background-attachment: fixed;
+    height: 28vw;
 }
 #bg_attachmentlocal 
 {
     background-image: url("/images/linkedaccount.png");
     background-attachment: local;
+    height: 28vw;
 }
 #bg_sizelength
 {
     background-image: url("/images/linkedaccount.png");
     background-size: 10vw 10vw;
     background-repeat: no-repeat;
+    height: 28vw;
 }
 #bg_sizepercentage
 {
     background-image: url("/images/linkedaccount.png");
     background-size: 50% 50%;
     background-repeat: no-repeat;
+    height: 28vw;
 }
 #bg_sizecontain
 {
     background-image: url("/images/linkedaccount.png");
     background-size: contain;
     background-repeat: no-repeat;
+    height: 28vw;
 }
 #bg_sizecover
 {
     background-image: url("/images/linkedaccount.png");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 28vw;
 }
 .b3 h3
 {

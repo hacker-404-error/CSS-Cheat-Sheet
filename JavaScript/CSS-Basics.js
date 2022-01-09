@@ -9,6 +9,7 @@ function bgcolor() {
     document.getElementById("bg_repeaty").style.display = "none";
     document.getElementById("bg_repeatspace").style.display = "none";
     document.getElementById("bg_repeataround").style.display = "none";
+    document.getElementById("b11").style.display = "none";
 }
 function bgimage() {
     document.getElementById("bg_color").style.display = "none";
