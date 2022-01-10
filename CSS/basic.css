@@ -15,7 +15,14 @@ body
     background-attachment: fixed;
     /* background-image: url("https://image.freepik.com/free-vector/honeycomb-white-background_51543-116.jpg"); */
 }
-
+#multiplewaves
+{
+    position:absolute;
+    position: absolute;
+    top: 60vw;
+    background-attachment: fixed;
+    z-index: -6;
+}
 /****BACKGROUND-BOX0****/
 .background-box1
 {

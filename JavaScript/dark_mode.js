@@ -15,7 +15,7 @@ function dark()
     {
         document.body.style.backgroundColor = "black";
         document.body.style.color = "white";
-        document.body.style.backgroundImage = "url('https://i.ibb.co/5Ym5n1D/blackbg.jpg')";
+        document.body.style.backgroundImage = "url('https://www.picgaga.com/uploads/wallpaper/black-background-wallpapers/2LN77oVFO3Op-full-hd-black-backgrounds-image.jpg')";
         // document.getElementsByTagName("a").style.color = "white";
         document.body.style.transition = "0.5s linear";
     }
