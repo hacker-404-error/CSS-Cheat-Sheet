@@ -12,6 +12,7 @@ body
 {
     overflow-y: scroll;
     background-image: url("https://image.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg");
+    background-attachment: fixed;
     /* background-image: url("https://image.freepik.com/free-vector/honeycomb-white-background_51543-116.jpg"); */
 }
 
