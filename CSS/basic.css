@@ -106,26 +106,26 @@ body
 {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
 }
 #bg_repeat
 {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
 }
 #bg_norepeat
 {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
 }
 #bg_repeatx
 {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: repeat-x;
 
 }
@@ -133,7 +133,7 @@ body
 {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: repeat-y;
 
 }
@@ -141,7 +141,7 @@ body
 {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: space;
 
 }
@@ -149,7 +149,7 @@ body
 {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: round;
 
 }
@@ -171,56 +171,56 @@ body
 #bg_positionll
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: left left;
 }
 #bg_positionlb
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 #bg_positionlt
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: left top;
 }
 #bg_positionrt
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: right top;
 }
 #bg_positionrc
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: right center;
 }
 #bg_positionct
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: center top;
 }
 #bg_positionpercentage
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 #bg_positionpixel
 {
     height: 28vw;
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -256,46 +256,46 @@ h4
 }
 #bg_attachmentscroll
 {
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-attachment: scroll;
     height: 28vw;
 }
 #bg_attachmentfixed 
 {
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-attachment: fixed;
     height: 28vw;
 }
 #bg_attachmentlocal 
 {
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-attachment: local;
     height: 28vw;
 }
 #bg_sizelength
 {
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-size: 10vw 10vw;
     background-repeat: no-repeat;
     height: 28vw;
 }
 #bg_sizepercentage
 {
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-size: 50% 50%;
     background-repeat: no-repeat;
     height: 28vw;
 }
 #bg_sizecontain
 {
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-size: contain;
     background-repeat: no-repeat;
     height: 28vw;
 }
 #bg_sizecover
 {
-    background-image: url("/images/linkedaccount.png");
+    background-image: url("https://github.com/hacker-404-error/CSS-Cheat-Sheet/blob/master/images/linkedaccount.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 28vw;
