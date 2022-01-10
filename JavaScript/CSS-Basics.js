@@ -20,6 +20,8 @@ function bgimage() {
     document.getElementById("bg_repeaty").style.display = "none";
     document.getElementById("bg_repeatspace").style.display = "none";
     document.getElementById("bg_repeataround").style.display = "none";
+    document.getElementById("b11").style.display = "none";
+
 }
 function bgrepeat() {
     document.getElementById("bg_color").style.display = "none";
@@ -30,6 +32,8 @@ function bgrepeat() {
     document.getElementById("bg_repeaty").style.display = "none";
     document.getElementById("bg_repeatspace").style.display = "none";
     document.getElementById("bg_repeataround").style.display = "none";
+    document.getElementById("b11").style.display = "none";
+
 }
 function bgnorepeat() {
     document.getElementById("bg_color").style.display = "none";
@@ -40,6 +44,8 @@ function bgnorepeat() {
     document.getElementById("bg_repeaty").style.display = "none";
     document.getElementById("bg_repeatspace").style.display = "none";
     document.getElementById("bg_repeataround").style.display = "none";
+    document.getElementById("b11").style.display = "none";
+
 }
 function bgrepeatx() {
     document.getElementById("bg_color").style.display = "none";
@@ -50,6 +56,8 @@ function bgrepeatx() {
     document.getElementById("bg_repeaty").style.display = "none";
     document.getElementById("bg_repeatspace").style.display = "none";
     document.getElementById("bg_repeataround").style.display = "none";
+    document.getElementById("b11").style.display = "none";
+
 }
 function bgrepeaty() {
     document.getElementById("bg_color").style.display = "none";
@@ -60,6 +68,8 @@ function bgrepeaty() {
     document.getElementById("bg_repeaty").style.display = "block";
     document.getElementById("bg_repeatspace").style.display = "none";
     document.getElementById("bg_repeataround").style.display = "none";
+    document.getElementById("b11").style.display = "none";
+
 }
 function bgrepeatspace() {
     document.getElementById("bg_color").style.display = "none";
@@ -70,6 +80,8 @@ function bgrepeatspace() {
     document.getElementById("bg_repeaty").style.display = "none";
     document.getElementById("bg_repeatspace").style.display = "block";
     document.getElementById("bg_repeataround").style.display = "none";
+    document.getElementById("b11").style.display = "none";
+
 }
 function bgrepeataround() {
     document.getElementById("bg_color").style.display = "none";
@@ -80,6 +92,8 @@ function bgrepeataround() {
     document.getElementById("bg_repeaty").style.display = "none";
     document.getElementById("bg_repeatspace").style.display = "none";
     document.getElementById("bg_repeataround").style.display = "block";
+    document.getElementById("b11").style.display = "none";
+
 }
 
 
