@@ -15,6 +15,27 @@ body
     background-attachment: fixed;
     /* background-image: url("https://image.freepik.com/free-vector/honeycomb-white-background_51543-116.jpg"); */
 }
+
+.goup
+{
+    position: absolute;
+    top: 45vw;
+    left: 94vw;
+    /* background-size: 20vw; */
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 0.5vw;
+    background-color: rgb(0, 0, 0);
+    position:fixed;
+}
+.goup img
+{
+    width: 2.5vw;
+    background-attachment: fixed;
+    filter: invert(100%);
+    z-index: 20;
+}
+
 #multiplewaves
 {
     position:absolute;
