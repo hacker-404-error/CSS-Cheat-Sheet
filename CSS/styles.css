@@ -141,14 +141,14 @@ body
     filter: drop-shadow(1px 0px 0px black);
     margin-top: 1.6vw;
 } */
-/* .wave2
+.wave2
 {
     position: absolute;
     top: 31vw;
     opacity: 50%;
     z-index: -1;
     filter: blur(54px);
-} */
+}
 .wave3
 {
     position: absolute;
@@ -356,12 +356,12 @@ body
 {
     display:grid;
 }
-.goup
+/* .goup
 {
     position: absolute;
     top: 45vw;
     left: 94vw;
-    /* background-size: 20vw; */
+    background-size: 20vw;
     cursor: pointer;
     border: 2px solid black;
     padding: 0.5vw;
@@ -377,4 +377,4 @@ body
 .goup :hover
 {  
     box-shadow: 1px 1px 1px black;
-}
+} */
