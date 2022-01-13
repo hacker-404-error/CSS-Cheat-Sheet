@@ -24,7 +24,7 @@
 <body>
     <div class="goup">
         <a href="#GOUP">
-        <img src="./images/Go-UP.png" alt="goup">
+            <img src="./images/Go-UP.png" alt="goup">
         </a>
     </div>
     <div class="alls">
@@ -42,8 +42,8 @@
                     <a href="./index.html"> <img src="./images/Home.png" alt="Home"></a>
                 </div>
                 <div class="CSS">
-                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"><img src="./images/CSS_Icon.png"
-                            alt="CSS-icon"></a>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"><img
+                            src="./images/CSS_Icon.png" alt="CSS-icon"></a>
                 </div>
                 <ul id="GOUP" class="header-ul">
                     <li class="items" id="basics"> <a href="./CSSBasics.html">CSS Basics</a>
@@ -473,8 +473,8 @@
             <div class="background-properties">
                 <form action="php">
                     <input onclick="bgattachmentscroll()" name="background2" type="radio" id="bg-attachmentscroll">
-                    <label onclick="bgattachmentscroll()"
-                        for="bg-attachmentscroll">background-attachment:scroll;</label> <br>
+                    <label onclick="bgattachmentscroll()"for="bg-attachmentscroll">background-attachment:scroll;</label> 
+                    <br>
 
                     <input onclick="bgattachmentfixed()" name="background2" type="radio" id="bg-attachmentfixed">
                     <label onclick="bgattachmentfixed()" for="bg-attachmentfixed">background-attachment:fixed;</label>
@@ -485,16 +485,24 @@
                     <br>
 
                     <input onclick="bgsizelength()" name="background2" type="radio" id="bg-sizelength">
-                    <label onclick="bgsizelength()" for="bg-sizelength">background-size: 10vw 10vw;</label> <br>
+                    <label onclick="bgsizelength()" for="bg-sizelength">background-size: 10vw 10vw;</label>
+                    <br>
 
                     <input onclick="bgsizepercentage()" name="background2" type="radio" id="bg-sizepercentage">
-                    <label onclick="bgsizepercentage()" for="bg-sizepercentage">background-size: 10% 10%;</label> <br>
+                    <label onclick="bgsizepercentage()" for="bg-sizepercentage">background-size: 10% 10%;</label> 
+                    <br>
 
                     <input onclick="bgsizecontain()" name="background2" type="radio" id="bg-sizecontain">
-                    <label onclick="bgsizecontain()" for="bg-sizecontain">background-size: contain;</label> <br>
+                    <label onclick="bgsizecontain()" for="bg-sizecontain">background-size: contain;</label> 
+                    <br>
 
                     <input onclick="bgsizecover()" name="background2" type="radio" id="bg-sizecover">
-                    <label onclick="bgsizecover()" for="bg-sizecover">background-size: cover;</label> <br>
+                    <label onclick="bgsizecover()" for="bg-sizecover">background-size: cover;</label> 
+                    <br>
+
+                    <input onclick="bgpropertyshorthand()" name="background2" type="radio" id="bg-propertyshorthand">
+                    <label onclick="bgpropertyshorthand()" for="bg-propertyshorthand">background:green url("linkedinSymbol.png") repeat-y scroll;</label> 
+                    <br> 
                 </form>
             </div>
             <div class="output-background">
@@ -524,12 +532,20 @@
                 <div class="b3" id="bg_sizecontain" style="display:none">
                     <h4></h4>
                 </div>
-
                 <div class="b3" id="bg_sizecover" style="display:none">
                     <h4></h4>
                 </div>
+                <div class="b3" id="bg_propertyshorthand" style="display:none">
+                    <h3>the shorthand property the order of the property values is:
+                        background-color
+                        background-image
+                        background-repeat
+                        background-attachment
+                        background-position
+                    </h3>
+                </div>
                 <div class="b3">
-                    <h3>click properties to see the result.</h3>
+                    <p>click properties to see the result.</p>
                 </div>
             </div>
         </div>

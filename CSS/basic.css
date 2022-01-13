@@ -302,16 +302,27 @@ h4
     height: 28vw;
     /* */
 }
+#bg_propertyshorthand
+{
+    background:rgb(37, 218, 118) url("https://i.ibb.co/bPXXbJF/linkedaccount.png") repeat-y scroll;
+    height: 28vw;
+}
 .b3 h3
 {
     /* border: 2px solid black; */
-    width: 26vw;
+    width: 23vw;
     margin: auto;
     position: relative;
-    top: 10vw;
+    top: 7vw;
     font-size: 1.6vw;
-    /* text-shadow: 2px 3px 2px gray;
-    box-shadow: 0.5px 0.5px 0px black;
-    background-color: #62e5e52a; */
-    text-align: center;;
+    text-align: center;
+}
+.b3 p
+{
+    width: 23vw;
+    margin: auto;
+    position: relative;
+    top: 11vw;
+    font-size: 1.6vw;
+    text-align: center;
 }

@@ -336,6 +336,21 @@ function bgsizecover()
          
     }
 }
+function bgpropertyshorthand()
+{
+    for(let i=0;i<bg3.length;i++)
+    {
+        if(i==7)
+        {
+           bg3[i].style.display = "block";
+        }
+        else
+        {
+           bg3[i].style.display = "none";
+        }
+         
+    }
+}
 
 
 
