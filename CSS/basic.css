@@ -35,7 +35,6 @@ body
     filter: invert(100%);
     z-index: 20;
 }
-
 #multiplewaves
 {
     position:absolute;
@@ -44,6 +43,51 @@ body
     background-attachment: fixed;
     z-index: -6;
 }
+/* box-model */
+.box-model-layout
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 31vw;
+    margin: 3vw;
+}
+.box-model-properties
+{
+    border: 2px solid red;
+    width: 46vw;
+    height: 31vw;
+}
+.box-model-show
+{
+    border: 2px solid rgb(0, 17, 255);
+    width: 46vw;
+    height: 31vw;
+
+}
+.border
+{
+    border:2px solid red;
+    height: 30.7vw;
+}
+.padding
+{
+    border:2px solid rgb(10, 73, 145);
+
+}
+.content
+{
+    border:2px solid rgb(18, 121, 35);
+
+}
+
+
+
+
+
+
 /****BACKGROUND-BOX0****/
 .background-box1
 {
