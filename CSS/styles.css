@@ -169,7 +169,7 @@ body
     height: 37vw;
     position: absolute;
     top: 5vw;
-    left: 18vw;
+    left: 24vw;
     background-color: #0c135ad9;
     color: white;
     z-index: 7;
@@ -184,15 +184,15 @@ body
 {
     text-decoration: none;
     color: aquamarine;
-    font-size: 1.3vw;
-    margin-left: 1vw;
+    font-size: 1.1vw;
+    margin-left: 0.6vw;
 }
 .Basics-topic a:hover
 {
     text-decoration: underline;
     color: #fff;
-    font-size: 1.3vw;
-    margin-left: 1vw;
+    font-size: 1.1vw;
+    margin-left: 0.6vw;
 }
 #basics:hover .basic-list
 {

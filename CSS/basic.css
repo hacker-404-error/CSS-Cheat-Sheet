@@ -1,23 +1,20 @@
-
-.basic_heading
-{
+.basic_heading {
     width: 27vw;
     margin: auto;
     margin-top: 2vw;
     font-size: 3vw;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     scroll-behavior: smooth;
 }
-body
-{
+
+body {
     overflow-y: scroll;
     background-image: url("https://image.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg");
     background-attachment: fixed;
     /* background-image: url("https://image.freepik.com/free-vector/honeycomb-white-background_51543-116.jpg"); */
 }
 
-.goup
-{
+.goup {
     position: absolute;
     top: 45vw;
     left: 94vw;
@@ -26,26 +23,26 @@ body
     border: 2px solid black;
     padding: 0.5vw;
     background-color: rgb(0, 0, 0);
-    position:fixed;
+    position: fixed;
 }
-.goup img
-{
+
+.goup img {
     width: 2.5vw;
     background-attachment: fixed;
     filter: invert(100%);
     z-index: 20;
 }
-#multiplewaves
-{
-    position:absolute;
+
+#multiplewaves {
+    position: absolute;
     position: absolute;
     top: 60vw;
     background-attachment: fixed;
     z-index: -6;
 }
+
 /* box-model */
-.box-model-layout
-{
+.box-model-layout {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,43 +51,81 @@ body
     height: 31vw;
     margin: 3vw;
 }
-.box-model-properties
+
+.box-model-properties {
+    border: 2px solid black;
+    width: 46vw;
+    height: 31vw;
+}
+
+.head {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+.head1 {
+    text-align: center;
+    margin-top: 1.6vw;
+    line-height: 1.7vw;
+    margin-bottom: 1vw;
+}
+.head2 ul{
+    list-style: none;
+}
+h3 {
+    font-weight: 7;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
+}
+.head3{
+    text-align: center;
+    margin-top: 1.6vw;
+    line-height: 1.7vw;
+    margin-bottom: 1vw;
+}
+.box-model-properties span
 {
+    font-size: 1.2vw;
+font-weight: bolder;
+color: crimson;
+margin-left: 3vw;
+}
+
+.box-model-show {
+    width: 47vw;
+    text-align: center;
+    height: 31vw;
+    font-size: 1.4vw;
+}
+
+.border {
+    text-align: center;
     border: 2px solid red;
-    width: 46vw;
-    height: 31vw;
-}
-.box-model-show
-{
-    border: 2px solid rgb(0, 17, 255);
-    width: 46vw;
-    height: 31vw;
-
-}
-.border
-{
-    border:2px solid red;
-    height: 30.7vw;
-}
-.padding
-{
-    border:2px solid rgb(10, 73, 145);
-
-}
-.content
-{
-    border:2px solid rgb(18, 121, 35);
-
+    height: 24vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
 }
 
+.padding {
+    text-align: center;
+    border: 2px solid green;
+    margin: 2vw 4vw 11vw 4vw;
+    height: 17vw;
+}
 
-
-
-
+.content {
+    text-align: center;
+    border: 2px solid yellowgreen;
+    height: 10vw;
+    margin: 2vw 3vw 3vw 3vw;
+}
 
 /****BACKGROUND-BOX0****/
-.background-box1
-{
+.background-box1 {
     /* border:2px solid black; */
     width: 82vw;
     margin: auto;
@@ -101,40 +136,39 @@ body
     box-shadow: rgb(38, 57, 77) 0px 14px 30px -10px;
 }
 
-.background
-{
-    display:flex;
-    flex-direction:row;
+.background {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
-.background-heading
-{
+
+.background-heading {
     /* border: 2px solid red; */
     font-size: 2vw;
     margin-left: 8.4vw;
     margin-bottom: 2vw;
 }
-.background-properties
-{
+
+.background-properties {
     /* border:2px solid red; */
     /* margin: 4vw; */
     width: 51vw;
     height: 24vw;
     margin-top: 3vw;
 }
-.background-properties input 
-{
-    margin-bottom:2vw;
-    margin-left:2vw;
-    cursor:pointer;
+
+.background-properties input {
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    cursor: pointer;
 }
-.background-properties label
-{
-    cursor:pointer;
-    font-size:1vw;
+
+.background-properties label {
+    cursor: pointer;
+    font-size: 1vw;
 }
-.output-background
-{
+
+.output-background {
     position: relative;
     /* border: 2px solid red; */
     width: 44vw;
@@ -145,13 +179,12 @@ body
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
-.op-bg
-{
+.op-bg {
     /* border: 2px solid black; */
     height: 21.7vw;
 }
-.output-background h3
-{
+
+.output-background h3 {
     /* border: 2px solid black; */
     width: 22vw;
     margin: auto;
@@ -160,61 +193,61 @@ body
     font-size: 1.3vw;
     /* text-shadow: 2px 3px 2px gray; */
 }
-#bg_color
-{
+
+#bg_color {
     /* border: 1px solid black; */
-    height: 28vw; 
+    height: 28vw;
     background-color: rgb(231, 74, 74);
-    
 }
-#bg_image
-{
+
+#bg_image {
     /* border: 1px solid black; */
     height: 28vw;
     background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
 }
-#bg_repeat
-{
+
+#bg_repeat {
     /* border: 1px solid black; */
     height: 28vw;
     background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
 }
-#bg_norepeat
-{
-    /* border: 1px solid black; */
-    height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
-}
-#bg_repeatx
-{
-    /* border: 1px solid black; */
-    height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: repeat-x;
 
-}
-#bg_repeaty
-{
+#bg_norepeat {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: repeat-y;
-
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
 }
-#bg_repeatspace
-{
+
+#bg_repeatx {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: space;
-
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: repeat-x;
 }
-#bg_repeataround
-{
+
+#bg_repeaty {
     /* border: 1px solid black; */
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: round;
-
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: repeat-y;
 }
-.b1 h3
-{
+
+#bg_repeatspace {
+    /* border: 1px solid black; */
+    height: 28vw;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: space;
+}
+
+#bg_repeataround {
+    /* border: 1px solid black; */
+    height: 28vw;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: round;
+}
+
+.b1 h3 {
     /* border: 2px solid black; */
     width: 26vw;
     margin: auto;
@@ -224,60 +257,68 @@ body
     /* text-shadow: 2px 3px 2px gray;
     box-shadow: 0.5px 0.5px 0px black;
     background-color: #62e5e52a; */
-    text-align: center;;
+    text-align: center;
 }
+
 /****BACKGROUN- BOX1******/
 
-#bg_positionll
-{
+#bg_positionll {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: left left;
 }
-#bg_positionlb
-{
+
+#bg_positionlb {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: left bottom;
 }
-#bg_positionlt
-{
+
+#bg_positionlt {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: left top;
 }
-#bg_positionrt
-{
+
+#bg_positionrt {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: right top;
 }
-#bg_positionrc
-{
+
+#bg_positionrc {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: right center;
 }
-#bg_positionct
-{
+
+#bg_positionct {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: center top;
 }
-#bg_positionpercentage
-{
+
+#bg_positionpercentage {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-#bg_positionpixel
-{
+
+#bg_positionpixel {
     height: 28vw;
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-.b2 h3
-{
+
+.b2 h3 {
     /* border: 2px solid black; */
     width: 26vw;
     margin: auto;
@@ -287,12 +328,11 @@ body
     /* text-shadow: 2px 3px 2px gray;
     box-shadow: 0.5px 0.5px 0px black;
     background-color: #62e5e52a; */
-    text-align: center;;
+    text-align: center;
 }
 
 /*******Background Box 2*********/
-.instruction
-{
+.instruction {
     border: 2px solid red;
     /* position: absolute; */
     margin: auto;
@@ -301,58 +341,65 @@ body
     font-size: 1.8vw;
     text-align: center;
 }
-h4
-{
+
+h4 {
     /* border:2px solid red; */
     height: 22.8vw;
 }
-#bg_attachmentscroll
-{
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-attachment: scroll;
+
+#bg_attachmentscroll {
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-attachment: scroll;
     height: 28vw;
 }
-#bg_attachmentfixed 
-{
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-attachment: fixed;
+
+#bg_attachmentfixed {
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-attachment: fixed;
     height: 28vw;
 }
-#bg_attachmentlocal 
-{
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-attachment: local;
+
+#bg_attachmentlocal {
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-attachment: local;
     height: 28vw;
 }
-#bg_sizelength
-{
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-size: 10vw 10vw;
+
+#bg_sizelength {
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-size: 10vw 10vw;
     background-repeat: no-repeat;
     height: 28vw;
 }
-#bg_sizepercentage
-{
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-size: 50% 50%;
+
+#bg_sizepercentage {
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-size: 50% 50%;
     background-repeat: no-repeat;
     height: 28vw;
 }
-#bg_sizecontain
-{
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-size: contain;
+
+#bg_sizecontain {
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-size: contain;
     background-repeat: no-repeat;
     height: 28vw;
 }
-#bg_sizecover
-{
-    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");    background-size: cover;
+
+#bg_sizecover {
+    background-image: url("https://i.ibb.co/bPXXbJF/linkedaccount.png ");
+    background-size: cover;
     background-repeat: no-repeat;
     height: 28vw;
     /* */
 }
-#bg_propertyshorthand
-{
-    background:rgb(37, 218, 118) url("https://i.ibb.co/bPXXbJF/linkedaccount.png") repeat-y scroll;
+
+#bg_propertyshorthand {
+    background: rgb(37, 218, 118) url("https://i.ibb.co/bPXXbJF/linkedaccount.png") repeat-y scroll;
     height: 28vw;
 }
-.b3 h3
-{
+
+.b3 h3 {
     /* border: 2px solid black; */
     width: 23vw;
     margin: auto;
@@ -361,8 +408,8 @@ h4
     font-size: 1.6vw;
     text-align: center;
 }
-.b3 p
-{
+
+.b3 p {
     width: 23vw;
     margin: auto;
     position: relative;
