@@ -318,7 +318,7 @@
             class="transition-all duration-300 ease-in-out delay-150 path-3"></path>
     </svg> -->
     <div class="basic_heading">
-        < CSS BASICS >
+        < CSS BASICS>
     </div>
 
     <!-- BOX - MODEL PROPERTIES -->
@@ -598,6 +598,69 @@
             </div>
         </div>
     </div>
+
+    <!-- BORDER PROPERTIES -->
+    <div id="#" class="border-heading">
+        border:
+    </div>
+    <!-- border box 1 -->
+    <div class="border-box1">
+        <div class="border1">
+            <div class="border-properties">
+                <form action="php">
+                    <input onclick="borderstyle()" name="border" type="radio" id="border-style">
+                    <label onclick="borderstyle()" for="border-style">border-style:dotted;</label> <br>
+
+                    <input onclick="borderwidth()" name="border" type="radio" id="border-width">
+                    <label onclick="borderwidth()" for="border-width">border-width:5px;</label> <br>
+
+                    <input onclick="bordercolor()" name="border" type="radio" id="border-color">
+                    <label onclick="bordercolor()" for="border-color">border-color:red;</label> <br>
+
+                    <input onclick="borderradius()" name="border" type="radio" id="border-radius">
+                    <label onclick="borderradius()" for="border-radius">border-radius:35px;</label> <br>
+
+                </form>
+            </div>
+            <div class="output-border">
+                <div class="bordejs" id="border_style" style="display: none;">
+                    <h3> Borders can Be:
+                        dotted; 
+                        dashed; 
+                        solid ;
+                        double; 
+                        groove; 
+                        ridge ;
+                        inset ;
+                        outset; 
+                        none;
+                        hidden </h3>
+                </div>
+
+                <div class="bordejs" id="border_width" style="display:none">
+                    <h3> Width of the border can be specified in any pixels and can write : Thick; Thin; Medium; </h3>
+                </div>
+
+                <div class="bordejs" id="border_color" style="display:none">
+                    <h3> Borders can be of any colours</h3>
+                </div>
+
+                <div class="bordejs" id="border_radius" style="display:none">
+                    <h3> Rounded Borders. </h3>
+                </div>
+
+
+
+                <div class="bordejs">
+                    <h3 id="bord1">Click Properties To See The Result.</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
     <script src="./JavaScript/CSS-Basics.js"></script>
 </body>
 

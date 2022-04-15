@@ -353,9 +353,74 @@ function bgpropertyshorthand()
 }
 
 
+// Borders1
+let border;
+border = document.getElementsByClassName("bordejs")
 
 
+function borderstyle()
+{
+    for(let i=0;i<border.length;i++)
+    {
+        if(i==0)
+        {
+           border[i].style.display = "block";
+        }
+        else
+        {
+           border[i].style.display = "none";
+        }
+         
+    }
+}
 
+function borderwidth()
+{
+    for(let i=0;i<border.length;i++)
+    {
+        if(i==1)
+        {
+           border[i].style.display = "block";
+        }
+        else
+        {
+           border[i].style.display = "none";
+        }
+         
+    }
+}
+
+function bordercolor()
+{
+    for(let i=0;i<border.length;i++)
+    {
+        if(i==2)
+        {
+           border[i].style.display = "block";
+        }
+        else
+        {
+           border[i].style.display = "none";
+        }
+         
+    }
+}
+
+function borderradius()
+{
+    for(let i=0;i<border.length;i++)
+    {
+        if(i==3)
+        {
+           border[i].style.display = "block";
+        }
+        else
+        {
+           border[i].style.display = "none";
+        }
+         
+    }
+}
 
 
 
