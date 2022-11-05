@@ -204,6 +204,7 @@
     padding-top:2%;
     background-image: url("./Spirits/wave3.png");
     background-attachment: fixed;
+    color: aliceblue;
 }
 .flex-heading{
     width: 30%;
@@ -229,6 +230,9 @@
 #gri{
     height:45vw;
     padding-top:2%;
+    background-image: url("./Spirits/wave4.png");
+    background-attachment: fixed;
+    color: aliceblue;
 }
 .gri-heading{
     width: 30%;
