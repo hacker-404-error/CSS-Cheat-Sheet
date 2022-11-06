@@ -107,15 +107,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 20%;
 }
 
 .heading i {
     font-size: 3em;
 }
 
-.heading div {
+.heading img {
     font-size: 231%;
     margin-left: 5%;
+    margin-top: 6%;
 }
 
 .content {
@@ -141,6 +143,7 @@
     position:absolute;
     top:-6vw;
     z-index:-1;
+    /* filter: blur(5px); */
 }
 
 /* CSS Basic Content Styling */
@@ -168,6 +171,10 @@
 }
 .basic-grid-item{
     padding:10%;
+}
+.basic-grid-item a{
+    color: #000000;
+    text-decoration: none;
 }
 
 /* CSS Advance Content Styling */
@@ -197,6 +204,10 @@
 .advance-grid-item{
     padding:10%;
 }
+.advance-grid-item a{
+    color: #000000;
+    text-decoration: none;
+}
 
 /* CSS Flex-Box Styling */
 #flex{
@@ -225,6 +236,10 @@
 .flex-grid-item{
     padding:10%;
 }
+.flex-grid-item a{
+    color: #cfd9e0;
+    text-decoration: none;
+}
 
 /* CSS Grid-Box Styling */
 #gri{
@@ -252,4 +267,20 @@
 }
 .gri-grid-item{
     padding:10%;
+}
+.gri-grid-item a{
+    color: #cfd9e0;
+    text-decoration: none;
+}
+
+/*Goup style */
+.goup{
+    position: fixed;
+    top: 40vw;
+    left: 93vw;
+}
+.goup img{
+    width:55px;
+    filter: invert(0);
+    cursor:pointer;
 }
