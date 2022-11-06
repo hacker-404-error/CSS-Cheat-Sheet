@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/493aa8339f.js" crossorigin="anonymous"></script>
+
+    <title>CSS Grid Cheat Sheet</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- This is Navigation Bar -->
+    <section class="nav-flex-container">
+
+        <!-- Left Navigation -->
+        <div class="left-nav">
+            <div class="cssimg">
+                <img src="/Spirits/css-symbol.png" alt="Css Symbol png">
+            </div>
+            <a href="#">
+                <div style="margin-left: 10px;">CSS Cheat Sheet</div>
+            </a>
+        </div>
+
+        <!-- Middle Navigation -->
+        <nav class="middle-nav">
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#basic">CSS Basics</a> </li>
+                <li><a href="/index.html#advance">CSS Advance</a></li>
+                <li><a href="/index.html#flex">CSS Flex-Box</a></li>
+                <li><a href="/index.html#gri">CSS Grid</a></li>
+            </ul>
+        </nav>
+
+        <!-- Right Navigation -->
+        <div class="right-nav">
+            <div class="mode">
+                <i class="fa-solid fa-sun fa-lg"></i>
+                <i class="fa-solid fa-moon fa-lg" style="display:none;"></i>
+            </div>
+            <div class="signup-login">
+                <div style="display:inline-block">login</div>
+                <button>Signup</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="goup">
+        <a href="#"><img id="up" src="/Spirits/goup.png" alt="goup" </a>
+    </div>
+
+    <!-- javascript used to change the colour of the up arrow to white while in the dark background -->
+    <script>
+        window.addEventListener("scroll", changeColourGoup); 
+        function changeColourGoup (){
+            var x = document.getElementById("up");
+            if(this.scrollY > 2200)
+            {
+                x.style.filter = "invert(1)";
+            }
+            if(this.scrollY < 2200)
+            {
+                x.style.filter = "invert(0)";
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -5,6 +5,11 @@
     /* background-color: black; */
 }
 
+/* body tag styling */
+body{
+    display:block;
+}
+
 /* nav bar styling */
 .nav-flex-container {
     display: flex;
@@ -143,11 +148,11 @@
     position:absolute;
     top:-6vw;
     z-index:-1;
-    /* filter: blur(5px); */
 }
 
 /* CSS Basic Content Styling */
 #basic{
+    position:relative;
     height:45vw;
     padding-top:2%;
     background-image: url("./Spirits/wave1.png");
@@ -160,6 +165,22 @@
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+}
+.basic-link{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    top: 1vw;
+    left: 1vw;
+}
+.basic-link img{
+    width:32px;
+}
+#wayToBasic{
+    position: absolute;
+    bottom: 0px;
+    top: 0.2vw;
+    left: 4vw;
 }
 .basic-grid-content{
     width: 70%;
@@ -179,6 +200,7 @@
 
 /* CSS Advance Content Styling */
 #advance{
+    position:relative;
     height:45vw;
     padding-top:2%;
     background-image: url("./Spirits/wave2.png");
@@ -192,6 +214,22 @@
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+}
+.advance-link{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    top: 1vw;
+    left: 1vw;
+}
+.advance-link img{
+    width:32px;
+}
+#wayToAdvance{
+    position: absolute;
+    bottom: 0px;
+    top: 0.2vw;
+    left: 4vw;
 }
 .advance-grid-content{
     width: 70%;
@@ -211,6 +249,7 @@
 
 /* CSS Flex-Box Styling */
 #flex{
+    position:relative;
     height:45vw;
     padding-top:2%;
     background-image: url("./Spirits/wave3.png");
@@ -224,6 +263,22 @@
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+}
+.flex-link{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    top: 1vw;
+    left: 1vw;
+}
+.flex-link img{
+    width:32px;
+}
+#wayToFlex{
+    position: absolute;
+    bottom: 0px;
+    top: 0.2vw;
+    left: 4vw;
 }
 .flex-grid-content{
     width: 70%;
@@ -243,6 +298,7 @@
 
 /* CSS Grid-Box Styling */
 #gri{
+    position:relative;
     height:45vw;
     padding-top:2%;
     background-image: url("./Spirits/wave4.png");
@@ -256,6 +312,22 @@
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+}
+.gri-link{
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    top: 1vw;
+    left: 1vw;
+}
+.gri-link img{
+    width:32px;
+}
+#wayToGri{
+    position: absolute;
+    bottom: 0px;
+    top: 0.2vw;
+    left: 4vw;
 }
 .gri-grid-content{
     width: 70%;
@@ -278,9 +350,13 @@
     position: fixed;
     top: 40vw;
     left: 93vw;
+
 }
 .goup img{
+    opacity:0;
     width:55px;
     filter: invert(0);
+    transition-timing-function: ease;
+    transition:0.5s;
     cursor:pointer;
 }

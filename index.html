@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!-- This is where Body starts of the HTML -->
 <body>
     <!-- This is Navigation Bar -->
     <section class="nav-flex-container">
@@ -66,6 +67,7 @@
         <div class="right">
             <img src="./Spirits/intro-image.png" alt="CSS-Image">
         </div>
+
         <!-- SVG WAVE -->
         <svg class="svg-wave" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"
             class="transition duration-300 ease-in-out delay-150">
@@ -194,6 +196,13 @@
         <div class="basic-heading">
             { CSS BASICS }
         </div>
+        <!-- link to CSS-Basic page -->
+        <div class="basic-link">
+            <a href="/1.CSS-Basics/basic.html"><img src="./Spirits/link.png" alt="linked to basic page"></a>
+        </div>
+        <img id="wayToBasic"
+            src="https://readme-typing-svg.herokuapp.com/?duration=6000&color=000000&width=550&height=70&font=Ubuntu&lines=Way+To+CSS+Basics+Page;&size=20">
+        <!-- CSS-Basic cnontent -->
         <div class="basic-grid-content">
             <div class="basic-grid-item"><a href="#">Lorem</a></div>
             <div class="basic-grid-item"><a href="#">Lorem</a></div>
@@ -243,6 +252,13 @@
         <div class="advance-heading">
             { CSS ADVANCE }
         </div>
+        <!-- link to CSS-Advance page -->
+        <div class="advance-link">
+            <a href="/2.CSS-Advance/advance.html"><img src="./Spirits/link.png" alt="linked to Advance page"></a>
+        </div>
+        <img id="wayToAdvance"
+            src="https://readme-typing-svg.herokuapp.com/?duration=6000&color=000000&width=550&height=70&font=Ubuntu&lines=Way+To+CSS+Advance+Page;&size=20">
+        <!-- CSS-Advance cnontent -->
         <div class="advance-grid-content">
             <div class="advance-grid-item"><a href="#">Lorem</a></div>
             <div class="advance-grid-item"><a href="#">Lorem</a></div>
@@ -292,6 +308,14 @@
         <div class="flex-heading">
             { CSS FLEX-BOX }
         </div>
+        <!-- link to CSS-Flex page -->
+        <div class="flex-link">
+            <a href="/3.CSS-Flex-Box/flex-box.html"><img style="filter: invert(1)" src="./Spirits/link.png"
+                    alt="linked to flex page"></a>
+        </div>
+        <img id="wayToFlex"
+            src="https://readme-typing-svg.herokuapp.com/?duration=6000&color=cfd9e0&width=550&height=70&font=Ubuntu&lines=Way+To+CSS+Flex-Box+Page;&size=20">
+        <!-- CSS-Flex cnontent -->
         <div class="flex-grid-content">
             <div class="flex-grid-item"><a href="#">Lorem</a></div>
             <div class="flex-grid-item"><a href="#">Lorem</a></div>
@@ -341,6 +365,14 @@
         <div class="gri-heading">
             { CSS GRID }
         </div>
+        <!-- link to CSS-Grid page -->
+        <div class="gri-link">
+            <a href="/4.CSS-Grid/grid.html"><img style="filter: invert(1);" src="./Spirits/link.png"
+                    alt="linked to grid page"></a>
+        </div>
+        <img id="wayToGri"
+            src="https://readme-typing-svg.herokuapp.com/?duration=6000&color=cfd9e0&width=550&height=70&font=Ubuntu&lines=Way+To+CSS+Grid+Page;&size=20">
+        <!-- CSS-Grid cnontent -->
         <div class="gri-grid-content">
             <div class="gri-grid-item"><a href="#">Lorem</a></div>
             <div class="gri-grid-item"><a href="#">Lorem</a></div>
@@ -385,25 +417,40 @@
         </div>
     </section>
 
+
+    <!-- goup arrow -->
     <div class="goup">
         <a href="#"><img id="up" src="./Spirits/goup.png" alt="goup" </a>
     </div>
-    
-    <!-- javascript used to change the colour of the up arrow to white while in the dark background -->
+
+    <!-- Script used for writing javascript in html page -->
     <script>
-        window.addEventListener("scroll", changeColourGoup); 
-        function changeColourGoup (){
+
+        // javascript used to change the colour of the up arrow to white while in the dark background
+        window.addEventListener("scroll", changeColourGoup);
+        function changeColourGoup() {
             var x = document.getElementById("up");
-            if(this.scrollY > 2200)
-            {
+            if (this.scrollY > 2200) {
                 x.style.filter = "invert(1)";
             }
-            if(this.scrollY < 2200)
-            {
+            if (this.scrollY < 2200) {
                 x.style.filter = "invert(0)";
             }
         }
+
+        // javascript used to hide the uparrow, while site is already at top
+        window.addEventListener("scroll", hideGoUp);
+        function hideGoUp() {
+            var x = document.getElementById("up");
+            if (this.scrollY == 0) {
+                x.style.opacity = "0";
+            }
+            else {
+                x.style.opacity = "1";
+            }
+        }
     </script>
+
 </body>
 
 </html>
