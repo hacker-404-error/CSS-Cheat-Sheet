@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/493aa8339f.js" crossorigin="anonymous"></script>
 
     <title>CSS Flex-Box Cheat Sheet</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <!-- This is Navigation Bar -->
@@ -17,7 +17,7 @@
         <!-- Left Navigation -->
         <div class="left-nav">
             <div class="cssimg">
-                <img src="/Spirits/css-symbol.png" alt="Css Symbol png">
+                <img src="../Spirits/css-symbol.png" alt="Css Symbol png">
             </div>
             <a href="#">
                 <div style="margin-left: 10px;">CSS Cheat Sheet</div>
@@ -27,11 +27,11 @@
         <!-- Middle Navigation -->
         <nav class="middle-nav">
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html#basic">CSS Basics</a> </li>
-                <li><a href="/index.html#advance">CSS Advance</a></li>
-                <li><a href="/index.html#flex">CSS Flex-Box</a></li>
-                <li><a href="/index.html#gri">CSS Grid</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#basic">CSS Basics</a> </li>
+                <li><a href="../index.html#advance">CSS Advance</a></li>
+                <li><a href="../index.html#flex">CSS Flex-Box</a></li>
+                <li><a href="../index.html#gri">CSS Grid</a></li>
             </ul>
         </nav>
 
@@ -68,21 +68,32 @@
         <a href="#"><img id="up" src="/Spirits/goup.png" alt="goup" </a>
     </div>
 
-    <!-- javascript used to change the colour of the up arrow to white while in the dark background -->
-    <script>
-        window.addEventListener("scroll", changeColourGoup); 
-        function changeColourGoup (){
+     <!-- Script used for writing javascript in html page -->
+     <script>
+
+        // javascript used to change the colour of the up arrow to white while in the dark background
+        window.addEventListener("scroll", changeColourGoup);
+        function changeColourGoup() {
             var x = document.getElementById("up");
-            if(this.scrollY > 2200)
-            {
+            if (this.scrollY > 2200) {
                 x.style.filter = "invert(1)";
             }
-            if(this.scrollY < 2200)
-            {
+            if (this.scrollY < 2200) {
                 x.style.filter = "invert(0)";
             }
         }
+
+        // javascript used to hide the uparrow, while site is already at top
+        window.addEventListener("scroll", hideGoUp);
+        function hideGoUp() {
+            var x = document.getElementById("up");
+            if (this.scrollY == 0) {
+                x.style.opacity = "0";
+            }
+            else {
+                x.style.opacity = "1";
+            }
+        }
     </script>
-    
 </body>
 </html>
