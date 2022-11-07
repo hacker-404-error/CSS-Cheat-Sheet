@@ -1,9 +1,21 @@
+/* custom font used for headings */
+@font-face {
+    font-family: 'myfont';
+    src: url('/Fonts/tabitha-webfont.woff2') format('woff2'),
+         url('/Fonts/tabitha-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Styles apply to all */
 * {
     margin: 0;
-    font-family: "Proxima Nova", Verdana, "Avenir Next";
+    font-family: "Proxima", Verdana, "Avenir Next";
     scroll-behavior: smooth;
     /* background-color: black; */
 }
+
 
 /* body tag styling */
 body{
@@ -165,22 +177,17 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+    font-family: "myfont", Verdana, "Avenir Next";
 }
 .basic-link{
     display: inline-block;
     position: absolute;
     bottom: 0px;
-    top: 1vw;
-    left: 1vw;
+    top: 4.3vw;
+    left: 58.7vw;
 }
 .basic-link img{
     width:32px;
-}
-#wayToBasic{
-    position: absolute;
-    bottom: 0px;
-    top: 0.2vw;
-    left: 4vw;
 }
 .basic-grid-content{
     width: 70%;
@@ -214,22 +221,18 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+    font-family: "myfont", Verdana, "Avenir Next";
+
 }
 .advance-link{
     display: inline-block;
     position: absolute;
     bottom: 0px;
-    top: 1vw;
-    left: 1vw;
+    top: 4.4vw;
+    left: 60vw;
 }
 .advance-link img{
     width:32px;
-}
-#wayToAdvance{
-    position: absolute;
-    bottom: 0px;
-    top: 0.2vw;
-    left: 4vw;
 }
 .advance-grid-content{
     width: 70%;
@@ -263,23 +266,20 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+    font-family: "myfont", Verdana, "Avenir Next";
+
 }
 .flex-link{
     display: inline-block;
     position: absolute;
     bottom: 0px;
-    top: 1vw;
-    left: 1vw;
+    top: 4.4vw;
+    left: 60.5vw;
 }
 .flex-link img{
     width:32px;
 }
-#wayToFlex{
-    position: absolute;
-    bottom: 0px;
-    top: 0.2vw;
-    left: 4vw;
-}
+
 .flex-grid-content{
     width: 70%;
     text-align: center;
@@ -312,22 +312,18 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
+    font-family: "myfont", Verdana, "Avenir Next";
+
 }
 .gri-link{
     display: inline-block;
     position: absolute;
     bottom: 0px;
-    top: 1vw;
-    left: 1vw;
+    top: 4.5vw;
+    left: 58vw;
 }
 .gri-link img{
     width:32px;
-}
-#wayToGri{
-    position: absolute;
-    bottom: 0px;
-    top: 0.2vw;
-    left: 4vw;
 }
 .gri-grid-content{
     width: 70%;
@@ -345,7 +341,7 @@ body{
     text-decoration: none;
 }
 
-/*Goup style */
+/*Goup arrow style */
 .goup{
     position: fixed;
     top: 40vw;
@@ -355,6 +351,36 @@ body{
 .goup img{
     opacity:0;
     width:55px;
+    filter: invert(0);
+    transition-timing-function: ease;
+    transition:0.5s;
+    cursor:pointer;
+}
+
+/* go left arrow style */
+.goleft{
+    position: fixed;
+    top: 20vw;
+    left: 2vw;
+
+}
+.goleft img{
+    opacity:0;
+    width:30px;
+    filter: invert(0);
+    transition-timing-function: ease;
+    transition:0.5s;
+    cursor:pointer;
+}
+/* go right arrow style */
+.goright{
+    position: fixed;
+    top:20vw;
+    right:2vw;
+}
+.goright img{
+    opacity:0;
+    width:30px;
     filter: invert(0);
     transition-timing-function: ease;
     transition:0.5s;
