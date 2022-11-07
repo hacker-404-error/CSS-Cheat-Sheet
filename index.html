@@ -70,7 +70,7 @@
             <img src="./Spirits/intro-image.png" alt="CSS-Image">
         </div>
 
-        <!-- SVG WAVE -->
+        <!-- SVG WAVE 1-->
         <svg class="svg-wave" id="svg" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"
             class="transition duration-300 ease-in-out delay-150">
             <style>
@@ -192,7 +192,6 @@
                 class="transition-all duration-300 ease-in-out delay-150 path-3"></path>
         </svg>
     </section>
-
     <!-- This is CSS Basics content -->
     <section id="basic">
         <div class="basic-heading">
@@ -429,19 +428,15 @@
         <a href="#"><img id="right" src="./Spirits/down-arrow.png" alt="goup"></a>
     </div>
 
-
-
-
-
     <!-- Script used for writing javascript in html page -->
     <script>
 
-        // javascript used to change the colour of the up arrow to white while in the dark background
-        window.addEventListener("scroll", changeColourGoup);
+            // javascript used to change the colour of the up arrow to white while in the dark background
+            window.addEventListener("scroll", changeColourGoup);
         function changeColourGoup() {
             var x = document.getElementById("up");
             var y = document.getElementById("left");
-            var z = document.getElementById("right"); 
+            var z = document.getElementById("right");
             if (this.scrollY > 2200) {
                 x.style.filter = "invert(1)";
                 y.style.filter = "invert(1)";
@@ -465,13 +460,12 @@
                 x.style.opacity = "1";
             }
             var y = document.getElementById("left");
-            var z = document.getElementById("right"); 
-            if(this.scrollY >= 615)
-            {
+            var z = document.getElementById("right");
+            if (this.scrollY >= 615) {
                 y.style.opacity = "1";
                 z.style.opacity = "1";
             }
-            else{
+            else {
                 y.style.opacity = "0";
                 z.style.opacity = "0";
             }
