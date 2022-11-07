@@ -199,7 +199,7 @@
         </div>
         <!-- link to CSS-Basic page -->
         <div class="basic-link">
-            <a href="1.CSS-Basics/basic.html"><img src="./Spirits/link.png" alt="linked to basic page"></a>
+            <a title="Link To CSS Basics Page" href="1.CSS-Basics/basic.html"><img src="./Spirits/link.png" alt="linked to basic page"></a>
         </div>
 
         <!-- CSS-Basic cnontent -->
@@ -254,7 +254,7 @@
         </div>
         <!-- link to CSS-Advance page -->
         <div class="advance-link">
-            <a href="2.CSS-Advance/advance.html"><img src="./Spirits/link.png" alt="linked to Advance page"></a>
+            <a title="Link To CSS Advance Page" href="2.CSS-Advance/advance.html"><img src="./Spirits/link.png" alt="linked to Advance page"></a>
         </div>
 
         <!-- CSS-Advance cnontent -->
@@ -309,7 +309,7 @@
         </div>
         <!-- link to CSS-Flex page -->
         <div class="flex-link">
-            <a href="3.CSS-Flex-Box/flex-box.html"><img style="filter: invert(1)" src="./Spirits/link.png"
+            <a title="Link To CSS Flex-Box Page" href="3.CSS-Flex-Box/flex-box.html"><img style="filter: invert(1)" src="./Spirits/link.png"
                     alt="linked to flex page"></a>
         </div>
 
@@ -365,7 +365,7 @@
         </div>
         <!-- link to CSS-Grid page -->
         <div class="gri-link">
-            <a href="4.CSS-Grid/grid.html"><img style="filter: invert(1);" src="./Spirits/link.png"
+            <a title="Link To CSS Grid Page" href="4.CSS-Grid/grid.html"><img style="filter: invert(1);" src="./Spirits/link.png"
                     alt="linked to grid page"></a>
         </div>
 
@@ -413,7 +413,10 @@
             <div class="gri-grid-item"><a href="#">Lorem</a></div>
         </div>
     </section>
-
+    
+    <footer id="foot">
+        this is footer will be update later
+    </footer>
 
     <!-- goup arrow -->
     <div class="goup">
@@ -421,18 +424,23 @@
     </div>
     <!-- go left arrow -->
     <div class="goleft">
-        <a href="#"><img id="left" src="./Spirits/up-arrow.png" alt="goup"></a>
+        <a id="left-link" href="#">
+            <img title="Above-Section" id="left" src="./Spirits/up-arrow.png" alt="goup">
+        </a>
     </div>
     <!-- go right arrow -->
     <div class="goright">
-        <a href="#"><img id="right" src="./Spirits/down-arrow.png" alt="goup"></a>
+        <a id="right-link" href="#basic">
+            <img title="Below-Section" id="right" src="./Spirits/down-arrow.png" alt="goup">
+        </a>
     </div>
+
 
     <!-- Script used for writing javascript in html page -->
     <script>
 
-            // javascript used to change the colour of the up arrow to white while in the dark background
-            window.addEventListener("scroll", changeColourGoup);
+        // javascript used to change the colour of the up arrow to white while in the dark background
+        window.addEventListener("scroll", changeColourGoup);
         function changeColourGoup() {
             var x = document.getElementById("up");
             var y = document.getElementById("left");
@@ -460,16 +468,79 @@
                 x.style.opacity = "1";
             }
             var y = document.getElementById("left");
-            var z = document.getElementById("right");
-            if (this.scrollY >= 615) {
+            if (this.scrollY >= 600) {
                 y.style.opacity = "1";
-                z.style.opacity = "1";
             }
             else {
                 y.style.opacity = "0";
+            }
+            3600
+            var z = document.getElementById("right");
+            if (this.scrollY >= 3600) {
                 z.style.opacity = "0";
             }
+            else {
+                z.style.opacity = "1";
+            }
         }
+
+        // Script to make left symbol functional
+        window.addEventListener("scroll", LeftfunctionalArrow)
+        function LeftfunctionalArrow() {
+            var x = document.getElementById("left-link");
+            yAxis = this.scrollY;
+            if (Math.floor(yAxis) <= 713) //till starting point of Basics
+            {
+                x.href = "#";
+            }
+
+            if (Math.floor(yAxis) > 713 && Math.floor(yAxis) <= 1435) // from basics till advance
+            {
+                x.href = "#basic";
+            }
+            2156
+            if (Math.floor(yAxis) > 1435 && Math.floor(yAxis) <= 2156) // from advance till flex-box
+            {
+                x.href = "#advance";
+            }
+            if (Math.floor(yAxis) > 2156 && Math.floor(yAxis) <= 2878) // from flex-box till Grid
+            {
+                x.href = "#flex";
+            }
+            if (Math.floor(yAxis) > 2878) // from advance till footer
+            {
+                x.href = "#gri";
+            }
+        }
+
+        // Script to make right symbol functional
+        window.addEventListener("scroll", RightfunctionalArrow)
+        function RightfunctionalArrow() {
+            var x = document.getElementById("right-link");
+            yAxis = this.scrollY;
+            if (Math.floor(yAxis) == 0) // from basics till advance
+            {
+                x.href = "#basic";
+            }
+            if (Math.floor(yAxis) >= 713 && Math.floor(yAxis) <= 1435) // from basics till advance
+            {
+                x.href = "#advance";
+            }
+            2156
+            if (Math.floor(yAxis) >= 1435 && Math.floor(yAxis) <= 2156) // from advance till flex-box
+            {
+                x.href = "#flex";
+            }
+            if (Math.floor(yAxis) >= 2156 && Math.floor(yAxis) <= 2878) // from flex-box till Grid
+            {
+                x.href = "#gri";
+            }
+            if (Math.floor(yAxis) >= 2878) // from advance till footer
+            {
+                x.href = "#foot";
+            }
+        }
+        
     </script>
 
 </body>

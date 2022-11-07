@@ -177,7 +177,7 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
-    font-family: "myfont", Verdana, "Avenir Next";
+    /* font-family: "myfont", Verdana, "Avenir Next"; */
 }
 .basic-link{
     display: inline-block;
@@ -221,7 +221,7 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
-    font-family: "myfont", Verdana, "Avenir Next";
+    /* font-family: "myfont", Verdana, "Avenir Next"; */
 
 }
 .advance-link{
@@ -266,7 +266,7 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
-    font-family: "myfont", Verdana, "Avenir Next";
+    /* font-family: "myfont", Verdana, "Avenir Next"; */
 
 }
 .flex-link{
@@ -312,7 +312,7 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
     font-size: 2rem;
-    font-family: "myfont", Verdana, "Avenir Next";
+    /* font-family: "myfont", Verdana, "Avenir Next"; */
 
 }
 .gri-link{
@@ -341,6 +341,12 @@ body{
     text-decoration: none;
 }
 
+#foot{
+    height:50vw;
+    background-color: #000000;
+    color:#64a4d6;
+    font-size: 100px;
+}
 /*Goup arrow style */
 .goup{
     position: fixed;
@@ -379,7 +385,7 @@ body{
     right:2vw;
 }
 .goright img{
-    opacity:0;
+    opacity:1;
     width:30px;
     filter: invert(0);
     transition-timing-function: ease;
