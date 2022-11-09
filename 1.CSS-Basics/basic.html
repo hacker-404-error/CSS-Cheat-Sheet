@@ -5,11 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome used for Icons -->
     <script src="https://kit.fontawesome.com/493aa8339f.js" crossorigin="anonymous"></script>
-
-    <title>CSS Basic Cheat Sheet</title>
+    <!-- Google fonts used -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Title of the webpage -->
+    <title>CSS Basics Cheat Sheet</title>
+    <!-- style.css added -->
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="basic.css">
+
 </head>
+
 <body>
     <!-- This is Navigation Bar -->
     <section class="nav-flex-container">
@@ -49,10 +58,20 @@
     </section>
 
     <!-- ******************************************************************************************************************************************* -->
-                                            <!-- Below HTML Code follow basic.css styling rule -->
+    <!-- Below HTML Code follow basic.css styling rule -->
     <!-- ******************************************************************************************************************************************* -->
 
+    <!-- svg ring section -->
+    <section id="svG">
+        <!-- Ring Svg code will automatically inserted into this through javascript-->
+    </section>
 
+    <!-- Main geading of CSS Basics -->
+    <section>
+        <div id="main-heading">
+            { CSS BASICS }
+        </div>
+    </section>
 
     
 
@@ -60,16 +79,17 @@
 
 
 
+
     <!-- ******************************************************************************************************************************************* -->
-                                            <!-- End of the code which follow basic.css styling rule -->
+    <!-- End of the code which follow basic.css styling rule -->
     <!-- ******************************************************************************************************************************************* -->
 
     <div class="goup">
         <a href="#"><img id="up" src="../Spirits/goup.png" alt="goup" </a>
     </div>
 
-     <!-- Script used for writing javascript in html page -->
-     <script>
+    <!-- Script used for writing javascript in html page -->
+    <script>
 
         // javascript used to change the colour of the up arrow to white while in the dark background
         window.addEventListener("scroll", changeColourGoup);
@@ -95,6 +115,24 @@
             }
         }
     </script>
-    
+
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.rings.min.js"></script>
+    <script>
+        VANTA.RINGS({
+            el: "#svG",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            backgroundColor: 0x0,
+            color: 0x0
+        })
+    </script>
+
 </body>
+
 </html>

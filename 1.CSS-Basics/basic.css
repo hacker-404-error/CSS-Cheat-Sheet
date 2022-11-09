@@ -1,0 +1,16 @@
+
+#svG{
+    height:42.6vw;
+}
+/*main heading*/
+#main-heading {
+    position:absolute;
+    top:2vw;
+    left:5vw;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10vw;
+    width: 43vw;
+    margin: auto;
+    margin-top: 14vw;
+    color:rgb(184, 240, 247);
+}
