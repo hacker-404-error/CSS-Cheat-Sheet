@@ -20,7 +20,7 @@
     <!-- style.css added -->
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="basic.css">
-    
+
 </head>
 
 <body>
@@ -81,40 +81,42 @@
     <h1 id="background-properties-heading">
         { BACKGROUND PROPERTIES }
     </h1>
-    <section class="background-properties">
 
+    <section class="background-properties">
         <!-- 1. Background Color -->
         <!-- id = back-co -->
-        <div class="back-co">Background-color Property</div>
+        <div class="back-co-heading">Background-color Property</div>
 
         <div class="background-color">
             <section class="back-co-left-selector">
                 <form action="action.php">
-                    <input type="radio" id="back-co-1" name="background-color">
-                    <label for="back-co-1">background-color:red</label> <br>
+                    <input onclick=back_co_1_func() type="radio" id="back-co-1" name="background-color">
+                    <label onclick=back_co_1_func() for="back-co-1">background-color:greenyellow;</label> <br>
 
-                    <input type="radio" id="back-co-2" name="background-color">
-                    <label for="back-co-2">background-color:red</label> <br>
+                    <input onclick=back_co_2_func() type="radio" id="back-co-2" name="background-color">
+                    <label onclick=back_co_2_func() for="back-co-2">background-color: #ff3399;</label> <br>
 
-                    <input type="radio" id="back-co-3" name="background-color">
-                    <label for="back-co-3">background-color:red</label> <br>
+                    <input onclick=back_co_3_func() type="radio" id="back-co-3" name="background-color">
+                    <label onclick=back_co_3_func() for="back-co-3">background-color:rgb(204, 51, 255);</label> <br>
 
-                    <input type="radio" id="back-co-4" name="background-color">
-                    <label for="back-co-4">background-color:red</label> <br>
+                    <input onclick=back_co_4_func() type="radio" id="back-co-4" name="background-color">
+                    <label onclick=back_co_4_func() for="back-co-4">background-color:rgba(12, 225, 12, 0.742);</label>
+                    <br>
 
-                    <input type="radio" id="back-co-5" name="background-color">
-                    <label for="back-co-5">background-color:red</label> <br>
+                    <input onclick=back_co_5_func() type="radio" id="back-co-5" name="background-color">
+                    <label onclick=back_co_5_func() for="back-co-5">background-color:transparent</label> <br>
 
-                    <input type="radio" id="back-co-6" name="background-color">
-                    <label for="back-co-6">background-color:red</label> <br>
+                    <input onclick=back_co_6_func() type="radio" id="back-co-6" name="background-color">
+                    <label onclick=back_co_6_func() for="back-co-6">background-color:hsl(200, 100%, 30%);</label> <br>
 
-                    <input type="radio" id="back-co-7" name="background-color">
-                    <label for="back-co-7">background-color:red</label> <br>
+                    <input onclick=back_co_7_func() type="radio" id="back-co-7" name="background-color">
+                    <label onclick=back_co_7_func() for="back-co-7">background-color:hsla(315, 100%, 40%, 0.47)</label>
+                    <br>
                 </form>
             </section>
             <section class="back-co-right-result">
-                <ul>
-                    <li>
+                <ul id="back-co-initial">
+                    <li style="background-color: aquamarine;">
                         background-color: color|transparent|initial|inherit;
                     </li>
                     <li>
@@ -125,42 +127,107 @@
                         not the margin).
                     </li>
                 </ul>
+                <div class="back-co-class" id="back-co-1">
+                    To add a Background Color you can use color names like: blue, red, yellow, black etc.
+                </div>
+                <div class="back-co-class" id="back-co-2">
+                    To add a Background Color you can use Hex Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_hex.asp">Know More</a>
+                </div>
+                <div class="back-co-class" id="back-co-3">
+                    To add a Background Color you can use RGB Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                </div>
+                <div class="back-co-class" id="back-co-4">
+                    To add a Background Color you can use RGBA Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                </div>
+                <div class="back-co-class" id="back-co-5">
+                    This Property specifies that the background color should be transparent. This is default
+                </div>
+                <div class="back-co-class" id="back-co-6">
+                    To add a Background Color you can use HSL Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                </div>
+                <div class="back-co-class" id="back-co-7">
+                    To add a Background Color you can use HSLA Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                </div>
             </section>
         </div>
 
         <!-- 2. Background Image -->
         <!-- id = back-im -->
-        <div class="back-co">Background-color Property</div>
+        <div class="back-im-heading">Background-image Property</div>
 
-        <div class="background-color">
-            <section class="back-co-left-selector">
+        <div class="background-image">
+            <section class="back-im-left-selector">
                 <form action="action.php">
-                    <input type="radio" id="back-co-1" name="background-color">
-                    <label for="back-co-1">background-color:red</label> <br>
+                    <input onclick=back_im_1_func() type="radio" id="back-im-1" name="background-image">
+                    <label onclick=back_im_1_func() for="back-im-1">background-image: ;</label> <br>
 
-                    <input type="radio" id="back-co-2" name="background-color">
-                    <label for="back-co-2">background-color:red</label> <br>
+                    <input onclick=back_im_2_func() type="radio" id="back-im-2" name="background-image">
+                    <label onclick=back_im_2_func() for="back-im-2">background-image: ;</label> <br>
 
-                    <input type="radio" id="back-co-3" name="background-color">
-                    <label for="back-co-3">background-color:red</label> <br>
+                    <input onclick=back_im_3_func() type="radio" id="back-im-3" name="background-image">
+                    <label onclick=back_im_3_func() for="back-im-3">background-image: ;</label> <br>
 
-                    <input type="radio" id="back-co-4" name="background-color">
-                    <label for="back-co-4">background-color:red</label> <br>
+                    <input onclick=back_im_4_func() type="radio" id="back-im-4" name="background-image">
+                    <label onclick=back_im_4_func() for="back-im-4">background-image: ;</label> <br>
 
-                    <input type="radio" id="back-co-5" name="background-color">
-                    <label for="back-co-5">background-color:red</label> <br>
+                    <input onclick=back_im_5_func() type="radio" id="back-im-5" name="background-image">
+                    <label onclick=back_im_5_func() for="back-im-5">background-image: ;</label> <br>
 
-                    <input type="radio" id="back-co-6" name="background-color">
-                    <label for="back-co-6">background-color:red</label> <br>
+                    <input onclick=back_im_6_func() type="radio" id="back-im-6" name="background-image">
+                    <label onclick=back_im_6_func() for="back-im-6">background-image: ;</label> <br>
 
-                    <input type="radio" id="back-co-7" name="background-color">
-                    <label for="back-co-7">background-color:red</label> <br>
+                    <input onclick=back_im_7_func() type="radio" id="back-im-7" name="background-image">
+                    <label onclick=back_im_7_func() for="back-im-7">background-image: ;</label>
+                    <br>
                 </form>
             </section>
-            <section class="back-co-right-result">
-
+            <section class="back-im-right-result">
+                <ul id="back-im-initial">
+                    <li style="background-color: aquamarine;">
+                        background-image: url|none|initial|inherit;
+                    </li>
+                    <li>
+                        The background-image property sets one or more background images for an element.
+                    </li>
+                    <li>
+                        By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+                    </li>
+                </ul>
+                <div class="back-im-class" id="back-im-1">
+                    To add a Background Color you can use color names like: blue, red, yellow, black etc.
+                </div>
+                <div class="back-im-class" id="back-im-2">
+                    To add a Background Color you can use Hex Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_hex.asp">Know More</a>
+                </div>
+                <div class="back-im-class" id="back-im-3">
+                    To add a Background Color you can use RGB Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                </div>
+                <div class="back-im-class" id="back-im-4">
+                    To add a Background Color you can use RGBA Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                </div>
+                <div class="back-im-class" id="back-im-5">
+                    This Property specifies that the background color should be transparent. This is default
+                </div>
+                <div class="back-im-class" id="back-im-6">
+                    To add a Background Color you can use HSL Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                </div>
+                <div class="back-im-class" id="back-im-7">
+                    To add a Background Color you can use HSLA Code of Colors. <a
+                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                </div>
             </section>
         </div>
+
+
     </section>
 
 
@@ -169,6 +236,7 @@
 
 
 
+    <script src="basic.js"></script>
     <!-- ******************************************************************************************************************************************* -->
     <!-- End of the code which follow basic.css styling rule -->
     <!-- ******************************************************************************************************************************************* -->
