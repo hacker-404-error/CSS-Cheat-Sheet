@@ -180,3 +180,25 @@ function back_im_2_func() {
       }
     }
   }
+  function back_im_8_func() {
+    for (let i = 0; i < bg_class_im.length; i++) {
+      var bg_initial_im = document.getElementById("back-im-initial");
+      bg_initial_im.style.display = "none";
+      if (i == 7) {
+        bg_class_im[7].style.display = "block";
+      } else {
+        bg_class_im[i].style.display = "none";
+      }
+    }
+  }
+  function back_im_9_func() {
+    for (let i = 0; i < bg_class_im.length; i++) {
+      var bg_initial_im = document.getElementById("back-im-initial");
+      bg_initial_im.style.display = "none";
+      if (i == 8) {
+        bg_class_im[8].style.display = "block";
+      } else {
+        bg_class_im[i].style.display = "none";
+      }
+    }
+  }

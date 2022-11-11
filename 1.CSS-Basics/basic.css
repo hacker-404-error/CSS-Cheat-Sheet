@@ -1,9 +1,11 @@
-body{
+body {
     background-image: url("https://image.freepik.com/free-vector/honeycomb-white-background_51543-116.jpg");
     background-attachment: fixed;
 }
+
 #svG {
     height: 42.6vw;
+    background-image: url("../Spirits/basic-video.gif");
 }
 
 /*main heading*/
@@ -32,7 +34,7 @@ body{
 }
 
 /* ************************************************************* */
-                    /* 1. Background Color */
+/* 1. Background Color */
 /* **************************************************************** */
 .back-co-heading {
     width: fit-content;
@@ -99,48 +101,59 @@ body{
     box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
 
 }
-.back-co-right-result ul{
+
+.back-co-right-result ul {
     margin: 9vw 4vw 0vw;
 }
+
 .back-co-right-result li {
     font-family: 'Source Code Pro', monospace;
     margin: auto;
-    margin-top:1vw;
+    margin-top: 1vw;
 }
+
 /* Background color all results stylung */
-.back-co-class{
+.back-co-class {
     height: 4vw;
     font-family: 'Source Code Pro', monospace;
     padding: 12vw;
 }
-#back-co-1{
+
+#back-co-1 {
     background-color: greenyellow;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 
 }
-#back-co-2{
+
+#back-co-2 {
     background-color: #ff3399;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 
 }
-#back-co-3{
+
+#back-co-3 {
     background-color: rgb(204, 51, 255);
 }
-#back-co-4{
+
+#back-co-4 {
     background-color: rgba(12, 225, 12, 0.742);
 }
-#back-co-5{
+
+#back-co-5 {
     background-color: transparent;
 }
-#back-co-6{
+
+#back-co-6 {
     background-color: hsl(200, 100%, 30%);
     color: aliceblue;
 }
-#back-co-7{
+
+#back-co-7 {
     background-color: hsla(315, 100%, 40%, 0.47);
 }
+
 /* ************************************************************* */
-                    /* 1. Background Image */
+/* 1. Background Image */
 /* **************************************************************** */
 .back-im-heading {
     width: fit-content;
@@ -153,29 +166,21 @@ body{
 }
 
 .background-image {
-    /* border:2px solid black;
-    width:90vw;
-    margin:auto;
-    display:flex;
-    justify-content: center;
-    height:24vw;
-    box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    background-color: #8582d726; */
-    width: 82vw;
+    width: 95vw;
     margin: auto;
     display: flex;
     justify-content: center;
     background-color: #8582d726;
-    height: 30vw;
-    margin-bottom: 11vw;
+    height: 35vw;
+    margin-bottom: 6vw;
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    background-image: url("../Spirits/wave5.png");
+    background-image: url(../Spirits/wave5.png);
     background-attachment: fixed;
 }
 
 .back-im-left-selector {
     /* border:2px solid red; */
-    width: 40vw;
+    width: 50vw;
 }
 
 .back-im-left-selector form {
@@ -207,43 +212,64 @@ body{
     box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
 
 }
-.back-im-right-result ul{
+
+.back-im-right-result ul {
     margin: 9vw 4vw 0vw;
 }
+
 .back-im-right-result li {
     font-family: 'Source Code Pro', monospace;
     margin: auto;
-    margin-top:1vw;
+    margin-top: 1vw;
 }
+
 /* Background color all results stylung */
-.back-im-class{
-    height: 4vw;
+.back-im-class {
+    height: 5vw;
     font-family: 'Source Code Pro', monospace;
-    padding: 12vw;
+    padding: 14vw;
 }
-#back-im-1{
-    background-color: greenyellow;
-    transition: 0.5s;
+
+#back-im-1 {
+    background-image: url("../Spirits/css-symbol-trans.png");
+    /* transition: 0.5s; */
 
 }
-#back-im-2{
-    background-color: #ff3399;
-    transition: 0.5s;
 
+#back-im-2 {
+    background-image: url("../Spirits/css-symbol-trans.png"), url("../Spirits/paper.jpg");
+    /* transition: 0.5s; */
 }
-#back-im-3{
-    background-color: rgb(204, 51, 255);
+
+#back-im-3 {
+    background-image: none;
 }
-#back-im-4{
-    background-color: rgba(12, 225, 12, 0.742);
+
+#back-im-4 {
+    background: conic-gradient(red, orange, yellow);
 }
-#back-im-5{
-    background-color: transparent;
+
+#back-im-5 {
+    background: linear-gradient(red, orange, yellow);
 }
-#back-im-6{
-    background-color: hsl(200, 100%, 30%);
-    color: aliceblue;
+
+#back-im-6 {
+    background: radial-gradient(red, orange, yellow);
 }
-#back-im-7{
-    background-color: hsla(315, 100%, 40%, 0.47);
+
+#back-im-7 {
+    background: repeating-conic-gradient(red 10%, yellow 20%);
+}
+
+#back-im-8 {
+    background: repeating-linear-gradient(red 10%, yellow 20%);
+}
+
+#back-im-9 {
+    background: repeating-radial-gradient(red 10%, yellow 20%);
+}
+
+.back-im-class span {
+    background-color: rgba(0, 0, 0, 0.605);
+    color: rgba(255, 255, 255, 0.781);
 }

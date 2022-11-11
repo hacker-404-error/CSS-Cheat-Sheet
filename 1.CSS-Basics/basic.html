@@ -86,7 +86,6 @@
         <!-- 1. Background Color -->
         <!-- id = back-co -->
         <div class="back-co-heading">Background-color Property</div>
-
         <div class="background-color">
             <section class="back-co-left-selector">
                 <form action="action.php">
@@ -159,30 +158,44 @@
         <!-- 2. Background Image -->
         <!-- id = back-im -->
         <div class="back-im-heading">Background-image Property</div>
-
         <div class="background-image">
             <section class="back-im-left-selector">
                 <form action="action.php">
                     <input onclick=back_im_1_func() type="radio" id="back-im-1" name="background-image">
-                    <label onclick=back_im_1_func() for="back-im-1">background-image: ;</label> <br>
+                    <label onclick=back_im_1_func() for="back-im-1">background-image: url("css-image.png");</label> <br>
 
                     <input onclick=back_im_2_func() type="radio" id="back-im-2" name="background-image">
-                    <label onclick=back_im_2_func() for="back-im-2">background-image: ;</label> <br>
+                    <label onclick=back_im_2_func() for="back-im-2">background-image: url('css-image.gif'),
+                        url('paper.gif');</label> <br>
 
                     <input onclick=back_im_3_func() type="radio" id="back-im-3" name="background-image">
-                    <label onclick=back_im_3_func() for="back-im-3">background-image: ;</label> <br>
+                    <label onclick=back_im_3_func() for="back-im-3">background-image: none;</label> <br>
 
                     <input onclick=back_im_4_func() type="radio" id="back-im-4" name="background-image">
-                    <label onclick=back_im_4_func() for="back-im-4">background-image: ;</label> <br>
+                    <label onclick=back_im_4_func() for="back-im-4">background-image:
+                        conic-gradient(red,orange,yellow);</label> <br>
 
                     <input onclick=back_im_5_func() type="radio" id="back-im-5" name="background-image">
-                    <label onclick=back_im_5_func() for="back-im-5">background-image: ;</label> <br>
+                    <label onclick=back_im_5_func() for="back-im-5">background-image:
+                        linear-gradient(red,orange,yellow;</label> <br>
 
                     <input onclick=back_im_6_func() type="radio" id="back-im-6" name="background-image">
-                    <label onclick=back_im_6_func() for="back-im-6">background-image: ;</label> <br>
+                    <label onclick=back_im_6_func() for="back-im-6">background-image:
+                        radial-gradient(red,orange,yellow);</label> <br>
 
                     <input onclick=back_im_7_func() type="radio" id="back-im-7" name="background-image">
-                    <label onclick=back_im_7_func() for="back-im-7">background-image: ;</label>
+                    <label onclick=back_im_7_func() for="back-im-7">background-image: repeating-conic-gradient(red 10%,
+                        yellow 20%);</label>
+                    <br>
+
+                    <input onclick=back_im_8_func() type="radio" id="back-im-8" name="background-image">
+                    <label onclick=back_im_8_func() for="back-im-8">background-image: repeating-linear-gradient(red 10%,
+                        yellow 20%);</label>
+                    <br>
+
+                    <input onclick=back_im_9_func() type="radio" id="back-im-9" name="background-image">
+                    <label onclick=back_im_9_func() for="back-im-9">background-image: repeating-radial-gradient(red 10%,
+                        yellow 20%);</label>
                     <br>
                 </form>
             </section>
@@ -195,37 +208,44 @@
                         The background-image property sets one or more background images for an element.
                     </li>
                     <li>
-                        By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
+                        By default, a background-image is placed at the top-left corner of an element, and repeated both
+                        vertically and horizontally.
                     </li>
                 </ul>
                 <div class="back-im-class" id="back-im-1">
-                    To add a Background Color you can use color names like: blue, red, yellow, black etc.
+                    <span>The URL to the image. To specify more than one image, separate the URLs with a comma.</span>
                 </div>
                 <div class="back-im-class" id="back-im-2">
-                    To add a Background Color you can use Hex Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_hex.asp">Know More</a>
+                    <span>The URL to the image. To specify more than one image, separate the URLs with a comma.</span>
                 </div>
                 <div class="back-im-class" id="back-im-3">
-                    To add a Background Color you can use RGB Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                    <span>No background image will be displayed. This is default.</span>
                 </div>
                 <div class="back-im-class" id="back-im-4">
-                    To add a Background Color you can use RGBA Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                    <span>Sets a conic gradient as the background image. Define at least two colors.</span>
                 </div>
                 <div class="back-im-class" id="back-im-5">
-                    This Property specifies that the background color should be transparent. This is default
+                    <span>Sets a linear gradient as the background image. Define at least two colors (top to
+                        bottom)</span>
                 </div>
                 <div class="back-im-class" id="back-im-6">
-                    To add a Background Color you can use HSL Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                    <span>Sets a radial gradient as the background image. Define at least two colors (center to
+                        edges)</span>
                 </div>
                 <div class="back-im-class" id="back-im-7">
-                    To add a Background Color you can use HSLA Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                    <span>Repeats a conic gradient.</span>
+                </div>
+                <div class="back-im-class" id="back-im-8">
+                    <span>Repeats a linear gradient.</span>
+                </div>
+                <div class="back-im-class" id="back-im-9">
+                    <span>Repeats a radial gradient.</span>
                 </div>
             </section>
         </div>
+
+        <!-- 3. Background Position -->
+        <!-- id = back-po -->
 
 
     </section>
@@ -273,7 +293,7 @@
         }
     </script>
 
-    <script src="three.r134.min.js"></script>
+    <!-- <script src="three.r134.min.js"></script>
     <script src="vanta.rings.min.js"></script>
     <script>
         VANTA.RINGS({
@@ -288,7 +308,7 @@
             backgroundColor: 0x0,
             color: 0x0
         })
-    </script>
+    </script> -->
 
 </body>
 
