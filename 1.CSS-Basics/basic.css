@@ -36,32 +36,28 @@ body {
 /* ************************************************************* */
 /* 1. Background Color */
 /* **************************************************************** */
+#Background_Color {
+    padding: 6vw 0vw 6vw;
+}
+
 .back-co-heading {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
-    margin-top: 2vw;
+    /* margin-top: 2vw; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5vw;
     margin-bottom: 2vw;
 }
 
 .background-color {
-    /* border:2px solid black;
-    width:90vw;
-    margin:auto;
-    display:flex;
-    justify-content: center;
-    height:24vw;
-    box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    background-color: #8582d726; */
-    width: 82vw;
+    width: 75vw;
     margin: auto;
     display: flex;
     justify-content: center;
     background-color: #8582d726;
     height: 30vw;
-    margin-bottom: 11vw;
+    /* margin-bottom: 11vw; */
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
     background-image: url("../Spirits/wave5.png");
     background-attachment: fixed;
@@ -153,13 +149,17 @@ body {
 }
 
 /* ************************************************************* */
-/* 1. Background Image */
+/* 2. Background Image */
 /* **************************************************************** */
+#Background_Image {
+    padding: 2vw 0vw 6vw;
+}
+
 .back-im-heading {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
-    margin-top: 2vw;
+    /* margin-top: 2vw; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5vw;
     margin-bottom: 2vw;
@@ -172,7 +172,7 @@ body {
     justify-content: center;
     background-color: #8582d726;
     height: 35vw;
-    margin-bottom: 6vw;
+    /* margin-bottom: 6vw; */
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
     background-image: url(../Spirits/wave5.png);
     background-attachment: fixed;
@@ -270,6 +270,258 @@ body {
 }
 
 .back-im-class span {
+    background-color: rgba(0, 0, 0, 0.605);
+    color: rgba(255, 255, 255, 0.781);
+}
+
+/* ************************************************************* */
+/* 3. Background Repeat */
+/* **************************************************************** */
+#Background_Repeat {
+    padding: 2vw 0vw 6vw;
+}
+
+.back-re-heading {
+    width: fit-content;
+    margin: auto;
+    font-size: 2.5vw;
+    /* margin-top: 2vw; */
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+.background-repeat {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #8582d726;
+    height: 35vw;
+    /* margin-bottom: 6vw; */
+    box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
+    background-image: url(../Spirits/wave5.png);
+    background-attachment: fixed;
+}
+
+.back-re-left-selector {
+    /* border:2px solid red; */
+    width: 50vw;
+}
+
+.back-re-left-selector form {
+    width: max-content;
+    margin-left: 2vw;
+    margin-top: 5vw;
+}
+
+.back-re-left-selector input {
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    cursor: reinter;
+}
+
+.back-re-left-selector label {
+    cursor: reinter;
+    font-size: 1vw;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.back-re-right-result {
+    /* border:2px solid yellow; */
+    background-color: rgba(240, 248, 255, 0.66);
+    width: 50vw;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+
+}
+
+.back-re-right-result ul {
+    margin: 9vw 4vw 0vw;
+}
+
+.back-re-right-result li {
+    font-family: 'Source Code Pro', monospace;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+/* Background color all results stylung */
+.back-re-class {
+    height: 5vw;
+    font-family: 'Source Code Pro', monospace;
+    padding: 14vw;
+}
+
+#back-re-1 {
+    background-image: url("../Spirits/css-symbol-trans.png");
+    /* transition: 0.5s; */
+
+}
+
+#back-re-2 {
+    background-image: url("../Spirits/css-symbol-trans.png"), url("../Spirits/paper.jpg");
+    /* transition: 0.5s; */
+}
+
+#back-re-3 {
+    background-image: none;
+}
+
+#back-re-4 {
+    background: conic-gradient(red, orange, yellow);
+}
+
+#back-re-5 {
+    background: linear-gradient(red, orange, yellow);
+}
+
+#back-re-6 {
+    background: radial-gradient(red, orange, yellow);
+}
+
+#back-re-7 {
+    background: repeating-conic-gradient(red 10%, yellow 20%);
+}
+
+#back-re-8 {
+    background: repeating-linear-gradient(red 10%, yellow 20%);
+}
+
+#back-re-9 {
+    background: repeating-radial-gradient(red 10%, yellow 20%);
+}
+
+.back-re-class span {
+    background-color: rgba(0, 0, 0, 0.605);
+    color: rgba(255, 255, 255, 0.781);
+}
+
+/* ************************************************************* */
+/* 5. Background position */
+/* **************************************************************** */
+#Background_Position {
+    padding: 2vw 0vw 6vw;
+}
+
+.back-po-heading {
+    width: fit-content;
+    margin: auto;
+    font-size: 2.5vw;
+    /* margin-top: 2vw; */
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+.background-position {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #8582d726;
+    height: 35vw;
+    /* margin-bottom: 6vw; */
+    box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
+    background-image: url(../Spirits/wave5.png);
+    background-attachment: fixed;
+}
+
+.back-po-left-selector {
+    /* border:2px solid red; */
+    width: 50vw;
+}
+
+.back-po-left-selector form {
+    width: max-content;
+    margin-left: 2vw;
+    margin-top: 5vw;
+}
+
+.back-po-left-selector input {
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+
+.back-po-left-selector label {
+    cursor: pointer;
+    font-size: 1vw;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.back-po-right-result {
+    /* border:2px solid yellow; */
+    background-color: rgba(240, 248, 255, 0.66);
+    width: 50vw;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin-right: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+
+}
+
+.back-po-right-result ul {
+    margin: 9vw 4vw 0vw;
+}
+
+.back-po-right-result li {
+    font-family: 'Source Code Pro', monospace;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+/* Background color all results stylung */
+.back-po-class {
+    height: 5vw;
+    font-family: 'Source Code Pro', monospace;
+    padding: 14vw;
+}
+
+#back-po-1 {
+    background-image: url("../Spirits/css-symbol-trans.png");
+    /* transition: 0.5s; */
+
+}
+
+#back-po-2 {
+    background-image: url("../Spirits/css-symbol-trans.png"), url("../Spirits/paper.jpg");
+    /* transition: 0.5s; */
+}
+
+#back-po-3 {
+    background-image: none;
+}
+
+#back-po-4 {
+    background: conic-gradient(red, orange, yellow);
+}
+
+#back-po-5 {
+    background: linear-gradient(red, orange, yellow);
+}
+
+#back-po-6 {
+    background: radial-gradient(red, orange, yellow);
+}
+
+#back-po-7 {
+    background: repeating-conic-gradient(red 10%, yellow 20%);
+}
+
+#back-po-8 {
+    background: repeating-linear-gradient(red 10%, yellow 20%);
+}
+
+#back-po-9 {
+    background: repeating-radial-gradient(red 10%, yellow 20%);
+}
+
+.back-po-class span {
     background-color: rgba(0, 0, 0, 0.605);
     color: rgba(255, 255, 255, 0.781);
 }

@@ -83,169 +83,417 @@
     </h1>
 
     <section class="background-properties">
-        <!-- 1. Background Color -->
-        <!-- id = back-co -->
-        <div class="back-co-heading">Background-color Property</div>
-        <div class="background-color">
-            <section class="back-co-left-selector">
-                <form action="action.php">
-                    <input onclick=back_co_1_func() type="radio" id="back-co-1" name="background-color">
-                    <label onclick=back_co_1_func() for="back-co-1">background-color:greenyellow;</label> <br>
 
-                    <input onclick=back_co_2_func() type="radio" id="back-co-2" name="background-color">
-                    <label onclick=back_co_2_func() for="back-co-2">background-color: #ff3399;</label> <br>
+        <!-- 1.Background-Color -->
+        <div id="Background_Color">
+            <!-- id = back-co -->
+            <div class="back-co-heading">Background-color Property</div>
+            <div class="background-color">
+                <section class="back-co-left-selector">
+                    <form action="action.php">
+                        <input onclick=back_co_1_func() type="radio" id="back-co-1" name="background-color">
+                        <label onclick=back_co_1_func() for="back-co-1">background-color:greenyellow;</label> <br>
 
-                    <input onclick=back_co_3_func() type="radio" id="back-co-3" name="background-color">
-                    <label onclick=back_co_3_func() for="back-co-3">background-color:rgb(204, 51, 255);</label> <br>
+                        <input onclick=back_co_2_func() type="radio" id="back-co-2" name="background-color">
+                        <label onclick=back_co_2_func() for="back-co-2">background-color: #ff3399;</label> <br>
 
-                    <input onclick=back_co_4_func() type="radio" id="back-co-4" name="background-color">
-                    <label onclick=back_co_4_func() for="back-co-4">background-color:rgba(12, 225, 12, 0.742);</label>
-                    <br>
+                        <input onclick=back_co_3_func() type="radio" id="back-co-3" name="background-color">
+                        <label onclick=back_co_3_func() for="back-co-3">background-color:rgb(204, 51, 255);</label> <br>
 
-                    <input onclick=back_co_5_func() type="radio" id="back-co-5" name="background-color">
-                    <label onclick=back_co_5_func() for="back-co-5">background-color:transparent</label> <br>
+                        <input onclick=back_co_4_func() type="radio" id="back-co-4" name="background-color">
+                        <label onclick=back_co_4_func() for="back-co-4">background-color:rgba(12, 225, 12,
+                            0.742);</label>
+                        <br>
 
-                    <input onclick=back_co_6_func() type="radio" id="back-co-6" name="background-color">
-                    <label onclick=back_co_6_func() for="back-co-6">background-color:hsl(200, 100%, 30%);</label> <br>
+                        <input onclick=back_co_5_func() type="radio" id="back-co-5" name="background-color">
+                        <label onclick=back_co_5_func() for="back-co-5">background-color:transparent</label> <br>
 
-                    <input onclick=back_co_7_func() type="radio" id="back-co-7" name="background-color">
-                    <label onclick=back_co_7_func() for="back-co-7">background-color:hsla(315, 100%, 40%, 0.47)</label>
-                    <br>
-                </form>
-            </section>
-            <section class="back-co-right-result">
-                <ul id="back-co-initial">
-                    <li style="background-color: aquamarine;">
-                        background-color: color|transparent|initial|inherit;
-                    </li>
-                    <li>
-                        The background-color property sets the background color of an element.
-                    </li>
-                    <li>
-                        The background of an element is the total size of the element, including padding and border (but
-                        not the margin).
-                    </li>
-                </ul>
-                <div class="back-co-class" id="back-co-1">
-                    To add a Background Color you can use color names like: blue, red, yellow, black etc.
+                        <input onclick=back_co_6_func() type="radio" id="back-co-6" name="background-color">
+                        <label onclick=back_co_6_func() for="back-co-6">background-color:hsl(200, 100%, 30%);</label>
+                        <br>
+
+                        <input onclick=back_co_7_func() type="radio" id="back-co-7" name="background-color">
+                        <label onclick=back_co_7_func() for="back-co-7">background-color:hsla(315, 100%, 40%,
+                            0.47)</label>
+                        <br>
+                    </form>
+                </section>
+                <section class="back-co-right-result">
+                    <ul id="back-co-initial">
+                        <li style="background-color: aquamarine;">
+                            background-color: color|transparent|initial|inherit;
+                        </li>
+                        <li>
+                            The background-color property sets the background color of an element.
+                        </li>
+                        <li>
+                            The background of an element is the total size of the element, including padding and border
+                            (but
+                            not the margin).
+                        </li>
+                    </ul>
+                    <div class="back-co-class" id="back-co-1">
+                        To add a Background Color you can use color names like: blue, red, yellow, black etc.
+                    </div>
+                    <div class="back-co-class" id="back-co-2">
+                        To add a Background Color you can use Hex Code of Colors. <a
+                            href="https://www.w3schools.com/css/css_colors_hex.asp">Know More</a>
+                    </div>
+                    <div class="back-co-class" id="back-co-3">
+                        To add a Background Color you can use RGB Code of Colors. <a
+                            href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                    </div>
+                    <div class="back-co-class" id="back-co-4">
+                        To add a Background Color you can use RGBA Code of Colors. <a
+                            href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
+                    </div>
+                    <div class="back-co-class" id="back-co-5">
+                        This Property specifies that the background color should be transparent. This is default
+                    </div>
+                    <div class="back-co-class" id="back-co-6">
+                        To add a Background Color you can use HSL Code of Colors. <a
+                            href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                    </div>
+                    <div class="back-co-class" id="back-co-7">
+                        To add a Background Color you can use HSLA Code of Colors. <a
+                            href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- 2.Background-Image -->
+        <div id="Background_Image">
+            <!-- id = back-im -->
+            <div class="back-im-heading">Background-image Property</div>
+            <div class="background-image">
+                <section class="back-im-left-selector">
+                    <form action="action.php">
+                        <input onclick=back_im_1_func() type="radio" id="back-im-1" name="background-image">
+                        <label onclick=back_im_1_func() for="back-im-1">background-image: url("css-image.png");</label>
+                        <br>
+
+                        <input onclick=back_im_2_func() type="radio" id="back-im-2" name="background-image">
+                        <label onclick=back_im_2_func() for="back-im-2">background-image: url('css-image.gif'),
+                            url('paper.gif');</label> <br>
+
+                        <input onclick=back_im_3_func() type="radio" id="back-im-3" name="background-image">
+                        <label onclick=back_im_3_func() for="back-im-3">background-image: none;</label> <br>
+
+                        <input onclick=back_im_4_func() type="radio" id="back-im-4" name="background-image">
+                        <label onclick=back_im_4_func() for="back-im-4">background-image:
+                            conic-gradient(red,orange,yellow);</label> <br>
+
+                        <input onclick=back_im_5_func() type="radio" id="back-im-5" name="background-image">
+                        <label onclick=back_im_5_func() for="back-im-5">background-image:
+                            linear-gradient(red,orange,yellow;</label> <br>
+
+                        <input onclick=back_im_6_func() type="radio" id="back-im-6" name="background-image">
+                        <label onclick=back_im_6_func() for="back-im-6">background-image:
+                            radial-gradient(red,orange,yellow);</label> <br>
+
+                        <input onclick=back_im_7_func() type="radio" id="back-im-7" name="background-image">
+                        <label onclick=back_im_7_func() for="back-im-7">background-image: repeating-conic-gradient(red
+                            10%,
+                            yellow 20%);</label>
+                        <br>
+
+                        <input onclick=back_im_8_func() type="radio" id="back-im-8" name="background-image">
+                        <label onclick=back_im_8_func() for="back-im-8">background-image: repeating-linear-gradient(red
+                            10%,
+                            yellow 20%);</label>
+                        <br>
+
+                        <input onclick=back_im_9_func() type="radio" id="back-im-9" name="background-image">
+                        <label onclick=back_im_9_func() for="back-im-9">background-image: repeating-radial-gradient(red
+                            10%,
+                            yellow 20%);</label>
+                        <br>
+                    </form>
+                </section>
+                <section class="back-im-right-result">
+                    <ul id="back-im-initial">
+                        <li style="background-color: aquamarine;">
+                            background-image: url|none|initial|inherit;
+                        </li>
+                        <li>
+                            The background-image property sets one or more background images for an element.
+                        </li>
+                        <li>
+                            By default, a background-image is placed at the top-left corner of an element, and repeated
+                            both
+                            vertically and horizontally.
+                        </li>
+                    </ul>
+                    <div class="back-im-class" id="back-im-1">
+                        <span>The URL to the image. To specify more than one image, separate the URLs with a
+                            comma.</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-2">
+                        <span>The URL to the image. To specify more than one image, separate the URLs with a
+                            comma.</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-3">
+                        <span>No background image will be displayed. This is default.</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-4">
+                        <span>Sets a conic gradient as the background image. Define at least two colors.</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-5">
+                        <span>Sets a linear gradient as the background image. Define at least two colors (top to
+                            bottom)</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-6">
+                        <span>Sets a radial gradient as the background image. Define at least two colors (center to
+                            edges)</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-7">
+                        <span>Repeats a conic gradient.</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-8">
+                        <span>Repeats a linear gradient.</span>
+                    </div>
+                    <div class="back-im-class" id="back-im-9">
+                        <span>Repeats a radial gradient.</span>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- 3.Background-Repeat -->
+        <div id="Background_Repeat">
+            <!-- 3.Background-Repeat -->
+            <div id="Background_Repeat">
+                <!-- id = back-re -->
+                <div class="back-re-heading">Background-repeat Property</div>
+                <div class="background-repeat">
+                    <section class="back-re-left-selector">
+                        <form action="action.php">
+                            <input onclick=back_re_1_func() type="radio" id="back-re-1" name="background-repeat">
+                            <label onclick=back_re_1_func() for="back-re-1">
+
+                            </label> <br>
+
+                            <input onclick=back_re_2_func() type="radio" id="back-re-2" name="background-repeat">
+                            <label onclick=back_re_2_func() for="back-re-2">
+
+                            </label> <br>
+
+                            <input onclick=back_re_3_func() type="radio" id="back-re-3" name="background-repeat">
+                            <label onclick=back_re_3_func() for="back-re-3">
+
+                            </label> <br>
+
+                            <input onclick=back_re_4_func() type="radio" id="back-re-4" name="background-repeat">
+                            <label onclick=back_re_4_func() for="back-re-4">
+
+                            </label> <br>
+
+                            <input onclick=back_re_5_func() type="radio" id="back-re-5" name="background-repeat">
+                            <label onclick=back_re_5_func() for="back-re-5">
+
+                            </label> <br>
+
+                            <input onclick=back_re_6_func() type="radio" id="back-re-6" name="background-repeat">
+                            <label onclick=back_re_6_func() for="back-re-6">
+
+                            </label> <br>
+
+                            <input onclick=back_re_7_func() type="radio" id="back-re-7" name="background-repeat">
+                            <label onclick=back_re_7_func() for="back-re-7">
+
+                            </label>
+                            <br>
+
+                            <input onclick=back_re_8_func() type="radio" id="back-re-8" name="background-repeat">
+                            <label onclick=back_re_8_func() for="back-re-8">
+
+                            </label>
+                            <br>
+
+                            <input onclick=back_re_9_func() type="radio" id="back-re-9" name="background-repeat">
+                            <label onclick=back_re_9_func() for="back-re-9">
+
+                            </label>
+                            <br>
+                        </form>
+                    </section>
+                    <section class="back-re-right-result">
+                        <ul id="back-re-initial">
+                            <li style="background-color: aquamarine;">
+
+                            </li>
+                            <li>
+
+                            </li>
+                            <li>
+
+                            </li>
+                        </ul>
+                        <div class="back-re-class" id="back-re-1">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-2">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-3">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-4">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-5">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-6">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-7">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-8">
+                            <span>
+
+                            </span>
+                        </div>
+                        <div class="back-re-class" id="back-re-9">
+                            <span>
+
+                            </span>
+                        </div>
+                    </section>
                 </div>
-                <div class="back-co-class" id="back-co-2">
-                    To add a Background Color you can use Hex Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_hex.asp">Know More</a>
-                </div>
-                <div class="back-co-class" id="back-co-3">
-                    To add a Background Color you can use RGB Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
-                </div>
-                <div class="back-co-class" id="back-co-4">
-                    To add a Background Color you can use RGBA Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_rgb.asp">Know More</a>
-                </div>
-                <div class="back-co-class" id="back-co-5">
-                    This Property specifies that the background color should be transparent. This is default
-                </div>
-                <div class="back-co-class" id="back-co-6">
-                    To add a Background Color you can use HSL Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
-                </div>
-                <div class="back-co-class" id="back-co-7">
-                    To add a Background Color you can use HSLA Code of Colors. <a
-                        href="https://www.w3schools.com/css/css_colors_hsl.asp">Know More</a>
-                </div>
-            </section>
+            </div>
+        </div>
+        <!-- 5.Background-Position -->
+        <div id="Background_Position">
+            <!-- id = back-po -->
+            <div class="back-po-heading">Background-Position Property</div>
+            <div class="background-position">
+                <section class="back-po-left-selector">
+                    <form action="action.php">
+                        <input onclick=back_po_1_func() type="radio" id="back-po-1" name="background-position">
+                        <label onclick=back_po_1_func() for="back-po-1">
+
+                        </label> <br>
+
+                        <input onclick=back_po_2_func() type="radio" id="back-po-2" name="background-position">
+                        <label onclick=back_po_2_func() for="back-po-2">
+
+                        </label> <br>
+
+                        <input onclick=back_po_3_func() type="radio" id="back-po-3" name="background-position">
+                        <label onclick=back_po_3_func() for="back-po-3">
+
+                        </label> <br>
+
+                        <input onclick=back_po_4_func() type="radio" id="back-po-4" name="background-position">
+                        <label onclick=back_po_4_func() for="back-po-4">
+
+                        </label> <br>
+
+                        <input onclick=back_po_5_func() type="radio" id="back-po-5" name="background-position">
+                        <label onclick=back_po_5_func() for="back-po-5">
+
+                        </label> <br>
+
+                        <input onclick=back_po_6_func() type="radio" id="back-po-6" name="background-position">
+                        <label onclick=back_po_6_func() for="back-po-6">
+
+                        </label> <br>
+
+                        <input onclick=back_po_7_func() type="radio" id="back-po-7" name="background-position">
+                        <label onclick=back_po_7_func() for="back-po-7">
+
+                        </label>
+                        <br>
+
+                        <input onclick=back_po_8_func() type="radio" id="back-po-8" name="background-position">
+                        <label onclick=back_po_8_func() for="back-po-8">
+
+                        </label>
+                        <br>
+
+                        <input onclick=back_po_9_func() type="radio" id="back-po-9" name="background-position">
+                        <label onclick=back_po_9_func() for="back-po-9">
+
+                        </label>
+                        <br>
+                    </form>
+                </section>
+                <section class="back-po-right-result">
+                    <ul id="back-po-initial">
+                        <li style="background-color: aquamarine;">
+
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+                    <div class="back-po-class" id="back-po-1">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-2">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-3">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-4">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-5">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-6">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-7">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-8">
+                        <span>
+
+                        </span>
+                    </div>
+                    <div class="back-po-class" id="back-po-9">
+                        <span>
+
+                        </span>
+                    </div>
+                </section>
+            </div>
         </div>
 
-        <!-- 2. Background Image -->
-        <!-- id = back-im -->
-        <div class="back-im-heading">Background-image Property</div>
-        <div class="background-image">
-            <section class="back-im-left-selector">
-                <form action="action.php">
-                    <input onclick=back_im_1_func() type="radio" id="back-im-1" name="background-image">
-                    <label onclick=back_im_1_func() for="back-im-1">background-image: url("css-image.png");</label> <br>
-
-                    <input onclick=back_im_2_func() type="radio" id="back-im-2" name="background-image">
-                    <label onclick=back_im_2_func() for="back-im-2">background-image: url('css-image.gif'),
-                        url('paper.gif');</label> <br>
-
-                    <input onclick=back_im_3_func() type="radio" id="back-im-3" name="background-image">
-                    <label onclick=back_im_3_func() for="back-im-3">background-image: none;</label> <br>
-
-                    <input onclick=back_im_4_func() type="radio" id="back-im-4" name="background-image">
-                    <label onclick=back_im_4_func() for="back-im-4">background-image:
-                        conic-gradient(red,orange,yellow);</label> <br>
-
-                    <input onclick=back_im_5_func() type="radio" id="back-im-5" name="background-image">
-                    <label onclick=back_im_5_func() for="back-im-5">background-image:
-                        linear-gradient(red,orange,yellow;</label> <br>
-
-                    <input onclick=back_im_6_func() type="radio" id="back-im-6" name="background-image">
-                    <label onclick=back_im_6_func() for="back-im-6">background-image:
-                        radial-gradient(red,orange,yellow);</label> <br>
-
-                    <input onclick=back_im_7_func() type="radio" id="back-im-7" name="background-image">
-                    <label onclick=back_im_7_func() for="back-im-7">background-image: repeating-conic-gradient(red 10%,
-                        yellow 20%);</label>
-                    <br>
-
-                    <input onclick=back_im_8_func() type="radio" id="back-im-8" name="background-image">
-                    <label onclick=back_im_8_func() for="back-im-8">background-image: repeating-linear-gradient(red 10%,
-                        yellow 20%);</label>
-                    <br>
-
-                    <input onclick=back_im_9_func() type="radio" id="back-im-9" name="background-image">
-                    <label onclick=back_im_9_func() for="back-im-9">background-image: repeating-radial-gradient(red 10%,
-                        yellow 20%);</label>
-                    <br>
-                </form>
-            </section>
-            <section class="back-im-right-result">
-                <ul id="back-im-initial">
-                    <li style="background-color: aquamarine;">
-                        background-image: url|none|initial|inherit;
-                    </li>
-                    <li>
-                        The background-image property sets one or more background images for an element.
-                    </li>
-                    <li>
-                        By default, a background-image is placed at the top-left corner of an element, and repeated both
-                        vertically and horizontally.
-                    </li>
-                </ul>
-                <div class="back-im-class" id="back-im-1">
-                    <span>The URL to the image. To specify more than one image, separate the URLs with a comma.</span>
-                </div>
-                <div class="back-im-class" id="back-im-2">
-                    <span>The URL to the image. To specify more than one image, separate the URLs with a comma.</span>
-                </div>
-                <div class="back-im-class" id="back-im-3">
-                    <span>No background image will be displayed. This is default.</span>
-                </div>
-                <div class="back-im-class" id="back-im-4">
-                    <span>Sets a conic gradient as the background image. Define at least two colors.</span>
-                </div>
-                <div class="back-im-class" id="back-im-5">
-                    <span>Sets a linear gradient as the background image. Define at least two colors (top to
-                        bottom)</span>
-                </div>
-                <div class="back-im-class" id="back-im-6">
-                    <span>Sets a radial gradient as the background image. Define at least two colors (center to
-                        edges)</span>
-                </div>
-                <div class="back-im-class" id="back-im-7">
-                    <span>Repeats a conic gradient.</span>
-                </div>
-                <div class="back-im-class" id="back-im-8">
-                    <span>Repeats a linear gradient.</span>
-                </div>
-                <div class="back-im-class" id="back-im-9">
-                    <span>Repeats a radial gradient.</span>
-                </div>
-            </section>
-        </div>
-
-        <!-- 3. Background Position -->
-        <!-- id = back-po -->
 
 
     </section>
