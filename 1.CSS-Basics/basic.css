@@ -1,5 +1,5 @@
 body {
-    background-image: url("../Spirits/day-bg.jpg");
+    background-image: url("../5.EXTRA/Spirits/2.Light-Bg/light-bg1.jpg");
     /* background-image: url("../Spirits/day-bg.jpg"); */
     background-attachment: fixed;
 }
@@ -7,7 +7,7 @@ body {
 #svG {
     height: 42.6vw;
     /* background-image: url("../Spirits/basic-video.gif"); */
-    background-image: url("../Spirits/dark-bg1.jpg");
+    background-image: url("../5.EXTRA/Spirits/3.Dark-Bg/dark-bg1.jpg");
     background-attachment: fixed;
 }
 
@@ -21,7 +21,7 @@ body {
     width: 43vw;
     margin: auto;
     margin-top: 14vw;
-    color: rgba(255, 255, 255, 0.799);
+    color: rgba(255, 255, 255, 0.505);
 }
 
 /* Background Properties */
@@ -32,7 +32,7 @@ body {
     text-align: center;
     padding: 26vw;
     /* margin-top:0.5vw; */
-    background-image: url("../Spirits/wave6.png");
+    background-image: url("../5.EXTRA/Spirits/3.Dark-Bg/dark-bg3.png");
     background-attachment: fixed;
     color: rgba(255, 255, 255, 0.68);
 }
@@ -48,7 +48,6 @@ body {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
-    /* margin-top: 2vw; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5vw;
     margin-bottom: 2vw;
@@ -61,14 +60,11 @@ body {
     justify-content: center;
     background-color: #8582d726;
     height: 30vw;
-    /* margin-bottom: 11vw; */
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    /* background-image: url("../Spirits/wave5.png"); */
     background-attachment: fixed;
 }
 
 .back-co-left-selector {
-    /* border:2px solid red; */
     width: 40vw;
 }
 
@@ -121,14 +117,10 @@ body {
 
 #back-co-1 {
     background-color: greenyellow;
-    /* transition: 0.5s; */
-
 }
 
 #back-co-2 {
     background-color: #ff3399;
-    /* transition: 0.5s; */
-
 }
 
 #back-co-3 {
@@ -163,7 +155,6 @@ body {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
-    /* margin-top: 2vw; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5vw;
     margin-bottom: 2vw;
@@ -176,14 +167,11 @@ body {
     justify-content: center;
     background-color: #8582d726;
     height: 35vw;
-    /* margin-bottom: 6vw; */
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    /* background-image: url(../Spirits/wave5.png); */
     background-attachment: fixed;
 }
 
 .back-im-left-selector {
-    /* border:2px solid red; */
     width: 50vw;
 }
 
@@ -206,7 +194,6 @@ body {
 }
 
 .back-im-right-result {
-    /* border:2px solid yellow; */
     background-color: rgba(240, 248, 255, 0.66);
     width: 50vw;
     background-color: rgba(255, 255, 255, 0.493);
@@ -235,14 +222,11 @@ body {
 }
 
 #back-im-1 {
-    background-image: url("../Spirits/css-symbol-trans.png");
-    /* transition: 0.5s; */
-
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
 }
 
 #back-im-2 {
-    background-image: url("../Spirits/css-symbol-trans.png"), url("../Spirits/paper.jpg");
-    /* transition: 0.5s; */
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png"), url("../5.EXTRA/Spirits/2.Light-Bg/light-bg3.jpg");
 }
 
 #back-im-3 {
@@ -289,7 +273,6 @@ body {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
-    /* margin-top: 2vw; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5vw;
     margin-bottom: 2vw;
@@ -302,14 +285,11 @@ body {
     justify-content: center;
     background-color: #8582d726;
     height: 35vw;
-    /* margin-bottom: 6vw; */
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    /* background-image: url(../Spirits/wave5.png); */
     background-attachment: fixed;
 }
 
 .back-re-left-selector {
-    /* border:2px solid red; */
     width: 50vw;
 }
 
@@ -332,7 +312,6 @@ body {
 }
 
 .back-re-right-result {
-    /* border:2px solid yellow; */
     background-color: rgba(240, 248, 255, 0.66);
     width: 50vw;
     background-color: rgba(255, 255, 255, 0.493);
