@@ -108,7 +108,6 @@ body {
     margin-top: 1vw;
 }
 
-/* Background color all results stylung */
 .back-co-class {
     height: 4vw;
     font-family: 'Source Code Pro', monospace;
@@ -214,7 +213,6 @@ body {
     margin-top: 1vw;
 }
 
-/* Background color all results stylung */
 .back-im-class {
     height: 5vw;
     font-family: 'Source Code Pro', monospace;
@@ -279,12 +277,12 @@ body {
 }
 
 .background-repeat {
-    width: 95vw;
+    width: 75vw;
     margin: auto;
     display: flex;
     justify-content: center;
     background-color: #8582d726;
-    height: 35vw;
+    height: 30vw;
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
     background-attachment: fixed;
 }
@@ -302,18 +300,18 @@ body {
 .back-re-left-selector input {
     margin-bottom: 2vw;
     margin-left: 2vw;
-    cursor: reinter;
+    cursor: pointer;
 }
 
 .back-re-left-selector label {
-    cursor: reinter;
+    cursor: pointer;
     font-size: 1vw;
     font-family: 'Source Code Pro', monospace;
 }
 
 .back-re-right-result {
     background-color: rgba(240, 248, 255, 0.66);
-    width: 50vw;
+    width: 90vw;
     background-color: rgba(255, 255, 255, 0.493);
     margin-right: 1vw;
     margin-top: 1vw;
@@ -334,50 +332,40 @@ body {
 
 /* Background color all results stylung */
 .back-re-class {
-    height: 5vw;
+    height: 6vw;
     font-family: 'Source Code Pro', monospace;
-    padding: 14vw;
+    padding: 11vw;
 }
 
 #back-re-1 {
-    background-image: url("../Spirits/css-symbol-trans.png");
-    /* transition: 0.5s; */
-
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: repeat;
 }
 
 #back-re-2 {
-    background-image: url("../Spirits/css-symbol-trans.png"), url("../Spirits/paper.jpg");
-    /* transition: 0.5s; */
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: repeat-x;
 }
 
 #back-re-3 {
-    background-image: none;
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: repeat-y;
 }
 
 #back-re-4 {
-    background: conic-gradient(red, orange, yellow);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
 }
 
 #back-re-5 {
-    background: linear-gradient(red, orange, yellow);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: space;
 }
 
 #back-re-6 {
-    background: radial-gradient(red, orange, yellow);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: round;
 }
-
-#back-re-7 {
-    background: repeating-conic-gradient(red 10%, yellow 20%);
-}
-
-#back-re-8 {
-    background: repeating-linear-gradient(red 10%, yellow 20%);
-}
-
-#back-re-9 {
-    background: repeating-radial-gradient(red 10%, yellow 20%);
-}
-
 .back-re-class span {
     background-color: rgba(0, 0, 0, 0.605);
     color: rgba(255, 255, 255, 0.781);
