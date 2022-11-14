@@ -495,7 +495,7 @@ a{
 }
 
 .background-position {
-    width: 95vw;
+    width: 85vw;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -509,14 +509,13 @@ a{
 
 .back-po-left-selector {
     /* border:2px solid red; */
-    width: 50vw;
+    width: 34vw;
 }
 
 .back-po-left-selector form {
     width: max-content;
     margin-left: 2vw;
-    margin-top: 5vw;
-}
+    margin-top: 1.5vw;}
 
 .back-po-left-selector input {
     margin-bottom: 2vw;
@@ -560,42 +559,67 @@ a{
 }
 
 #back-po-1 {
-    background-image: url("../Spirits/css-symbol-trans.png");
-    /* transition: 0.5s; */
-
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 #back-po-2 {
-    background-image: url("../Spirits/css-symbol-trans.png"), url("../Spirits/paper.jpg");
-    /* transition: 0.5s; */
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 #back-po-3 {
-    background-image: none;
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
 
 #back-po-4 {
-    background: conic-gradient(red, orange, yellow);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 #back-po-5 {
-    background: linear-gradient(red, orange, yellow);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 #back-po-6 {
-    background: radial-gradient(red, orange, yellow);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 #back-po-7 {
-    background: repeating-conic-gradient(red 10%, yellow 20%);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 #back-po-8 {
-    background: repeating-linear-gradient(red 10%, yellow 20%);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #back-po-9 {
-    background: repeating-radial-gradient(red 10%, yellow 20%);
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+#back-po-10 {
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: 10% 40%;
+}
+#back-po-11 {
+    background-image: url("../5.EXTRA/Spirits/1.Icons/css-symbol-trans.png");
+    background-repeat: no-repeat;
+    background-position: 50px 100px;
 }
 
 .back-po-class span {
