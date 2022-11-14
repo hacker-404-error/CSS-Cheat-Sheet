@@ -1,7 +1,11 @@
 /* ************************************************************* */
-/* 3. Background Repeat */
+/* 5. Background Attachment */
 /* **************************************************************** */
-.back-re-heading {
+#Background_attachment {
+    padding: 2vw 0vw 6vw;
+}
+
+.back-at-heading {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
@@ -11,7 +15,7 @@
     margin-bottom: 2vw;
 }
 
-.background-repeat {
+.background-attachment {
     width: 95vw;
     margin: auto;
     display: flex;
@@ -20,34 +24,34 @@
     height: 35vw;
     /* margin-bottom: 6vw; */
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    background-image: url(../Spirits/wave5.png);
+    /* background-image: url(../Spirits/wave5.png); */
     background-attachment: fixed;
 }
 
-.back-re-left-selector {
+.back-at-left-selector {
     /* border:2px solid red; */
     width: 50vw;
 }
 
-.back-re-left-selector form {
+.back-at-left-selector form {
     width: max-content;
     margin-left: 2vw;
     margin-top: 5vw;
 }
 
-.back-re-left-selector input {
+.back-at-left-selector input {
     margin-bottom: 2vw;
     margin-left: 2vw;
-    cursor: reinter;
+    cursor: pointer;
 }
 
-.back-re-left-selector label {
-    cursor: reinter;
+.back-at-left-selector label {
+    cursor: pointer;
     font-size: 1vw;
     font-family: 'Source Code Pro', monospace;
 }
 
-.back-re-right-result {
+.back-at-right-result {
     /* border:2px solid yellow; */
     background-color: rgba(240, 248, 255, 0.66);
     width: 50vw;
@@ -59,63 +63,39 @@
 
 }
 
-.back-re-right-result ul {
+.back-at-right-result ul {
     margin: 9vw 4vw 0vw;
 }
 
-.back-re-right-result li {
+.back-at-right-result li {
     font-family: 'Source Code Pro', monospace;
     margin: auto;
     margin-top: 1vw;
 }
 
 /* Background color all results stylung */
-.back-re-class {
+.back-at-class {
     height: 5vw;
     font-family: 'Source Code Pro', monospace;
     padding: 14vw;
 }
 
-#back-re-1 {
-    background-image: url("../Spirits/css-symbol-trans.png");
-    /* transition: 0.5s; */
-
+#back-at-1 {
+    background-image: url("../Spirits/2.Light-Bg/light-bg1.jpg");
+    background-attachment: scroll;   
 }
 
-#back-re-2 {
-    background-image: url("../Spirits/css-symbol-trans.png"), url("../Spirits/paper.jpg");
-    /* transition: 0.5s; */
+#back-at-2 {
+    background-image: url("../Spirits/2.Light-Bg/light-bg1.jpg");
+    background-attachment: fixed;
 }
 
-#back-re-3 {
-    background-image: none;
+#back-at-3 {
+    background-image: url("../Spirits/2.Light-Bg/light-bg1.jpg");
+    background-attachment: local;
 }
 
-#back-re-4 {
-    background: conic-gradient(red, orange, yellow);
-}
-
-#back-re-5 {
-    background: linear-gradient(red, orange, yellow);
-}
-
-#back-re-6 {
-    background: radial-gradient(red, orange, yellow);
-}
-
-#back-re-7 {
-    background: repeating-conic-gradient(red 10%, yellow 20%);
-}
-
-#back-re-8 {
-    background: repeating-linear-gradient(red 10%, yellow 20%);
-}
-
-#back-re-9 {
-    background: repeating-radial-gradient(red 10%, yellow 20%);
-}
-
-.back-re-class span {
+.back-at-class span {
     background-color: rgba(0, 0, 0, 0.605);
     color: rgba(255, 255, 255, 0.781);
 }
