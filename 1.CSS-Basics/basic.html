@@ -65,6 +65,8 @@
     <!-- Below HTML Code follow basic.css styling rule -->
     <!-- ******************************************************************************************************************************************* -->
 
+    
+
     <!-- svg ring section -->
     <section id="svG">
         <!-- Ring Svg code will automatically inserted into this through javascript-->
@@ -77,11 +79,17 @@
         </div>
     </section>
 
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- BACKGROUND PROPERTIES -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
     <div class="BACKGROUND_PROPERTIES">
         <!-- Background Properties Main Heading -->
         <div id="background-properties-heading">
             <div>{ BACKGROUND PROPERTIES }</div>
-            <a id="Link_BG_EXP" href="#Background_Color"><img id="BG_EXP" onclick="Expand_BG_Properties()" style="filter: invert(1);" src="../5.EXTRA/Spirits/1.Icons/way-down.png" alt="expand-Background-Properties" title="Expand"></a>
+            <a id="Link_BG_EXP" href="#Background_Color"><img id="BG_EXP" onclick="Expand_BG_Properties()"
+                    style="filter: invert(1);" src="../5.EXTRA/Spirits/1.Icons/inverted-way-down.png"
+                    alt="expand-Background-Properties" title="Expand"></a>
         </div>
         <div class="background-properties" style="display:none">
             <!-- 1.Background-Color -->
@@ -603,12 +611,187 @@
                     </section>
                 </div>
             </div>
+            <!-- 7.Background-Clip -->
+            <div id="Background_Clip">
+                <!-- id = back-cl -->
+                <div class="back-cl-heading">Background-clip Property</div>
+                <div class="background-clip">
+                    <section class="back-cl-left-selector">
+                        <form action="action.php">
+                            <input onclick=back_cl_1_func() type="radio" id="back-cl-1" name="background-clip">
+                            <label onclick=back_cl_1_func() for="back-cl-1">
+                                background-clip: border-box;
+                            </label>
+                            <br>
+
+                            <input onclick=back_cl_2_func() type="radio" id="back-cl-2" name="background-clip">
+                            <label onclick=back_cl_2_func() for="back-cl-2">
+                                background-clip: padding-box;
+                            </label> <br>
+
+                            <input onclick=back_cl_3_func() type="radio" id="back-cl-3" name="background-clip">
+                            <label onclick=back_cl_3_func() for="back-cl-3">
+                                background-clip: content-box;
+                            </label> <br>
+                        </form>
+                    </section>
+                    <section class="back-cl-right-result">
+                        <ul id="back-cl-initial">
+                            <li style="background-color: aquamarine;">
+                                background-clip: border-box|padding-box|content-box|initial|inherit;
+                            </li>
+                            <li>
+                                The background-clip property defines how far the background (color or image) should
+                                extend within an element.
+                            </li>
+                            <li>
+                                Default value: The background extends behind the border
+                            </li>
+                        </ul>
+                        <div class="back-cl-class" id="back-cl-1">
+                            <span>
+                                Default value. The background extends behind the border
+                            </span>
+                        </div>
+                        <div class="back-cl-class" id="back-cl-2">
+                            <span>
+                                The background extends to the inside edge of the border
+                            </span>
+                        </div>
+                        <div class="back-cl-class" id="back-cl-3">
+                            <div style="color: rgba(0, 0, 0, 0.781); font-weight: bolder;">
+                                The background extends to the edge of the content box
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- 8.Background-Size -->
+            <div id="Background_Size">
+                <!-- id = back-si -->
+                <div class="back-si-heading">Background-size Property</div>
+                <div class="background-size">
+                    <section class="back-si-left-selector">
+                        <form action="action.php">
+                            <input onclick=back_si_1_func() type="radio" id="back-si-1" name="background-size">
+                            <label onclick=back_si_1_func() for="back-si-1">
+                                background-size: auto;
+                            </label>
+                            <br>
+
+                            <input onclick=back_si_2_func() type="radio" id="back-si-2" name="background-size">
+                            <label onclick=back_si_2_func() for="back-si-2">
+                                background-size: contain;
+                            </label> <br>
+
+                            <input onclick=back_si_3_func() type="radio" id="back-si-3" name="background-size">
+                            <label onclick=back_si_3_func() for="back-si-3">
+                                background-size: cover;
+                            </label> <br>
+
+                            <input onclick=back_si_4_func() type="radio" id="back-si-4" name="background-size">
+                            <label onclick=back_si_4_func() for="back-si-4">
+                                background-size: 90px;
+                            </label> <br>
+
+                            <input onclick=back_si_5_func() type="radio" id="back-si-5" name="background-size">
+                            <label onclick=back_si_5_func() for="back-si-5">
+                                background-size: 80px 85px;
+                            </label> <br>
+
+                            <input onclick=back_si_6_func() type="radio" id="back-si-6" name="background-size">
+                            <label onclick=back_si_6_func() for="back-si-6">
+                                background-size: 20%;
+                            </label> <br>
+
+                            <input onclick=back_si_7_func() type="radio" id="back-si-7" name="background-size">
+                            <label onclick=back_si_7_func() for="back-si-7">
+                                background-size: 20% 40%;
+                            </label>
+                            <br>
+                        </form>
+                    </section>
+                    <section class="back-si-right-result">
+                        <ul id="back-si-initial">
+                            <li style="background-color: aquamarine;">
+                                background-size: auto|length|cover|contain|initial|inherit;
+                            </li>
+                            <li>
+                                The background-size property specifies the size of the background images.
+                            </li>
+                            <li>
+                                There are four different syntaxes you can use with this property: the keyword syntax
+                                ("auto", "cover" and "contain")
+                            </li>
+                        </ul>
+                        <div class="back-si-class" id="back-si-1">
+                            <span>
+                                Default value. The background image is displayed in its original size
+                            </span>
+                        </div>
+                        <div class="back-si-class" id="back-si-2">
+                            <span>
+                                Resize the background image to make sure the image is fully visible
+                            </span>
+                        </div>
+                        <div class="back-si-class" id="back-si-3">
+                            <span>
+                                Resize the background image to cover the entire container, even if it has to stretch the
+                                image or cut a little bit off one of the edges
+                            </span>
+                        </div>
+                        <div class="back-si-class" id="back-si-4">
+                            <span>
+                                Sets the width and height of the background image. The first value sets the width, the
+                                second value sets the height. If only one value is given, the second is set to "auto".
+                            </span>
+                        </div>
+                        <div class="back-si-class" id="back-si-5">
+                            <span>
+                                Sets the width and height of the background image. The first value sets the width, the
+                                second value sets the height. If only one value is given, the second is set to "auto".
+                            </span>
+                        </div>
+                        <div class="back-si-class" id="back-si-6">
+                            <span>
+                                Sets the width and height of the background image in percent of the parent element. The
+                                first value sets the width, the second value sets the height. If only one value is
+                                given, the second is set to "auto"
+                            </span>
+                        </div>
+                        <div class="back-si-class" id="back-si-7">
+                            <span>
+                                Sets the width and height of the background image in percent of the parent element. The
+                                first value sets the width, the second value sets the height. If only one value is
+                                given, the second is set to "auto"
+                            </span>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <!-- TEXT PROPERTIES -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+    <div class="TEXT_PROPERTIES">
+        <!-- Text Properties Main Heading -->
+        <div id="text-properties-heading">
+            <div>{ TEXT PROPERTIES }</div>
+            <a id="Link_TX_EXP" href="#Text_Color"><img id="TX_EXP" onclick="Expand_TX_Properties()"
+                    style="filter: invert(1);" src="../5.EXTRA/Spirits/1.Icons/inverted-way-down.png"
+                    alt="expand-Text-Properties" title="Expand"></a>
+        </div>
+        <div class="text-properties" style="display:none">
+
         </div>
     </div>
 
 
-    <script src="basic.js"></script>
 
+
+    <script src="basic.js"></script>
     <!-- ******************************************************************************************************************************************* -->
     <!-- End of the code which follow basic.css styling rule -->
     <!-- ******************************************************************************************************************************************* -->

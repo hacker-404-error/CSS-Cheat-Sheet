@@ -1,4 +1,7 @@
 
+/*****************************************************************************************************************************************************************/
+/* *******************************************************************Background Properties***********************************************************************/
+/****************************************************************************************************************************************************************/
 
 // Expand Background Properties 
 function Expand_BG_Properties(){
@@ -483,7 +486,7 @@ function back_po_11_func() {
   }
 }
 // *******************************************************************
-// 2.Background-origin
+// 6.Background-origin
 // *********************************************************************
 var bg_class_or = document.getElementsByClassName("back-or-class");
 
@@ -527,4 +530,159 @@ function back_or_3_func() {
     }
   }
 }
+// *******************************************************************
+// 7.Background-clip
+// *********************************************************************
+var bg_class_cl = document.getElementsByClassName("back-cl-class");
 
+//display:none for all the result display
+for (let i = 0; i < bg_class_cl.length; i++) {
+  bg_class_cl[i].style.display = "none";
+}
+
+function back_cl_1_func() {
+  for (let i = 0; i < bg_class_cl.length; i++) {
+    var bg_initial_cl = document.getElementById("back-cl-initial");
+    bg_initial_cl.style.display = "none";
+    if (i == 0) {
+      bg_class_cl[0].style.display = "block";
+    } else {
+      bg_class_cl[i].style.display = "none";
+    }
+  }
+}
+
+function back_cl_2_func() {
+  for (let i = 0; i < bg_class_cl.length; i++) {
+    var bg_initial_cl = document.getElementById("back-cl-initial");
+    bg_initial_cl.style.display = "none";
+    if (i == 1) {
+      bg_class_cl[1].style.display = "block";
+    } else {
+      bg_class_cl[i].style.display = "none";
+    }
+  }
+}
+
+function back_cl_3_func() {
+  for (let i = 0; i < bg_class_cl.length; i++) {
+    var bg_initial_cl = document.getElementById("back-cl-initial");
+    bg_initial_cl.style.display = "none";
+    if (i == 2) {
+      bg_class_cl[2].style.display = "block";
+    } else {
+      bg_class_cl[i].style.display = "none";
+    }
+  }
+}
+// *******************************************************************
+// 8.Background-size
+// *********************************************************************
+var bg_class_si = document.getElementsByClassName("back-si-class");
+
+//display:none for all the result display
+for (let i = 0; i < bg_class_si.length; i++) {
+  bg_class_si[i].style.display = "none";
+}
+
+function back_si_1_func() {
+  for (let i = 0; i < bg_class_si.length; i++) {
+    var bg_initial_si = document.getElementById("back-si-initial");
+    bg_initial_si.style.display = "none";
+    if (i == 0) {
+      bg_class_si[0].style.display = "block";
+    } else {
+      bg_class_si[i].style.display = "none";
+    }
+  }
+}
+
+function back_si_2_func() {
+  for (let i = 0; i < bg_class_si.length; i++) {
+    var bg_initial_si = document.getElementById("back-si-initial");
+    bg_initial_si.style.display = "none";
+    if (i == 1) {
+      bg_class_si[1].style.display = "block";
+    } else {
+      bg_class_si[i].style.display = "none";
+    }
+  }
+}
+
+function back_si_3_func() {
+  for (let i = 0; i < bg_class_si.length; i++) {
+    var bg_initial_si = document.getElementById("back-si-initial");
+    bg_initial_si.style.display = "none";
+    if (i == 2) {
+      bg_class_si[2].style.display = "block";
+    } else {
+      bg_class_si[i].style.display = "none";
+    }
+  }
+}
+
+function back_si_4_func() {
+  for (let i = 0; i < bg_class_si.length; i++) {
+    var bg_initial_si = document.getElementById("back-si-initial");
+    bg_initial_si.style.display = "none";
+    if (i == 3) {
+      bg_class_si[3].style.display = "block";
+    } else {
+      bg_class_si[i].style.display = "none";
+    }
+  }
+}
+function back_si_5_func() {
+  for (let i = 0; i < bg_class_si.length; i++) {
+    var bg_initial_si = document.getElementById("back-si-initial");
+    bg_initial_si.style.display = "none";
+    if (i == 4) {
+      bg_class_si[4].style.display = "block";
+    } else {
+      bg_class_si[i].style.display = "none";
+    }
+  }
+}
+function back_si_6_func() {
+  for (let i = 0; i < bg_class_si.length; i++) {
+    var bg_initial_si = document.getElementById("back-si-initial");
+    bg_initial_si.style.display = "none";
+    if (i == 5) {
+      bg_class_si[5].style.display = "block";
+    } else {
+      bg_class_si[i].style.display = "none";
+    }
+  }
+}
+function back_si_7_func() {
+  for (let i = 0; i < bg_class_si.length; i++) {
+    var bg_initial_si = document.getElementById("back-si-initial");
+    bg_initial_si.style.display = "none";
+    if (i == 6) {
+      bg_class_si[6].style.display = "block";
+    } else {
+      bg_class_si[i].style.display = "none";
+    }
+  }
+}
+
+/*****************************************************************************************************************************************************************/
+/* ******************************************************************* Text Properties ***********************************************************************/
+/****************************************************************************************************************************************************************/
+
+// Expand Background Properties 
+function Expand_TX_Properties(){
+  var exp = document.getElementsByClassName("text-properties");
+  if(exp[0].style.display == 'none')
+  {
+    document.getElementById("TX_EXP").src="../5.EXTRA/Spirits/1.Icons/way-down.png";
+    document.getElementById("Link_TX_EXP").href="#Text_Color";
+    exp[0].style.display = "block";
+  }
+  else
+  {
+    document.getElementById("TX_EXP").src="../5.EXTRA/Spirits/1.Icons/inverted-way-down.png";
+    document.getElementById("Link_TX_EXP").href="#text-properties-heading";
+    exp[0].style.display = "none";
+  }
+}
