@@ -462,3 +462,49 @@ function back_po_11_func() {
     }
   }
 }
+// *******************************************************************
+// 2.Background-origin
+// *********************************************************************
+var bg_class_or = document.getElementsByClassName("back-or-class");
+
+//display:none for all the result display
+for (let i = 0; i < bg_class_or.length; i++) {
+  bg_class_or[i].style.display = "none";
+}
+
+function back_or_1_func() {
+  for (let i = 0; i < bg_class_or.length; i++) {
+    var bg_initial_or = document.getElementById("back-or-initial");
+    bg_initial_or.style.display = "none";
+    if (i == 0) {
+      bg_class_or[0].style.display = "block";
+    } else {
+      bg_class_or[i].style.display = "none";
+    }
+  }
+}
+
+function back_or_2_func() {
+  for (let i = 0; i < bg_class_or.length; i++) {
+    var bg_initial_or = document.getElementById("back-or-initial");
+    bg_initial_or.style.display = "none";
+    if (i == 1) {
+      bg_class_or[1].style.display = "block";
+    } else {
+      bg_class_or[i].style.display = "none";
+    }
+  }
+}
+
+function back_or_3_func() {
+  for (let i = 0; i < bg_class_or.length; i++) {
+    var bg_initial_or = document.getElementById("back-or-initial");
+    bg_initial_or.style.display = "none";
+    if (i == 2) {
+      bg_class_or[2].style.display = "block";
+    } else {
+      bg_class_or[i].style.display = "none";
+    }
+  }
+}
+
