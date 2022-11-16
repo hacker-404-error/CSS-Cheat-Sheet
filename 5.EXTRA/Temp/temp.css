@@ -1,11 +1,8 @@
-/* ************************************************************* */
-/* 2. Background origin */
-/* **************************************************************** */
-#Background_origin {
+#Background_size {
     padding: 2vw 0vw 6vw;
 }
 
-.back-or-heading {
+.back-si-heading {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
@@ -14,7 +11,7 @@
     margin-bottom: 2vw;
 }
 
-.background-origin {
+.background-size {
     width: 85vw;
     margin: auto;
     display: flex;
@@ -25,29 +22,29 @@
     background-attachment: fixed;
 }
 
-.back-or-left-selector {
+.back-si-left-selector {
     width: 50vw;
 }
 
-.back-or-left-selector form {
+.back-si-left-selector form {
     width: max-content;
     margin-left: 2vw;
     margin-top: 2vw;
 }
 
-.back-or-left-selector input {
+.back-si-left-selector input {
     margin-bottom: 2.5vw;
     margin-left: 2vw;
     cursor: pointer;
 }
 
-.back-or-left-selector label {
+.back-si-left-selector label {
     cursor: pointer;
     font-size: 1vw;
     font-family: 'Source Code Pro', monospace;
 }
 
-.back-or-right-result {
+.back-si-right-result {
     background-color: rgba(240, 248, 255, 0.66);
     width: 50vw;
     background-color: rgba(255, 255, 255, 0.493);
@@ -58,59 +55,50 @@
 
 }
 
-.back-or-right-result ul {
+.back-si-right-result ul {
     margin: 9vw 4vw 0vw;
 }
 
-.back-or-right-result li {
+.back-si-right-result li {
     font-family: 'Source Code Pro', monospace;
     margin: auto;
     margin-top: 1vw;
 }
 
-.back-or-class {
+.back-si-class {
     height: 5vw;
     font-family: 'Source Code Pro', monospace;
     padding: 14vw;
 }
 
-#back-or-1 {
-   
+#back-si-1 {
 }
 
-#back-or-2 {
-   
+#back-si-2 {
 }
 
-#back-or-3 {
-    
+#back-si-3 {
 }
 
-#back-or-4 {
-    
+#back-si-4 {
 }
 
-#back-or-5 {
-   
+#back-si-5 {
 }
 
-#back-or-6 {
-    
+#back-si-6 {
 }
 
-#back-or-7 {
-    
+#back-si-7 {
 }
 
-#back-or-8 {
-
+#back-si-8 {
 }
 
-#back-or-9 {
-    
+#back-si-9 {
 }
 
-.back-or-class span {
+.back-si-class span {
     background-color: rgba(0, 0, 0, 0.605);
     color: rgba(255, 255, 255, 0.781);
 }
