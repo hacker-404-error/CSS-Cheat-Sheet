@@ -1,3 +1,23 @@
+
+
+// Expand Background Properties 
+function Expand_BG_Properties(){
+  var exp = document.getElementsByClassName("background-properties");
+  if(exp[0].style.display == 'none')
+  {
+    document.getElementById("BG_EXP").src="../5.EXTRA/Spirits/1.Icons/way-down.png";
+    document.getElementById("Link_BG_EXP").href="#Background_Color";
+    exp[0].style.display = "block";
+  }
+  else
+  {
+    document.getElementById("BG_EXP").src="../5.EXTRA/Spirits/1.Icons/inverted-way-down.png";
+    document.getElementById("Link_BG_EXP").href="#background-properties-heading";
+    exp[0].style.display = "none";
+  }
+}
+
+
 // *******************************************************************
 // 1.Background-color
 // *******************************************************************

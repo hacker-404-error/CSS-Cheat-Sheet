@@ -1,3 +1,7 @@
+/* *{
+    transition:2s;
+} */
+
 body {
     background-image: url("../5.EXTRA/Spirits/2.Light-Bg/light-bg1.jpg");
     /* background-image: url("../Spirits/day-bg.jpg"); */
@@ -23,20 +27,34 @@ a{
     width: 43vw;
     margin: auto;
     margin-top: 14vw;
-    color: rgba(255, 255, 255, 0.505);
+    color: rgb(255, 255, 255);
 }
 
 /* Background Properties */
 #background-properties-heading {
+    position:relative;
+    /* width: 100vw; */
+    height:50vw;
+    background-image: url("../5.EXTRA/Spirits/3.Dark-Bg/dark-bg3.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+#background-properties-heading div{
+    position:absolute;
+    top:33%;
+    left:30%;
     font-size: 3vw;
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.7vw;
     text-align: center;
-    padding: 26vw;
-    /* margin-top:0.5vw; */
-    background-image: url("../5.EXTRA/Spirits/3.Dark-Bg/dark-bg3.png");
-    background-attachment: fixed;
-    color: rgba(255, 255, 255, 0.68);
+    color: rgb(255, 255, 255);
+}
+#background-properties-heading img{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    width: 5vw;
+    cursor: pointer;
 }
 
 /* ************************************************************* */
@@ -375,7 +393,7 @@ a{
 /* ************************************************************* */
 /* 4. Background Attachment */
 /* **************************************************************** */
-#Background_attachment {
+#Background_Attachment {
     padding: 2vw 0vw 6vw;
 }
 
@@ -630,7 +648,7 @@ a{
 /* ************************************************************* */
 /* 6. Background origin */
 /* **************************************************************** */
-#Background_origin {
+#Background_Origin {
     padding: 2vw 0vw 6vw;
 }
 
