@@ -529,6 +529,59 @@
             </div>
         </div>
         <!-- 6.Background-origin -->
+        <div id="Background_origin">
+            <!-- id = back-or -->
+            <div class="back-or-heading">Background-origin Property</div>
+            <div class="background-origin">
+                <section class="back-or-left-selector">
+                    <form action="action.php">
+                        <input onclick=back_or_1_func() type="radio" id="back-or-1" name="background-origin">
+                        <label onclick=back_or_1_func() for="back-or-1">
+                            background-origin: padding-box;
+                        </label>
+                        <br>
+        
+                        <input onclick=back_or_2_func() type="radio" id="back-or-2" name="background-origin">
+                        <label onclick=back_or_2_func() for="back-or-2">
+                            background-origin: border-box;
+                        </label> <br>
+        
+                        <input onclick=back_or_3_func() type="radio" id="back-or-3" name="background-origin">
+                        <label onclick=back_or_3_func() for="back-or-3">
+                            background-origin: content-box;
+                        </label> <br>
+                    </form>
+                </section>
+                <section class="back-or-right-result">
+                    <ul id="back-or-initial">
+                        <li style="background-color: aquamarine;">
+                            background-origin: padding-box|border-box|content-box|initial|inherit;
+                        </li>
+                        <li>
+                            The background-origin property specifies the origin position (the background positioning area) of a background image.
+                        </li>
+                        <li>
+                            Note: This property has no effect if background-attachment is "fixed".
+                        </li>
+                    </ul>
+                    <div class="back-or-class" id="back-or-1">
+                        <span>
+                            Default value. The background image starts from the upper left corner of the padding edge
+                        </span>
+                    </div>
+                    <div class="back-or-class" id="back-or-2">
+                        <span>
+                            The background image starts from the upper left corner of the border
+                        </span>
+                    </div>
+                    <div class="back-or-class" id="back-or-3">
+                        <span>
+                            The background image starts from the upper left corner of the content
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </div>
 
     </section>
 
