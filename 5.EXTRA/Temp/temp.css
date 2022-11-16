@@ -1,58 +1,53 @@
 /* ************************************************************* */
-/* 5. Background Attachment */
+/* 2. Background origin */
 /* **************************************************************** */
-#Background_attachment {
+#Background_origin {
     padding: 2vw 0vw 6vw;
 }
 
-.back-at-heading {
+.back-or-heading {
     width: fit-content;
     margin: auto;
     font-size: 2.5vw;
-    /* margin-top: 2vw; */
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 0.5vw;
     margin-bottom: 2vw;
 }
 
-.background-attachment {
-    width: 95vw;
+.background-origin {
+    width: 85vw;
     margin: auto;
     display: flex;
     justify-content: center;
     background-color: #8582d726;
     height: 35vw;
-    /* margin-bottom: 6vw; */
     box-shadow: rgb(38 57 77) 0px 14px 30px -10px;
-    /* background-image: url(../Spirits/wave5.png); */
     background-attachment: fixed;
 }
 
-.back-at-left-selector {
-    /* border:2px solid red; */
+.back-or-left-selector {
     width: 50vw;
 }
 
-.back-at-left-selector form {
+.back-or-left-selector form {
     width: max-content;
     margin-left: 2vw;
-    margin-top: 5vw;
+    margin-top: 2vw;
 }
 
-.back-at-left-selector input {
-    margin-bottom: 2vw;
+.back-or-left-selector input {
+    margin-bottom: 2.5vw;
     margin-left: 2vw;
     cursor: pointer;
 }
 
-.back-at-left-selector label {
+.back-or-left-selector label {
     cursor: pointer;
     font-size: 1vw;
     font-family: 'Source Code Pro', monospace;
 }
 
-.back-at-right-result {
-    /* border:2px solid yellow; */
+.back-or-right-result {
     background-color: rgba(240, 248, 255, 0.66);
     width: 50vw;
     background-color: rgba(255, 255, 255, 0.493);
@@ -63,39 +58,59 @@
 
 }
 
-.back-at-right-result ul {
+.back-or-right-result ul {
     margin: 9vw 4vw 0vw;
 }
 
-.back-at-right-result li {
+.back-or-right-result li {
     font-family: 'Source Code Pro', monospace;
     margin: auto;
     margin-top: 1vw;
 }
 
-/* Background color all results stylung */
-.back-at-class {
+.back-or-class {
     height: 5vw;
     font-family: 'Source Code Pro', monospace;
     padding: 14vw;
 }
 
-#back-at-1 {
-    background-image: url("../Spirits/2.Light-Bg/light-bg1.jpg");
-    background-attachment: scroll;   
+#back-or-1 {
+   
 }
 
-#back-at-2 {
-    background-image: url("../Spirits/2.Light-Bg/light-bg1.jpg");
-    background-attachment: fixed;
+#back-or-2 {
+   
 }
 
-#back-at-3 {
-    background-image: url("../Spirits/2.Light-Bg/light-bg1.jpg");
-    background-attachment: local;
+#back-or-3 {
+    
 }
 
-.back-at-class span {
+#back-or-4 {
+    
+}
+
+#back-or-5 {
+   
+}
+
+#back-or-6 {
+    
+}
+
+#back-or-7 {
+    
+}
+
+#back-or-8 {
+
+}
+
+#back-or-9 {
+    
+}
+
+.back-or-class span {
     background-color: rgba(0, 0, 0, 0.605);
     color: rgba(255, 255, 255, 0.781);
 }
