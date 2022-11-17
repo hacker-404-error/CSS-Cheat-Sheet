@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'myfont';
     src: url('/5.EXTRA/Fonts/tabitha-webfont.woff2') format('woff2'),
-         url('/5.EXTRA/Fonts/tabitha-webfont.woff') format('woff');
+        url('/5.EXTRA/Fonts/tabitha-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -17,8 +17,8 @@
 }
 
 /* Body Tag Styling */
-body{
-    display:block;
+body {
+    display: block;
 }
 
 /* Nav Bar Styling */
@@ -27,54 +27,59 @@ body{
     justify-content: space-between;
     background-color: #0b2239;
     color: #cfd9e0;
+    width:100%;
+    height:10vh;
 }
+
 .left-nav {
     display: flex;
     align-items: center;
     margin-left: 25px;
 }
+
 .cssimg img {
     width: 50px;
     cursor: pointer;
 }
+
 .left-nav a {
     color: #cfd9e0;
     text-decoration: none;
 }
+
 /* .middle-nav {
     margin-right: 20%;
 } */
 .middle-nav ul {
     list-style-type: none;
-    padding-left:0px;
+    padding-left: 0px;
 }
+
 .middle-nav li {
     display: inline-block;
     padding: 20px 1vw;
 }
+
 .middle-nav a {
     color: #cfd9e0;
     text-decoration: none;
 }
+
 .right-nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 11px;
+    align-items: center;
 }
-.mode {
-    margin-top: 10px;
-}
+
 .mode i {
     cursor: pointer;
 }
-.signup-login {
-    margin-left: 30px;
-}
+
 .signup-login div {
-    margin-top: 8px;
-    margin-left: 40px;
+    margin-left: 1vw;
     cursor: pointer;
 }
+
 .signup-login button {
     margin-left: 10px;
     margin-right: 30px;
@@ -88,22 +93,15 @@ body{
 
 .intro {
     display: flex;
-    justify-content: space-between;
-    /* border:2px solid red; */
     margin-top: 10px;
     align-items: center;
-    /* background-image: linear-gradient(to right,#84c9d6, #ffffff); */
     background-image: url("https://image.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg");
     background-attachment: fixed;
     color: #000000;
-    height:42vw;   
-    position:relative; 
-    z-index:-5;
-}
-.left {
-    align-items: center;
-    width: 50%;
-    z-index:0;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    z-index: -5;
 }
 .heading {
     display: flex;
@@ -111,14 +109,16 @@ body{
     justify-content: center;
     margin-left: 20%;
 }
+
 .heading i {
     font-size: 3em;
 }
+
 .heading img {
-    font-size: 231%;
     margin-left: 5%;
     margin-top: 6%;
 }
+
 .content {
     width: 77%;
     margin: auto;
@@ -126,31 +126,35 @@ body{
     line-height: 25px;
     word-spacing: 15px;
 }
+
 .right {
+    width: 200%;
     overflow-x: hidden;
-    width: 50%;
-    z-index:0;
+    z-index: 0;
 }
+
 .right img {
     width: 85%;
-    margin-left: 25%;
-    z-index:0;
+    margin-left: 14%;
+    z-index: 0;
 }
-.svg-wave{
-    position:absolute;
-    top:-6vw;
-    z-index:-1;
+
+.svg-wave {
+    position: absolute;
+    z-index: -1;
+    bottom:0px;
 }
 
 /* CSS Basic Content Styling */
-#basic{
-    position:relative;
-    height:45vw;
-    padding-top:2%;
+#basic {
+    position: relative;
+    height: 100vh;
+    padding-top: 2%;
     background-image: url("./5.EXTRA/Spirits/2.Light-Bg/wave1.png");
     background-attachment: fixed;
 }
-.basic-heading{
+
+.basic-heading {
     width: 30%;
     text-align: center;
     margin: auto;
@@ -159,17 +163,20 @@ body{
     font-size: 2rem;
     /* font-family: "myfont", Verdana, "Avenir Next"; */
 }
-.basic-link{
+
+.basic-link {
     display: inline-block;
     position: absolute;
     bottom: 0px;
     top: 4.3vw;
     left: 58.7vw;
 }
-.basic-link img{
-    width:32px;
+
+.basic-link img {
+    width: 32px;
 }
-.basic-grid-content{
+
+.basic-grid-content {
     width: 70%;
     text-align: center;
     margin: auto;
@@ -177,24 +184,27 @@ body{
     grid-template-columns: auto auto auto auto auto;
     justify-items: center;
 }
-.basic-grid-item{
-    padding:10%;
+
+.basic-grid-item {
+    padding: 10%;
 }
-.basic-grid-item a{
+
+.basic-grid-item a {
     color: #000000;
     text-decoration: none;
 }
 
 /* CSS Advance Content Styling */
-#advance{
-    position:relative;
-    height:45vw;
-    padding-top:2%;
+#advance {
+    position: relative;
+    height: 100vh;
+    padding-top: 2%;
     background-image: url("./5.EXTRA/Spirits/2.Light-Bg/wave2.png");
     background-attachment: fixed;
 
 }
-.advance-heading{
+
+.advance-heading {
     width: 30%;
     text-align: center;
     margin: auto;
@@ -204,17 +214,20 @@ body{
     /* font-family: "myfont", Verdana, "Avenir Next"; */
 
 }
-.advance-link{
+
+.advance-link {
     display: inline-block;
     position: absolute;
     bottom: 0px;
     top: 4.4vw;
     left: 60vw;
 }
-.advance-link img{
-    width:32px;
+
+.advance-link img {
+    width: 32px;
 }
-.advance-grid-content{
+
+.advance-grid-content {
     width: 70%;
     text-align: center;
     margin: auto;
@@ -222,24 +235,27 @@ body{
     grid-template-columns: auto auto auto auto auto;
     justify-items: center;
 }
-.advance-grid-item{
-    padding:10%;
+
+.advance-grid-item {
+    padding: 10%;
 }
-.advance-grid-item a{
+
+.advance-grid-item a {
     color: #000000;
     text-decoration: none;
 }
 
 /* CSS Flex-Box Styling */
-#flex{
-    position:relative;
-    height:45vw;
-    padding-top:2%;
+#flex {
+    position: relative;
+    height: 100vh;
+    padding-top: 2%;
     background-image: url("./5.EXTRA/Spirits/2.Light-Bg/wave3.png");
     background-attachment: fixed;
     color: aliceblue;
 }
-.flex-heading{
+
+.flex-heading {
     width: 30%;
     text-align: center;
     margin: auto;
@@ -249,17 +265,20 @@ body{
     /* font-family: "myfont", Verdana, "Avenir Next"; */
 
 }
-.flex-link{
+
+.flex-link {
     display: inline-block;
     position: absolute;
     bottom: 0px;
     top: 4.4vw;
     left: 60.5vw;
 }
-.flex-link img{
-    width:32px;
+
+.flex-link img {
+    width: 32px;
 }
-.flex-grid-content{
+
+.flex-grid-content {
     width: 70%;
     text-align: center;
     margin: auto;
@@ -267,24 +286,27 @@ body{
     grid-template-columns: auto auto auto auto auto;
     justify-items: center;
 }
-.flex-grid-item{
-    padding:10%;
+
+.flex-grid-item {
+    padding: 10%;
 }
-.flex-grid-item a{
+
+.flex-grid-item a {
     color: #cfd9e0;
     text-decoration: none;
 }
 
 /* CSS Grid-Box Styling */
-#gri{
-    position:relative;
-    height:45vw;
-    padding-top:2%;
+#gri {
+    position: relative;
+    height: 100vh;
+    padding-top: 2%;
     background-image: url("./5.EXTRA/Spirits/2.Light-Bg/wave4.png");
     background-attachment: fixed;
     color: aliceblue;
 }
-.gri-heading{
+
+.gri-heading {
     width: 30%;
     text-align: center;
     margin: auto;
@@ -294,17 +316,20 @@ body{
     /* font-family: "myfont", Verdana, "Avenir Next"; */
 
 }
-.gri-link{
+
+.gri-link {
     display: inline-block;
     position: absolute;
     bottom: 0px;
     top: 4.5vw;
     left: 58vw;
 }
-.gri-link img{
-    width:32px;
+
+.gri-link img {
+    width: 32px;
 }
-.gri-grid-content{
+
+.gri-grid-content {
     width: 70%;
     text-align: center;
     margin: auto;
@@ -312,66 +337,91 @@ body{
     grid-template-columns: auto auto auto auto auto;
     justify-items: center;
 }
-.gri-grid-item{
-    padding:10%;
+
+.gri-grid-item {
+    padding: 10%;
 }
-.gri-grid-item a{
+
+.gri-grid-item a {
     color: #cfd9e0;
     text-decoration: none;
 }
 
 /* Footer Style */
-#foot{
-    height:50vw;
+#foot {
+    height: 50vh;
     background-image: url("./5.EXTRA/Spirits/3.Dark-Bg/dark-bg4.jpg");
-    color:#64a4d6;
+    color: #64a4d6;
     font-size: 100px;
     background-attachment: fixed;
 }
 
 /*Goup arrow style */
-.goup{
+.goup {
     position: fixed;
     top: 40vw;
     left: 93vw;
 
 }
-.goup img{
-    opacity:0;
-    width:55px;
+
+.goup img {
+    opacity: 0;
+    width: 55px;
     filter: invert(0);
     transition-timing-function: ease;
-    transition:0.5s;
-    cursor:pointer;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 /* go left arrow style */
-.goleft{
+.goleft {
     position: fixed;
     top: 20vw;
     left: 2vw;
 
 }
-.goleft img{
-    opacity:0;
-    width:30px;
+
+.goleft img {
+    opacity: 0;
+    width: 30px;
     filter: invert(0);
     transition-timing-function: ease;
-    transition:0.5s;
-    cursor:pointer;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 /* go right arrow style */
-.goright{
+.goright {
     position: fixed;
-    top:20vw;
-    right:2vw;
+    top: 20vw;
+    right: 2vw;
 }
-.goright img{
-    opacity:1;
-    width:30px;
+
+.goright img {
+    opacity: 1;
+    width: 30px;
     filter: invert(0);
     transition-timing-function: ease;
-    transition:0.5s;
-    cursor:pointer;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+@media screen and (max-width:974px) {
+    .left-nav a {
+        display: none;
+    }
+
+    @media screen and (max-width:774px) {
+        .middle-nav {
+            display: none;
+        }
+    }
+    .right{
+        display:none;
+    }
+    .goup, .goright, .goleft{
+        display: none;
+    }
+
+
 }
