@@ -41,15 +41,16 @@ body{
     color: #cfd9e0;
     text-decoration: none;
 }
-.middle-nav {
+/* .middle-nav {
     margin-right: 20%;
-}
+} */
 .middle-nav ul {
     list-style-type: none;
+    padding-left:0px;
 }
 .middle-nav li {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 1vw;
 }
 .middle-nav a {
     color: #cfd9e0;
