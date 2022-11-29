@@ -1,25 +1,23 @@
-
 /*****************************************************************************************************************************************************************/
 /* *******************************************************************Background Properties***********************************************************************/
 /****************************************************************************************************************************************************************/
 
-// Expand Background Properties 
-function Expand_BG_Properties(){
+// Expand Background Properties
+function Expand_BG_Properties() {
   var exp = document.getElementsByClassName("background-properties");
-  if(exp[0].style.display == 'none')
-  {
-    document.getElementById("BG_EXP").src="../5.EXTRA/Spirits/1.Icons/way-down.png";
-    document.getElementById("Link_BG_EXP").href="#Background_Color";
+  if (exp[0].style.display == "none") {
+    document.getElementById("BG_EXP").src =
+      "../5.EXTRA/Spirits/1.Icons/way-down.png";
+    document.getElementById("Link_BG_EXP").href = "#Background_Color";
     exp[0].style.display = "block";
-  }
-  else
-  {
-    document.getElementById("BG_EXP").src="../5.EXTRA/Spirits/1.Icons/inverted-way-down.png";
-    document.getElementById("Link_BG_EXP").href="#background-properties-heading";
+  } else {
+    document.getElementById("BG_EXP").src =
+      "../5.EXTRA/Spirits/1.Icons/inverted-way-down.png";
+    document.getElementById("Link_BG_EXP").href =
+      "#background-properties-heading";
     exp[0].style.display = "none";
   }
 }
-
 
 // *******************************************************************
 // 1.Background-color
@@ -670,19 +668,112 @@ function back_si_7_func() {
 /* ******************************************************************* Text Properties ***********************************************************************/
 /****************************************************************************************************************************************************************/
 
-// Expand Background Properties 
-function Expand_TX_Properties(){
+// Expand Background Properties
+function Expand_TX_Properties() {
   var exp = document.getElementsByClassName("text-properties");
-  if(exp[0].style.display == 'none')
-  {
-    document.getElementById("TX_EXP").src="../5.EXTRA/Spirits/1.Icons/way-down.png";
-    document.getElementById("Link_TX_EXP").href="#Text_Color";
+  if (exp[0].style.display == "none") {
+    document.getElementById("TX_EXP").src =
+      "../5.EXTRA/Spirits/1.Icons/way-down.png";
+    document.getElementById("Link_TX_EXP").href = "#Text_Color";
     exp[0].style.display = "block";
-  }
-  else
-  {
-    document.getElementById("TX_EXP").src="../5.EXTRA/Spirits/1.Icons/inverted-way-down.png";
-    document.getElementById("Link_TX_EXP").href="#text-properties-heading";
+  } else {
+    document.getElementById("TX_EXP").src =
+      "../5.EXTRA/Spirits/1.Icons/inverted-way-down.png";
+    document.getElementById("Link_TX_EXP").href = "#text-properties-heading";
     exp[0].style.display = "none";
   }
 }
+// *******************************************************************
+// 1.Text-color
+// *******************************************************************
+
+var te_class_co = document.getElementsByClassName("tex-co-class");
+
+//display:none for all the result display
+for (let i = 0; i < te_class_co.length; i++) {
+  te_class_co[i].style.display = "none";
+}
+
+function tex_co_1_func() {
+  for (let i = 0; i < te_class_co.length; i++) {
+    var te_initial_co = document.getElementById("tex-co-initial");
+    te_initial_co.style.display = "none";
+    if (i == 0) {
+      te_class_co[0].style.display = "block";
+    } else {
+      te_class_co[i].style.display = "none";
+    }
+  }
+}
+
+function tex_co_2_func() {
+  for (let i = 0; i < te_class_co.length; i++) {
+    var te_initial_co = document.getElementById("tex-co-initial");
+    te_initial_co.style.display = "none";
+    if (i == 1) {
+      te_class_co[1].style.display = "block";
+    } else {
+      te_class_co[i].style.display = "none";
+    }
+  }
+}
+
+function tex_co_3_func() {
+  for (let i = 0; i < te_class_co.length; i++) {
+    var te_initial_co = document.getElementById("tex-co-initial");
+    te_initial_co.style.display = "none";
+    if (i == 2) {
+      te_class_co[2].style.display = "block";
+    } else {
+      te_class_co[i].style.display = "none";
+    }
+  }
+}
+
+function tex_co_4_func() {
+  for (let i = 0; i < te_class_co.length; i++) {
+    var te_initial_co = document.getElementById("tex-co-initial");
+    te_initial_co.style.display = "none";
+    if (i == 3) {
+      te_class_co[3].style.display = "block";
+    } else {
+      te_class_co[i].style.display = "none";
+    }
+  }
+}
+function tex_co_5_func() {
+  for (let i = 0; i < te_class_co.length; i++) {
+    var te_initial_co = document.getElementById("tex-co-initial");
+    te_initial_co.style.display = "none";
+    if (i == 4) {
+      te_class_co[4].style.display = "block";
+    } else {
+      te_class_co[i].style.display = "none";
+    }
+  }
+}
+function tex_co_6_func() {
+  for (let i = 0; i < te_class_co.length; i++) {
+    var te_initial_co = document.getElementById("tex-co-initial");
+    te_initial_co.style.display = "none";
+    if (i == 5) {
+      te_class_co[5].style.display = "block";
+    } else {
+      te_class_co[i].style.display = "none";
+    }
+  }
+}
+function tex_co_7_func() {
+  for (let i = 0; i < te_class_co.length; i++) {
+    var te_initial_co = document.getElementById("tex-co-initial");
+    te_initial_co.style.display = "none";
+    if (i == 6) {
+      te_class_co[6].style.display = "block";
+    } else {
+      te_class_co[i].style.display = "none";
+    }
+  }
+}
+// *******************************************************************
+// 2.Text-Alignment
+// *******************************************************************

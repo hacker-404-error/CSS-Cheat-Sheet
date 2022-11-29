@@ -65,7 +65,7 @@
     <!-- Below HTML Code follow basic.css styling rule -->
     <!-- ******************************************************************************************************************************************* -->
 
-    
+
 
     <!-- svg ring section -->
     <section id="svG">
@@ -784,7 +784,400 @@
                     alt="expand-Text-Properties" title="Expand"></a>
         </div>
         <div class="text-properties" style="display:none">
+            <!-- 1.Text-Color -->
+            <div id="Text_Color">
+                <!-- id = tex-co -->
+                <div class="tex-co-heading">Text-color Property</div>
+                <div class="text-color">
+                    <section class="tex-co-left-selector">
+                        <form action="action.php">
+                            <input onclick=tex_co_1_func() type="radio" id="tex-co-1" name="text-color">
+                            <label onclick=tex_co_1_func() for="tex-co-1">color: greenyellow;</label> <br>
 
+                            <input onclick=tex_co_2_func() type="radio" id="tex-co-2" name="text-color">
+                            <label onclick=tex_co_2_func() for="tex-co-2">color: #ff3399;</label> <br>
+
+                            <input onclick=tex_co_3_func() type="radio" id="tex-co-3" name="text-color">
+                            <label onclick=tex_co_3_func() for="tex-co-3">color: rgb(204, 51, 255);</label>
+                            <br>
+
+                            <input onclick=tex_co_4_func() type="radio" id="tex-co-4" name="text-color">
+                            <label onclick=tex_co_4_func() for="tex-co-4">color: rgba(12, 225, 12 ,0.742);</label>
+                            <br>
+
+                            <input onclick=tex_co_5_func() type="radio" id="tex-co-5" name="text-color">
+                            <label onclick=tex_co_5_func() for="tex-co-5">color: transparent;</label> <br>
+
+                            <input onclick=tex_co_6_func() type="radio" id="tex-co-6" name="text-color">
+                            <label onclick=tex_co_6_func() for="tex-co-6">color: hsl(200, 100%, 30%);</label>
+                            <br>
+
+                            <input onclick=tex_co_7_func() type="radio" id="tex-co-7" name="text-color">
+                            <label onclick=tex_co_7_func() for="tex-co-7">color: hsla(315, 100%, 40%, 0.47);</label>
+                            <br>
+                        </form>
+                    </section>
+                    <section class="tex-co-right-result">
+                        <ul id="tex-co-initial">
+                            <li style="background-color: aquamarine;">
+                                color: color|initial|inherit;
+                            </li>
+                            <li>
+                                The color property specifies the color of text.
+                            </li>
+                            <li>
+                                Use a background color combined with a text color that makes the text easy to read.
+                            </li>
+                        </ul>
+                        <div class="tex-co-class" id="tex-co-1">
+                            HELLO WORLD!.
+                        </div>
+                        <div class="tex-co-class" id="tex-co-2">
+                            HELLO WORLD!.
+                        </div>
+                        <div class="tex-co-class" id="tex-co-3">
+                            HELLO WORLD!.
+                        </div>
+                        <div class="tex-co-class" id="tex-co-4">
+                            HELLO WORLD!.
+                        </div>
+                        <div class="tex-co-class" id="tex-co-5">
+                            HELLO WORLD!.
+                        </div>
+                        <div class="tex-co-class" id="tex-co-6">
+                            HELLO WORLD!.
+                        </div>
+                        <div class="tex-co-class" id="tex-co-7">
+                            HELLO WORLD!.
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <!-- 2.Text-Alignment -->
+            <div id="Text_Alignment">
+                <div class="tex-al-heading">
+                    <div class="tex-al-heading-right">
+                        TEXT-ALIGNMENT PROPERTY
+                    </div>
+                    <div class="tex-al-heading-left">
+                        <form action="db.php">
+                            <select name="tex-al" id="tex-al-properties">
+                                <option onclick=text_alignment_func1() value="text-align">text-align</option>
+                                <option onclick=text_alignment_func2() value="direction">direction</option>
+                                <option onclick=text_alignment_func3() value="text-align-last">text-align-last</option>
+                                <option onclick=text_alignment_func4() value="unicode-bidi">unicode-bidi</option>
+                                <option onclick=text_alignment_func5() value="vertical-align">vertical-align</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="text-alignment">
+                    <section class="tex-al-left-selector">
+                        <form class="text-alignment-one" action="action.php">
+                            <input onclick=tex_co_1_func() type="radio" id="tex-co-1" name="text-color">
+                            <label onclick=tex_co_1_func() for="tex-co-1">color: greenyellow;</label> <br>
+
+                            <input onclick=tex_co_2_func() type="radio" id="tex-co-2" name="text-color">
+                            <label onclick=tex_co_2_func() for="tex-co-2">color: #ff3399;</label> <br>
+
+                            <input onclick=tex_co_3_func() type="radio" id="tex-co-3" name="text-color">
+                            <label onclick=tex_co_3_func() for="tex-co-3">color: rgb(204, 51, 255);</label>
+                            <br>
+
+                            <input onclick=tex_co_4_func() type="radio" id="tex-co-4" name="text-color">
+                            <label onclick=tex_co_4_func() for="tex-co-4">color: rgba(12, 225, 12 ,0.742);</label>
+                            <br>
+
+                            <input onclick=tex_co_5_func() type="radio" id="tex-co-5" name="text-color">
+                            <label onclick=tex_co_5_func() for="tex-co-5">color: transparent;</label> <br>
+
+                            <input onclick=tex_co_6_func() type="radio" id="tex-co-6" name="text-color">
+                            <label onclick=tex_co_6_func() for="tex-co-6">color: hsl(200, 100%, 30%);</label>
+                            <br>
+
+                            <input onclick=tex_co_7_func() type="radio" id="tex-co-7" name="text-color">
+                            <label onclick=tex_co_7_func() for="tex-co-7">color: hsla(315, 100%, 40%, 0.47);</label>
+                            <br>
+                        </form>
+                        <form class="text-alignment-two" action="action.php">
+                            <input onclick=tex_co_1_func() type="radio" id="tex-co-1" name="text-color">
+                            <label onclick=tex_co_1_func() for="tex-co-1">color: greenyellow;</label> <br>
+
+                            <input onclick=tex_co_2_func() type="radio" id="tex-co-2" name="text-color">
+                            <label onclick=tex_co_2_func() for="tex-co-2">color: #ff3399;</label> <br>
+
+                            <input onclick=tex_co_3_func() type="radio" id="tex-co-3" name="text-color">
+                            <label onclick=tex_co_3_func() for="tex-co-3">color: rgb(204, 51, 255);</label>
+                            <br>
+
+                            <input onclick=tex_co_4_func() type="radio" id="tex-co-4" name="text-color">
+                            <label onclick=tex_co_4_func() for="tex-co-4">color: rgba(12, 225, 12 ,0.742);</label>
+                            <br>
+
+                            <input onclick=tex_co_5_func() type="radio" id="tex-co-5" name="text-color">
+                            <label onclick=tex_co_5_func() for="tex-co-5">color: transparent;</label> <br>
+
+                            <input onclick=tex_co_6_func() type="radio" id="tex-co-6" name="text-color">
+                            <label onclick=tex_co_6_func() for="tex-co-6">color: hsl(200, 100%, 30%);</label>
+                            <br>
+
+                            <input onclick=tex_co_7_func() type="radio" id="tex-co-7" name="text-color">
+                            <label onclick=tex_co_7_func() for="tex-co-7">color: hsla(315, 100%, 40%, 0.47);</label>
+                            <br>
+                        </form>
+                        <form class="text-alignment-three" action="action.php">
+                            <input onclick=tex_co_1_func() type="radio" id="tex-co-1" name="text-color">
+                            <label onclick=tex_co_1_func() for="tex-co-1">color: greenyellow;</label> <br>
+
+                            <input onclick=tex_co_2_func() type="radio" id="tex-co-2" name="text-color">
+                            <label onclick=tex_co_2_func() for="tex-co-2">color: #ff3399;</label> <br>
+
+                            <input onclick=tex_co_3_func() type="radio" id="tex-co-3" name="text-color">
+                            <label onclick=tex_co_3_func() for="tex-co-3">color: rgb(204, 51, 255);</label>
+                            <br>
+
+                            <input onclick=tex_co_4_func() type="radio" id="tex-co-4" name="text-color">
+                            <label onclick=tex_co_4_func() for="tex-co-4">color: rgba(12, 225, 12 ,0.742);</label>
+                            <br>
+
+                            <input onclick=tex_co_5_func() type="radio" id="tex-co-5" name="text-color">
+                            <label onclick=tex_co_5_func() for="tex-co-5">color: transparent;</label> <br>
+
+                            <input onclick=tex_co_6_func() type="radio" id="tex-co-6" name="text-color">
+                            <label onclick=tex_co_6_func() for="tex-co-6">color: hsl(200, 100%, 30%);</label>
+                            <br>
+
+                            <input onclick=tex_co_7_func() type="radio" id="tex-co-7" name="text-color">
+                            <label onclick=tex_co_7_func() for="tex-co-7">color: hsla(315, 100%, 40%, 0.47);</label>
+                            <br>
+                        </form>
+                        <form class="text-alignment-four" action="action.php">
+                            <input onclick=tex_co_1_func() type="radio" id="tex-co-1" name="text-color">
+                            <label onclick=tex_co_1_func() for="tex-co-1">color: greenyellow;</label> <br>
+
+                            <input onclick=tex_co_2_func() type="radio" id="tex-co-2" name="text-color">
+                            <label onclick=tex_co_2_func() for="tex-co-2">color: #ff3399;</label> <br>
+
+                            <input onclick=tex_co_3_func() type="radio" id="tex-co-3" name="text-color">
+                            <label onclick=tex_co_3_func() for="tex-co-3">color: rgb(204, 51, 255);</label>
+                            <br>
+
+                            <input onclick=tex_co_4_func() type="radio" id="tex-co-4" name="text-color">
+                            <label onclick=tex_co_4_func() for="tex-co-4">color: rgba(12, 225, 12 ,0.742);</label>
+                            <br>
+
+                            <input onclick=tex_co_5_func() type="radio" id="tex-co-5" name="text-color">
+                            <label onclick=tex_co_5_func() for="tex-co-5">color: transparent;</label> <br>
+
+                            <input onclick=tex_co_6_func() type="radio" id="tex-co-6" name="text-color">
+                            <label onclick=tex_co_6_func() for="tex-co-6">color: hsl(200, 100%, 30%);</label>
+                            <br>
+
+                            <input onclick=tex_co_7_func() type="radio" id="tex-co-7" name="text-color">
+                            <label onclick=tex_co_7_func() for="tex-co-7">color: hsla(315, 100%, 40%, 0.47);</label>
+                            <br>
+                        </form>
+                        <form class="text-alignment-five" action="action.php">
+                            <input onclick=tex_co_1_func() type="radio" id="tex-co-1" name="text-color">
+                            <label onclick=tex_co_1_func() for="tex-co-1">color: greenyellow;</label> <br>
+
+                            <input onclick=tex_co_2_func() type="radio" id="tex-co-2" name="text-color">
+                            <label onclick=tex_co_2_func() for="tex-co-2">color: #ff3399;</label> <br>
+
+                            <input onclick=tex_co_3_func() type="radio" id="tex-co-3" name="text-color">
+                            <label onclick=tex_co_3_func() for="tex-co-3">color: rgb(204, 51, 255);</label>
+                            <br>
+
+                            <input onclick=tex_co_4_func() type="radio" id="tex-co-4" name="text-color">
+                            <label onclick=tex_co_4_func() for="tex-co-4">color: rgba(12, 225, 12 ,0.742);</label>
+                            <br>
+
+                            <input onclick=tex_co_5_func() type="radio" id="tex-co-5" name="text-color">
+                            <label onclick=tex_co_5_func() for="tex-co-5">color: transparent;</label> <br>
+
+                            <input onclick=tex_co_6_func() type="radio" id="tex-co-6" name="text-color">
+                            <label onclick=tex_co_6_func() for="tex-co-6">color: hsl(200, 100%, 30%);</label>
+                            <br>
+
+                            <input onclick=tex_co_7_func() type="radio" id="tex-co-7" name="text-color">
+                            <label onclick=tex_co_7_func() for="tex-co-7">color: hsla(315, 100%, 40%, 0.47);</label>
+                            <br>
+                        </form>
+                    </section>
+                    <section class="tex-al-right-result">
+                        <div class="text-alignment-one">
+                            <ul id="tex-co-initial">
+                                <li style="background-color: aquamarine;">
+                                    color: color|initial|inherit;
+                                </li>
+                                <li>
+                                    The color property specifies the color of text.
+                                </li>
+                                <li>
+                                    Use a background color combined with a text color that makes the text easy to read.
+                                </li>
+                            </ul>
+                            <div class="tex-co-class" id="tex-co-1">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-2">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-3">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-4">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-5">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-6">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-7">
+                                HELLO WORLD!.
+                            </div>
+                        </div>
+                        <div class="text-alignment-two">
+                            <ul id="tex-co-initial">
+                                <li style="background-color: aquamarine;">
+                                    color: color|initial|inherit;
+                                </li>
+                                <li>
+                                    The color property specifies the color of text.
+                                </li>
+                                <li>
+                                    Use a background color combined with a text color that makes the text easy to read.
+                                </li>
+                            </ul>
+                            <div class="tex-co-class" id="tex-co-1">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-2">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-3">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-4">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-5">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-6">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-7">
+                                HELLO WORLD!.
+                            </div>
+                        </div>
+                        <div class="text-alignment-three">
+                            <ul id="tex-co-initial">
+                                <li style="background-color: aquamarine;">
+                                    color: color|initial|inherit;
+                                </li>
+                                <li>
+                                    The color property specifies the color of text.
+                                </li>
+                                <li>
+                                    Use a background color combined with a text color that makes the text easy to read.
+                                </li>
+                            </ul>
+                            <div class="tex-co-class" id="tex-co-1">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-2">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-3">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-4">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-5">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-6">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-7">
+                                HELLO WORLD!.
+                            </div>
+                        </div>
+                        <div class="text-alignment-four">
+                            <ul id="tex-co-initial">
+                                <li style="background-color: aquamarine;">
+                                    color: color|initial|inherit;
+                                </li>
+                                <li>
+                                    The color property specifies the color of text.
+                                </li>
+                                <li>
+                                    Use a background color combined with a text color that makes the text easy to read.
+                                </li>
+                            </ul>
+                            <div class="tex-co-class" id="tex-co-1">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-2">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-3">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-4">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-5">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-6">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-7">
+                                HELLO WORLD!.
+                            </div>
+                        </div>
+                        <div class="text-alignment-five">
+                            <ul id="tex-co-initial">
+                                <li style="background-color: aquamarine;">
+                                    color: color|initial|inherit;
+                                </li>
+                                <li>
+                                    The color property specifies the color of text.
+                                </li>
+                                <li>
+                                    Use a background color combined with a text color that makes the text easy to read.
+                                </li>
+                            </ul>
+                            <div class="tex-co-class" id="tex-co-1">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-2">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-3">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-4">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-5">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-6">
+                                HELLO WORLD!.
+                            </div>
+                            <div class="tex-co-class" id="tex-co-7">
+                                HELLO WORLD!.
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
     </div>
 
